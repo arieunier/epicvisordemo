@@ -42,13 +42,12 @@ html
             .view-profile.get-start
               a.desk View Profile
           .col-sm-8.w-bg.col-dr-request-form
-            h3 Request an appointment
-            p.p-doc-form We will help you schedule a consultation with Bella Smile.
-
             if success
               h2 Thank You
               h4 Our Concierge will set up an appointment for you.
             else
+              h3 Request an appointment
+              p.p-doc-form We will help you schedule a consultation with Bella Smile.
               form#iifrm(action='/leadform' method='post')
                 .form-inline
                   .form-group.fpc
