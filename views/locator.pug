@@ -44,59 +44,64 @@ html
           .col-sm-8.w-bg.col-dr-request-form
             h3 Request an appointment
             p.p-doc-form We will help you schedule a consultation with Bella Smile.
-            form#iifrm(action='/leadform' method='post')
-              .form-inline
-                .form-group.fpc
-                  label.text I am:
-                  label.radio-inline.inv-cus.inv-cus-radio.radio-checked
-                    input.visuallyhidden(checked='checked' id='ageAdult' name='formAge' type='radio' value='A')
-                    span An adult
-                  label.radio-inline.inv-cus.inv-cus-radio
-                    input.visuallyhidden(checked='unchecked' name='formAge' type='radio' value='P')
-                    span A parent
-                  label.radio-inline.inv-cus.inv-cus-radio
-                    input.visuallyhidden(checked='unchecked' name='formAge' type='radio' value='T')
-                    span A teen
-              .form-inline
-                .form-group.fn
-                  label First Name
-                  input.form-control#txtFirstName(type='text' name='txtFirstName')
-                .form-group.ln
-                  label Last Name
-                  input.form-control#txtLastName(type='text' name='txtLastName')
-              .form-inline
-                .form-group.dob
-                  label Date of Birth
-                  input.form-control#txtDOB(type='tel' name='txtDOB')
-                  p Age affects treatment options
-                .form-group.fz
-                  label ZIP Code
-                  input.form-control#txtZipDC(type='tel' name='txtZipDC')
-                .form-group.fp
-                  label Mobile Phone
-                  input.form-control#txtPhoneNumber(type='tel' name='txtPhoneNumber')
-              .form-inline
-                .form-group.em
-                  label Email Address
-                  input.form-control#txtEmail(type='email' name='txtEmail')
-              .form-inline
-                .form-group.fpc
-                  label.text Preferred Contact Time
-                  label.radio-inline.inv-cus.inv-cus-radio.radio-checked
-                    input.visuallyhidden(checked='checked' id='ageAdult' name='preftime' type='radio' value='Morning')
-                    span Morning
-                  label.radio-inline.inv-cus.inv-cus-radio
-                    input.visuallyhidden(checked='unchecked' name='preftime' type='radio' value='Afternoon')
-                    span Afternoon
-                  label.radio-inline.inv-cus.inv-cus-radio
-                    input.visuallyhidden(checked='unchecked' name='preftime' type='radio' value='Evening')
-                    span Evening
-              .form-inline
-                .form-group.notifications
-                  label.container
-                    input#agree(checked='unchecked' type='checkbox')
-                    span.checkmark.checkk_box1
-                    label.text_align3 I agree to receive information about Invisalign<sup>&reg;</sup> treatment and from partners of Align Technology, Inc. by email, mobile phone, text, or other means to which I consent. This may contain special offers, information on local providers, and requests for feedback about your experience. Align will only contact you via phone to schedule a consultation with a local provider. Your personal data will be processed in accordance with our &nbsp;
-                      a Privacy Policy
-              .get-start
-                button.btn-submit-form#btnRASubmit Request My Appointment
+
+            if format = trial
+              form#iifrm(action='/leadform' method='post')
+                .form-inline
+                  .form-group.fpc
+                    label.text I am:
+                    label.radio-inline.inv-cus.inv-cus-radio.radio-checked
+                      input.visuallyhidden(checked='checked' id='ageAdult' name='formAge' type='radio' value='A')
+                      span An adult
+                    label.radio-inline.inv-cus.inv-cus-radio
+                      input.visuallyhidden(checked='unchecked' name='formAge' type='radio' value='P')
+                      span A parent
+                    label.radio-inline.inv-cus.inv-cus-radio
+                      input.visuallyhidden(checked='unchecked' name='formAge' type='radio' value='T')
+                      span A teen
+                .form-inline
+                  .form-group.fn
+                    label First Name
+                    input.form-control#txtFirstName(type='text' name='txtFirstName')
+                  .form-group.ln
+                    label Last Name
+                    input.form-control#txtLastName(type='text' name='txtLastName')
+                .form-inline
+                  .form-group.dob
+                    label Date of Birth
+                    input.form-control#txtDOB(type='tel' name='txtDOB')
+                    p Age affects treatment options
+                  .form-group.fz
+                    label ZIP Code
+                    input.form-control#txtZipDC(type='tel' name='txtZipDC')
+                  .form-group.fp
+                    label Mobile Phone
+                    input.form-control#txtPhoneNumber(type='tel' name='txtPhoneNumber')
+                .form-inline
+                  .form-group.em
+                    label Email Address
+                    input.form-control#txtEmail(type='email' name='txtEmail')
+                .form-inline
+                  .form-group.fpc
+                    label.text Preferred Contact Time
+                    label.radio-inline.inv-cus.inv-cus-radio.radio-checked
+                      input.visuallyhidden(checked='checked' id='ageAdult' name='preftime' type='radio' value='Morning')
+                      span Morning
+                    label.radio-inline.inv-cus.inv-cus-radio
+                      input.visuallyhidden(checked='unchecked' name='preftime' type='radio' value='Afternoon')
+                      span Afternoon
+                    label.radio-inline.inv-cus.inv-cus-radio
+                      input.visuallyhidden(checked='unchecked' name='preftime' type='radio' value='Evening')
+                      span Evening
+                .form-inline
+                  .form-group.notifications
+                    label.container
+                      input#agree(checked='unchecked' type='checkbox')
+                      span.checkmark.checkk_box1
+                      label.text_align3 I agree to receive information about Invisalign<sup>&reg;</sup> treatment and from partners of Align Technology, Inc. by email, mobile phone, text, or other means to which I consent. This may contain special offers, information on local providers, and requests for feedback about your experience. Align will only contact you via phone to schedule a consultation with a local provider. Your personal data will be processed in accordance with our &nbsp;
+                        a Privacy Policy
+                .get-start
+                  button.btn-submit-form#btnRASubmit Request My Appointment
+
+            else
+              h2 Thank You
