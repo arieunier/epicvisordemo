@@ -161,12 +161,14 @@ a.default:active {
 }
 
 .get-start,
-.get-start-2 {
+.get-start-2,
+.get-start button {
   text-align: center
 }
 
 .get-start a,
-.get-start-2 a {
+.get-start-2 a,
+.get-start button {
   color: #ffffff;
   background-color: #009ace;
   display: inline-block;
@@ -215,7 +217,8 @@ a.default:active {
   margin-left: 8px
 }
 
-a.btn-submit-form {
+a.btn-submit-form,,
+button.btn-submit-form {
   color: #ffffff;
   background-color: #009ace;
   display: inline-block;
@@ -520,7 +523,7 @@ p.bottom-text {
     width: 45px;
     height: 45px
   }
-  .get-start a {
+  .get-start a, .get-start button {
     font-size: 18px
   }
   ul.invis-list {
@@ -6475,10 +6478,12 @@ button.swiper-pagination-bullet {
     display: inline-block !important;
     margin-right: 40px
   }
-  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .get-start a {
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .get-start a,
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .get-start button  {
     padding-right: 20px;
     padding-left: 20px
   }
+
   .lessThanImg {
     height: 15px;
     width: 11px;
