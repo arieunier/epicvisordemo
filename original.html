@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head></head>
+
+<body class='bodyBackTopo'>
+
+  <div class='main-wrapper' id='inv-wrapper'>
+    <div id='container'>
+      <div id='header'>
+        <div id='header_block'>
+          <a class='tealium-track' data-tealium-event='header_inv_logo_track' href='/'>
+            <div id='logo'></div>
+          </a>
+          <div id='for-links'>
+            <a target="_blank" class="tealium-track" data-tealium-event="header_for_patients_track" href="https://my.invisalign.com">For
+              Patients</a>
+            <span class='seperator'>&#124;</span>
+            <a target="_blank" class="tealium-track" data-tealium-event="header_for_doctors_track" href="https://vip.invisalign.com/v3/login.action">For
+              Doctors</a>
+          </div>
+          <div id='nav'>
+            <a class='nav_but navFontMed tealium-track outOfSmile' data-tealium-event='header_iirfm_form_track' href='/get-started/smile-assessment'
+              id='nav1'>Take the Smile Assessment</a>
+            <a class='tealium-track nav_but navFontMed outOfSmile' data-tealium-event='leads_to_fad_zip_search_track'
+              href='/get-started/find-a-doctor' id='nav2'>Find a Doctor:</a>
+            <span class='form-inline find-a-doctor culdesac' id='findadoctor2'>
+              <div class='form-group input-wrap-3 wrap3'>
+                <input class='dr-zip-3 form-control' id='headzip' maxlength='5' placeholder='ZIP' title='ZIP' type='tel'
+                  value=''>
+                <span class='get-start'>
+                  <a class='tealium-track find-dr-3 find-dr' data-tealium-event='leads_to_fad_zip_search_3_track' id='nav-find-dr'>Go</a>
+                </span>
+              </div>
+            </span>
+            <span class='nav_but menu_button' id='mainMenuButton' onclick='openNav();'>
+              <div class='tealium-track nav-icon navFontMed navDesk' data-tealium-event='header_drops_down_menu_track'>
+                Menu
+                <span class='hamburgerCustomizedTopMain'></span>
+                <span class='hamburgerCustomizedBottomMain'></span>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <table id='tableipad'>
+    <tr>
+      <td>
+        <a href='/get-started/smile-assessment'>Take the Smile Assessment</a>
+      </td>
+      <td class='culdesac'>
+        <a href='/get-started/find-a-doctor'>Find a Doctor</a>
+      </td>
+    </tr>
+  </table>
+
+  <div class='header-container-popup sidenav' id='mySidenav'>
+    <div id='head_logo'>
+      <a href='/' id='logolink'>
+        <div id='logo1'></div>
+      </a>
+      <div class='close_button' id='close_button'>
+        <a class='closebtn nav-icon navFontMed close-icon' href='javascript:void(0)' id='closebtn' onclick='closeNav()'>
+          Menu
+          <span class='hamburgerCustomizedTop'></span>
+          <span class='hamburgerCustomizedBottom'></span>
+          <!-- /%span.crossCustomizedLeft -->
+          <!-- /%span.crossCustomizedRight -->
+        </a>
+      </div>
+    </div>
+    <div class='left-block'>
+      <a class='mainItem tealium-track samp' data-tealium-event='menu_treatable_cases_track' href='#' id='Treatable_Cases'
+        onclick='treatableCases()'>Treatable Cases</a>
+      <a class='mainItem tealium-track' href='#' id='Teens_and_Adults' onclick='Teens_and_Adults()'>Invisalign for
+        Teens and Adults</a>
+      <a class='mainItem tealium-track' data-tealium-event='menu_howinvworks_track' href='#' id='How_Invisalign_Works'
+        onclick='How_Invisalign_Works()'>How Invisalign Works</a>
+      <a class='mainItem tealium-track' data-tealium-event='menu_cost_track' href='#' id='Cost' onclick='Cost()'>Cost</a>
+      <a class='mainItem' href='#' id='Get_Started' onclick='Get_Started()'>Get Started</a>
+      <a class='mainItem tealium-track' data-tealium-event='menu_theinvdiff_track' href='#' id='The_Invisalign_Difference'
+        onclick='The_Invisalign_Difference()'>The Invisalign Difference</a>
+    </div>
+    <div class='right-block' id='right-block'>
+      <div class='sublink_block_1'>
+        <div class='submenu sub_treatablecases' id='sub_treatablecases'>
+          <a href='/treatable-cases' id='overview_teeth'>Overview</a>
+          <a href='/treatable-cases/crowded-teeth' id='Croweded_Teeth'>Crowded Teeth</a>
+          <a href='/treatable-cases/overbite' id='Overbite'>Overbite</a>
+          <a href='/treatable-cases/underbite' id='Underbite'>Underbite</a>
+          <a href='/treatable-cases/crossbite' id='Crossbite'>Crossbite</a>
+          <a href='/treatable-cases/gap-teeth' id='Gap_Teeth'>Gap Teeth</a>
+          <a href='/treatable-cases/open-bite' id='Open_Bite'>Open Bite</a>
+          <a href='/treatable-cases/generally-straighter-teeth' id='Straighter_Teeth'>Generally Straighter Teeth</a>
+        </div>
+        <div class='submenu sub_Teens_and_Adults' id='sub_Teens_and_Adults'>
+          <a href='/braces-for-teens-and-adults/teen' id='inv_teen'>Teen</a>
+          <a href='/braces-for-teens-and-adults/parent' id='inv_adult'>Parent</a>
+          <a href='/braces-for-teens-and-adults/adult' id='inv_adult'>Adult</a>
+        </div>
+        <div class='submenu sub_How_Invisalign_Works' id='sub_How_Invisalign_Works'>
+          <a href='/how-invisalign-works'>Overview</a>
+          <a href='/how-invisalign-works/treatment-plan'>How Your Treatment Plan Is Made</a>
+          <a href='/how-invisalign-works/how-custom-aligners-are-made'>How Your Aligners Are Made</a>
+          <a href='/how-invisalign-works/starting-treatment'>Getting Your First Aligners</a>
+          <a href='/how-invisalign-works/living-with-invisalign'>Living With Invisalign Clear Aligners</a>
+          <a href='/how-invisalign-works/success-stories'>Success Stories</a>
+          <a href='/how-invisalign-works/comparison-chart'>Compare Treatment Options</a>
+        </div>
+        <div class='submenu sub_Cost' id='sub_Cost'>
+          <a href='/invisalign-cost'>Overview</a>
+          <a href='/invisalign-cost/how-to-pay-for-invisalign'>Ways to Pay for Invisalign Treatment</a>
+        </div>
+        <div class='submenu sub_Get_Started' id='sub_Get_Started'>
+          <a class='tealium-track' data-tealium-event='menu_get_started_ra_track' href='/get-started/request-an-appointment'>Request
+            an Appointment</a>
+          <a class='tealium-track' data-tealium-event='menu_get_started_fad_track' href='/get-started/find-a-doctor'>Find
+            a Doctor</a>
+          <a class='tealium-track' data-tealium-event='menu_get_started_sa_track' href='/get-started/smile-assessment'>Take
+            the Smile Assessment</a>
+          <a class='tealium-track' data-tealium-event='menu_get_started_contact_us_track' href='/get-started/contact-us'>Contact
+            Us</a>
+          <a class='tealium-track' data-tealium-event='menu_get_started_qas_doct_track' href='/get-started/questions-for-your-doctor'>Questions
+            to Ask Your Doctor</a>
+        </div>
+        <div class='submenu sub_The_Invisalign_Difference' id='sub_The_Invisalign_Difference'>
+          <a href='/the-invisalign-difference'>Overview</a>
+          <a href='/the-invisalign-difference/invisalign-aligners'>Invisalign Clear Aligners</a>
+          <a href='/the-invisalign-difference/itero-3d-scanner'>iTero<sup>&reg;</sup> Element Scanner</a>
+          <a href='/the-invisalign-difference/clincheck-software'>ClinCheck<sup>&reg;</sup> Software</a>
+          <a href='/the-invisalign-difference/smarttrack-aligner-material'>SmartTrack<sup>&reg;</sup> Material</a>
+          <a href='/the-invisalign-difference/smartforce-attachments'>SmartForce<sup>&reg;</sup> Attachments</a>
+          <a href='/the-invisalign-difference/vivera-retainers'>Vivera<sup>&reg;</sup> Retainers</a>
+        </div>
+      </div>
+      <div class='sublink_block_2' id='sublink_block_2'>
+        <div id='treatablecases_teeth'>
+          <a href="/get-started/doctor-request-appointment"><img class="Croweded_Teeth" id="Crowded_Teeth_img" src="https://s3.amazonaws.com/storagy-invisalign/images_2_0/assets/invisalign/Inivisalign_icon_TC_crowded_teeth.svg"
+              alt="Inivisalign icon tc crowded teeth" /></a>
+          <a href="/get-started/doctor-request-appointment"><img class="Overbite" id="Overbite_img" src="https://s3.amazonaws.com/storagy-invisalign/images_2_0/assets/invisalign/Inivisalign_icon_TC_overbite.svg"
+              alt="Inivisalign icon tc overbite" /></a>
+          <a href="/get-started/doctor-request-appointment"><img class="Underbite" id="Underbite_img" src="https://s3.amazonaws.com/storagy-invisalign/images_2_0/assets/invisalign/Inivisalign_icon_TC_underbite.svg"
+              alt="Inivisalign icon tc underbite" /></a>
+          <a href="/get-started/doctor-request-appointment"><img class="Crossbite" id="Crossbite_img" src="https://s3.amazonaws.com/storagy-invisalign/images_2_0/assets/invisalign/Inivisalign_icon_TC_crossbite.svg"
+              alt="Inivisalign icon tc crossbite" /></a>
+          <a href="/get-started/doctor-request-appointment"><img class="Gap_Teeth" id="Gap_Teeth_img" src="https://s3.amazonaws.com/storagy-invisalign/images_2_0/assets/invisalign/Inivisalign_icon_TC_gap_teeth.svg"
+              alt="Inivisalign icon tc gap teeth" /></a>
+          <a href="/get-started/doctor-request-appointment"><img class="Open_Bite" id="Open_Bite_img" src="https://s3.amazonaws.com/storagy-invisalign/images_2_0/assets/invisalign/Inivisalign_icon_TC_open_bite.svg"
+              alt="Inivisalign icon tc open bite" /></a>
+          <a href="/get-started/doctor-request-appointment"><img class="Straighter" id="Straighter_img" src="https://s3.amazonaws.com/storagy-invisalign/images_2_0/assets/invisalign/Invisalign_icon_TC_generally_straighter.svg"
+              alt="Invisalign icon tc generally straighter" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='mobile-header' id='mobile-top'>
+    <div class='fix'>
+      <div class='mobilelogo'>
+        <a class='tealium-track' data-tealium-event='header-inv-logo-track' href='/'>
+          <img width="180" height="auto" src="//dv2c9ihs6hqjp.cloudfront.net/assets/svg/invisalign_logo_white-5efbed8ec2d726166690c1c9283db89c10753bb613aa9abe47120cb2d2b50d7f.svg"
+            alt="Invisalign logo white" />
+        </a>
+      </div>
+      <div class='mobile-menu mobile-menu-hide'>
+        <a class='addBodyClass' href='javascript:void(0);' onclick='$(&#39;.submenu-mobile, #inv-wrapper, .body-wrapper, #table-mobile, .mobile-menu-hide,.footer &#39;).toggleClass(&#39;iv-hidden&#39;); openNavMob();'>
+          <div class='nav-icon'>
+            <span class='headerMenuFix'>Menu</span>
+            <span class='hamburgerMobCustomizedTop'></span>
+            <span class='hamburgerMobCustomizedBottom'></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <table id='table-mobile'>
+      <tr>
+        <td class='sticky-link1'>
+          <a class='mobile-tealium-track' data-tealium-event='Mobile_SA' href='/get-started/smile-assessment'>Take the
+            Smile Assessment</a>
+        </td>
+        <td class='sticky-link2 culdesac'>
+          <a class='mobile-tealium-track' data-tealium-event='Mobile_FAD' href='/get-started/find-a-doctor'>Find a
+            Doctor</a>
+        </td>
+        <td class='sticky-link3'>
+          <a class='sticky-link3-a'>Reserve your spot</a>
+        </td>
+        <td class='sticky-link4'>
+          <a href='/get-started/invisalign-smileview'>Try the new Invisalign<sup>&reg;</sup> SmileView<sup>&trade;</sup>
+            tool</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class='submenu-mobile iv-hidden'>
+    <div class='gray-box' id='gray-box'>
+      <div class='mobile-header1'>
+        <div class='fix'>
+          <div class='mobilelogo'>
+            <a href='/'>
+              <img width="180" height="auto" src="//dv2c9ihs6hqjp.cloudfront.net/assets/svg/invisalign_logo_white-5efbed8ec2d726166690c1c9283db89c10753bb613aa9abe47120cb2d2b50d7f.svg"
+                alt="Invisalign logo white" />
+            </a>
+          </div>
+          <div class='mobile-menu closeM'>
+            <a class='remBodyClass' href='javascript:void(0);' onclick='$(&#39;.submenu-mobile, #inv-wrapper, .body-wrapper, #table-mobile, .mobile-menu-hide,.footer&#39;).toggleClass(&#39;iv-hidden&#39;); closeNavMob();'>
+              <div class='nav-icon close-icon'>
+                <span>Menu</span>
+                <span class='hamburgerMobCustomizedTop'></span>
+                <span class='hamburgerMobCustomizedBottom'></span>
+                <!-- /%span.crossMobCustomizedLeft -->
+                <!-- /%span.crossMobCustomizedRight -->
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class='mobile-header-links panel-group' id='accordion'>
+        <div class='panel'>
+          <div class='panel-heading'>
+            <div class='panel-title'>
+              <a class='btn btn-info toggleTrack' data-parent='#accordion' data-toggle='collapse' href='#TreatableCases'
+                id='TreatableCasesBtn'>
+                <span>Treatable Cases</span>
+                <span class='imagePlus'></span>
+                <div class='expand expand-plus' id='expandSign'></div>
+              </a>
+            </div>
+          </div>
+          <div class='panel-collapse collapse' id='TreatableCases'>
+            <div class='panel-body'>
+              <a href='/treatable-cases'>Overview</a>
+              <a href='/treatable-cases/crowded-teeth'>Crowded Teeth</a>
+              <a href='/treatable-cases/overbite'>Overbite</a>
+              <a href='/treatable-cases/underbite'>Underbite</a>
+              <a href='/treatable-cases/crossbite'>Crossbite</a>
+              <a href='/treatable-cases/gap-teeth'>Gap Teeth</a>
+              <a href='/treatable-cases/open-bite'>Open Bite</a>
+              <a href='/treatable-cases/generally-straighter-teeth'>Generally Straighter Teeth</a>
+            </div>
+          </div>
+        </div>
+        <div class='panel'>
+          <div class='panel-heading'>
+            <div class='panel-title'>
+              <a class='btn btn-info toggleTrack' data-parent='#accordion' data-toggle='collapse' href='#TeensandAdults'
+                id='TeensandAdultsbtn'>
+                <span>Invisalign for Teens<br class="desHide"> and Adults</span>
+                <span class='imagePlus teenplus'></span>
+                <div class='expand expand-plus'></div>
+              </a>
+            </div>
+          </div>
+          <div class='panel-collapse collapse' id='TeensandAdults'>
+            <div class='panel-body'>
+              <a href='/braces-for-teens-and-adults/teen' id='inv_teen'>Teen</a>
+              <a href='/braces-for-teens-and-adults/parent' id='inv_adult'>Parent</a>
+              <a href='/braces-for-teens-and-adults/adult' id='inv_adult'>Adult</a>
+            </div>
+          </div>
+        </div>
+        <div class='panel'>
+          <div class='panel-heading'>
+            <div class='panel-title'>
+              <a class='btn btn-info toggleTrack' data-parent='#accordion' data-toggle='collapse' href='#HowInvisalignWorks'
+                id='HowInvisalignWorksBtn'>
+                <span>How Invisalign Works</span>
+                <span class='imagePlus'></span>
+                <div class='expand expand-plus'></div>
+              </a>
+            </div>
+          </div>
+          <div class='panel-collapse collapse' id='HowInvisalignWorks'>
+            <div class='panel-body'>
+              <a href='/how-invisalign-works'>Overview</a>
+              <a href='/how-invisalign-works/treatment-plan'>How Your Treatment Plan Is Made</a>
+              <a href='/how-invisalign-works/how-custom-aligners-are-made'>How Your Aligners Are Made</a>
+              <a href='/how-invisalign-works/starting-treatment'>Getting Your First Aligners</a>
+              <a href='/how-invisalign-works/living-with-invisalign'>Living With Invisalign Clear Aligners</a>
+              <a href='/how-invisalign-works/success-stories'>Success Stories</a>
+              <a href='/how-invisalign-works/comparison-chart'>Compare Treatment Options</a>
+            </div>
+          </div>
+        </div>
+        <div class='panel'>
+          <div class='panel-heading'>
+            <div class='panel-title'>
+              <a class='btn btn-info toggleTrack' data-parent='#accordion' data-toggle='collapse' href='#cost' id='costBtn'>
+                <span>Cost</span>
+                <span class='imagePlus'></span>
+                <div class='expand expand-plus'></div>
+              </a>
+            </div>
+          </div>
+          <div class='panel-collapse collapse' id='cost'>
+            <div class='panel-body'>
+              <a href='/invisalign-cost'>Overview</a>
+              <a href='/invisalign-cost/how-to-pay-for-invisalign'>Ways to Pay for Invisalign Treatment</a>
+            </div>
+          </div>
+        </div>
+        <div class='panel'>
+          <div class='panel-heading'>
+            <div class='panel-title'>
+              <a class='btn btn-info toggleTrack' data-parent='#accordion' data-toggle='collapse' href='#GetStarted' id='GetStartedBtn'>
+                <span>Get Started</span>
+                <span class='imagePlus'></span>
+                <div class='expand expand-plus'></div>
+              </a>
+            </div>
+          </div>
+          <div class='panel-collapse collapse' id='GetStarted'>
+            <div class='panel-body'>
+              <a href='/get-started/request-an-appointment'>Request an Appointment</a>
+              <a href='/get-started/find-a-doctor'>Find a Doctor</a>
+              <a href='/get-started/smile-assessment'>Take the Smile Assessment</a>
+              <a href='/get-started/contact-us'>Contact Us</a>
+              <a href='/get-started/questions-for-your-doctor'>Questions to Ask Your Doctor</a>
+            </div>
+          </div>
+        </div>
+        <div class='panel'>
+          <div class='panel-heading'>
+            <div class='panel-title'>
+              <a class='btn btn-info toggleTrack' data-parent='#accordion' data-toggle='collapse' href='#TheInvisalignDifference'
+                id='TheInvisalignDifferenceBtn'>
+                <span>The Invisalign Difference</span>
+                <span class='imagePlus'></span>
+                <div class='expand expand-plus'></div>
+              </a>
+            </div>
+          </div>
+          <div class='panel-collapse collapse' id='TheInvisalignDifference'>
+            <div class='panel-body'>
+              <a href='/the-invisalign-difference'>Overview</a>
+              <a href='/the-invisalign-difference/invisalign-aligners'>Invisalign Clear Aligners</a>
+              <a href='/the-invisalign-difference/itero-3d-scanner'>iTero<sup>&reg;</sup> Element Scanner</a>
+              <a href='/the-invisalign-difference/clincheck-software'>ClinCheck<sup>&reg;</sup> Software</a>
+              <a href='/the-invisalign-difference/smarttrack-aligner-material'>SmartTrack<sup>&reg;</sup> Material</a>
+              <a href='/the-invisalign-difference/smartforce-attachments'>SmartForce<sup>&reg;</sup> Attachments</a>
+              <a href='/the-invisalign-difference/vivera-retainers'>Vivera<sup>&reg;</sup> Retainers</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </br>
+    </div>
+  </div>
+
+  <div class='body-wrapper'>
+    <div class='find-a-doctor-request-appointment-form'>
+      <div class='row'>
+        <div class='col-sm-4 col-doc-profile'>
+          <a class='desk default' onclick='_DoctorLocator.viewProfile();'>
+            <img width="20" height="20" class="lessThanImg" src="https://s3.amazonaws.com/storagy-invisalign/images_2_0/assets/invisalign/png/lessThan.png"
+              alt="Lessthan" />
+            Back to Profile
+          </a>
+          <img width="200" height="200" src="https://s3.amazonaws.com/storagy-invisalign/images_2_0/assets/invisalign/pic_lead_capture_results_VIP.png"
+            alt="Pic lead capture results vip" />
+          <h3 class='gold-color'>Blevins & Dall Arancio</h3>
+          <p class='p-speciality'>Orthodontist&nbsp;&nbsp;&nbsp;VIP: Diamond Provider<span class="info-icon2"></span></p>
+          <p>4.2 miles away</p>
+          <a class='mob default' onclick='_DoctorLocator.viewProfile();'>
+            <img width="20" height="20" class="lessThanImg" src="https://s3.amazonaws.com/storagy-invisalign/images_2_0/assets/invisalign/png/lessThan.png"
+              alt="Lessthan" />
+            Back to Profile
+          </a>
+        </div>
+        <div class='col-sm-8 w-bg col-dr-request-form'>
+          <h3>Request an appointment</h3>
+          <p class='p-doc-form'>We will help you schedule a consultation with <span id="reqDocName"></span>.</p>
+          <form id='iirfm'>
+            <div class='form-inline'>
+              <div class='form-group fpc'>
+                <label class='text'>I am:</label>
+                <label class='radio-inline inv-cus'>
+                  <input checked='checked' id='ageAdult' name='formAge' type='radio' value='A'>
+                  An adult
+                </label>
+                <label class='radio-inline inv-cus'>
+                  <input name='formAge' type='radio' value='P'>
+                  A parent
+                </label>
+                <label class='radio-inline inv-cus'>
+                  <input name='formAge' type='radio' value='T'>
+                  A teen
+                </label>
+              </div>
+            </div>
+            <div class='form-inline'>
+              <div class='form-group fn'>
+                <label for='txtFirstName'>First Name</label>
+                <input class='form-control' id='txtFirstName' type='text'>
+              </div>
+              <div class='form-group ln'>
+                <label for='txtLastName'>Last Name</label>
+                <input class='form-control' id='txtLastName' type='text'>
+              </div>
+            </div>
+            <div class='form-inline'>
+              <div class='form-group dob'>
+                <label for='txtDOB'>Date of Birth</label>
+                <input class='form-control' id='txtDOB' type='tel'>
+                <p>Age affects treatment options</p>
+              </div>
+              <div class='form-group fz'>
+                <label for='txtZipDC'>ZIP Code</label>
+                <input class='form-control' id='txtZipDC' type='tel'>
+              </div>
+              <div class='form-group fp'>
+                <label for='txtPhoneNumber'>Mobile Phone</label>
+                <input class='form-control' id='txtPhoneNumber' type='tel'>
+              </div>
+            </div>
+            <div class='form-inline'>
+              <div class='form-group em'>
+                <label for='txtEmail'>Email Address</label>
+                <input class='form-control' id='txtEmail' type='email'>
+              </div>
+            </div>
+            <div class='form-inline'>
+              <div class='form-group fpc'>
+                <label class='text'>Preferred Contact Time</label>
+                <label class='radio-inline inv-cus'>
+                  <input name='preftime' type='radio' value='Morning'>
+                  Morning
+                </label>
+                <label class='radio-inline inv-cus'>
+                  <input name='preftime' type='radio' value='Afternoon'>
+                  Afternoon
+                </label>
+                <label class='radio-inline inv-cus'>
+                  <input name='preftime' type='radio' value='Evening'>
+                  Evening
+                </label>
+                <label class='radio-inline inv-cus'>
+                  <input checked='checked' id='noPreference' name='preftime' type='radio' value='No preference'>
+                  No preference
+                </label>
+              </div>
+            </div>
+            <div class='form-inline'>
+              <div class='form-group notifications'>
+                <label class='container'>
+                  <input checked='checked' id='agree' type='checkbox'>
+                  <span class='checkmark checkk_box1'></span>
+                </label>
+                <label class='text_align3'>I agree to receive information about Invisalign<sup>&reg;</sup> treatment
+                  and from partners of Align Technology, Inc. by email, mobile phone, text, or other means to which I
+                  consent. This may contain special offers, information on local providers, and requests for feedback
+                  about your experience. Align will only contact you via phone to schedule a consultation with a local
+                  provider. Your personal data will be processed in accordance with our <a target="_blank" onclick="window.location='/privacy-statement'">Privacy
+                    Policy.</a></label>
+              </div>
+            </div>
+            <div class='get-start'>
+              <a id='btnRASubmit'>Request My Appointment</a>
+              <div aria-labelledby='myModalLabel' class='modal fade' id='modalAgeError' role='dialog' tabindex='-1'>
+                <div class='modal-dialog' role='document'>
+                  <div class='modal-content'>
+                    <span aria-label='Close' class='popup-close' data-dismiss='modal'></span>
+                    <p>We’re glad you’re interested in Invisalign treatment. Unfortunately, you must be at least 13
+                      years old in order to complete this form. You can still find out if Invisalign treatment is right
+                      for you by simply asking your parents to complete this form on your behalf.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </form>
+        </div>
+        <div class='col-sm-8 w-bg col-dr-request-form-thnak-you'>
+          <h2 class='gold-color thanksText'>Thanks for submitting your request.</h2>
+          <h3 class='text-center endText'>We will follow up soon to help you schedule a consultation with an Invisalign<sup>&reg;</sup>-trained
+            provider.</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class='container-fluid find-a-doctor-dr-profile-error'>
+      <div class='row row-hero-section'>
+        <div class='col-sm-12'>
+          <h1>
+            https://www.invisalign.com/get-started/find-a-doctor?QuerySource=TR2&amp;searchType=adult&amp;zip=94103
+          </h1>
+          <h1 class='gold-color'>Hmm...we can't find that page.</h1>
+          <h3>Return to the <a class="underLine" href="javascript:void(0);" , onclick="backAway();">previous page</a>
+            or go back to our <a class="underLine" href="/">homepage</a>.</h3>
+        </div>
+      </div>
+    </div>
+    <script src="//dv2c9ihs6hqjp.cloudfront.net/assets/align_mask-d8fdedf0e526b5732b9fe7baee836c35323dfc71d11a723fa3304ffcb583f4e6.js"
+      defer="defer"></script>
+    <script src="//dv2c9ihs6hqjp.cloudfront.net/assets/form_time_track-dfbca70b210e33b242a1c2d2c47d94503474aa087fdd74c943894b7feb449945.js"
+      defer="defer"></script>
+    <script src="//dv2c9ihs6hqjp.cloudfront.net/assets/doctor-recommender-207ab282e962fecdf30826b138672326fa9a75a7e483f98aa575470d5f8fc310.js"
+      defer="defer"></script>
+    <script src="//dv2c9ihs6hqjp.cloudfront.net/assets/DocLoc3/DocAptRequest-a462fb46ef9ae1ed56ca9980469c602d2678b4bd2ba9470966a1c26b0dd6e3ba.js"
+      defer="defer"></script>
+
+  </div>
+  <div class='footer footerAbsolute'>
+    <div class='footer-container container'>
+      <div class='row first'>
+        <div class='col-footer-1'>
+          <a class="footer-link-header" href="/Treatable-Cases">Treatable Cases</a>
+          <ul class='footer-ul'>
+            <li>
+              <a href="/Treatable-Cases/crowded-teeth">Crowded Teeth</a>
+            </li>
+            <li>
+              <a href="/Treatable-Cases/overbite">Overbite</a>
+            </li>
+            <li>
+              <a href="/Treatable-Cases/underbite">Underbite</a>
+            </li>
+            <li>
+              <a href="/Treatable-Cases/crossbite">Crossbite</a>
+            </li>
+            <li>
+              <a href="/Treatable-Cases/gap-teeth">Gap Teeth</a>
+            </li>
+            <li>
+              <a href="/Treatable-Cases/open-bite">Open Bite</a>
+            </li>
+            <li class='two-line'>
+              <a href="/Treatable-Cases/generally-straighter-teeth">Generally Straighter Teeth</a>
+            </li>
+          </ul>
+        </div>
+        <div class='col-footer-2'>
+          <a class="footer-link-header" href="/how-invisalign-works">How Invisalign Works</a>
+          <ul class='footer-ul'>
+            <li class='two-line'>
+              <a href="/how-invisalign-works/treatment-plan">How Your Treatment Plan Is Made</a>
+            </li>
+            <li class='two-line'>
+              <a href="/how-invisalign-works/how-custom-aligners-are-made">How Your Aligners Are Made</a>
+            </li>
+            <li>
+              <a href="/how-invisalign-works/starting-treatment">Getting Your First Aligners</a>
+            </li>
+            <li class='two-line'>
+              <a href="/how-invisalign-works/living-with-invisalign">Living With Invisalign Clear Aligners</a>
+            </li>
+            <li>
+              <a href="/how-invisalign-works/success-stories">Success Stories</a>
+            </li>
+            <li class='two-line'>
+              <a href="/how-invisalign-works/comparison-chart">Compare Treatment Options</a>
+            </li>
+          </ul>
+        </div>
+        <div class='col-footer-3'>
+          <a class="footer-link-header" href="/invisalign-cost">Cost</a>
+          <ul class='footer-ul'>
+            <li class='two-line'>
+              <a href="/invisalign-cost/how-to-pay-for-invisalign">Ways to Pay for Invisalign Treatment</a>
+            </li>
+          </ul>
+          <br>
+          <a class="footer-link-header hide-mobile" href="/braces-for-teens-and-adults/teen">Invisalign for Teens and
+            Adults</a>
+          <ul class='footer-ul'>
+            <li class='two-line'>
+              <a href="/braces-for-teens-and-adults/teen">Teen</a>
+            </li>
+            <li class='two-line'>
+              <a href="/braces-for-teens-and-adults/parent">Parent</a>
+            </li>
+            <li class='two-line'>
+              <a href="/braces-for-teens-and-adults/adult">Adult</a>
+            </li>
+          </ul>
+        </div>
+        <div class='col-footer-4'>
+          <a class="footer-link-header" href="/get-started/smile-assessment">Get Started</a>
+          <ul class='footer-ul'>
+            <li class='mob-1'>
+              <a href="/get-started/request-an-appointment">Request an Appointment</a>
+            </li>
+            <li class='mob-2'>
+              <a href="/get-started/find-a-doctor">Find a Doctor</a>
+            </li>
+            <li class='mob-3'>
+              <a href="/get-started/smile-assessment">Take the Smile Assessment</a>
+            </li>
+            <li class='mob-4'>
+              <a href="/get-started/contact-us">Contact Us</a>
+            </li>
+            <li class='mob-5 two-line'>
+              <a href="/get-started/questions-for-your-doctor">Questions to Ask Your Doctor</a>
+            </li>
+          </ul>
+        </div>
+        <div class='col-footer-5'>
+          <a class="footer-link-header" href="/the-invisalign-difference">The Invisalign Difference</a>
+          <ul class='footer-ul'>
+            <li>
+              <a href="/the-invisalign-difference/invisalign-aligners">Invisalign Clear Aligners</a>
+            <li>
+              <a href="/the-invisalign-difference/itero-3d-scanner">iTero Element<sup>&reg;</sup> Scanner</a>
+            </li>
+            <li>
+              <a href="/the-invisalign-difference/clincheck-software">ClinCheck<sup>&reg;</sup> Software</a>
+            </li>
+            <li>
+              <a href="/the-invisalign-difference/smarttrack-aligner-material">SmartTrack<sup>&reg;</sup> Material</a>
+            </li>
+            <li class='two-line'>
+              <a href="/the-invisalign-difference/smartforce-attachments">SmartForce<sup>&reg;</sup> Attachments</a>
+            </li>
+            <li>
+              <a href="/the-invisalign-difference/vivera-retainers">Vivera<sup>&reg;</sup> Retainers</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+        <div class='col-footer-4 deskhide'>
+          <a class="footer-link-header" href="/braces-for-teens-and-adults/teen">Invisalign for Teens and Adults</a>
+          <ul class='footer-ul'>
+            <li class='two-line'>
+              <a href="/braces-for-teens-and-adults/teen">Teen</a>
+            </li>
+            <li class='two-line'>
+              <a href="/braces-for-teens-and-adults/parent">Parent</a>
+            </li>
+            <li class='two-line'>
+              <a href="/braces-for-teens-and-adults/adult">Adult</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='row second'>
+        <div class='col-sm-8'>
+          <div class='link-section'>
+            <a class="sah1" href="/about-align-technology">About</a>
+            <a class="sah1" href="/frequently-asked-questions">FAQ</a>
+            <a class="sah1" href="http://jobs.jobvite.com/align-tech/">Careers</a>
+            <a class="sah1" href="https://www.invisalignaccessories.com/">Invisalign Accessories</a>
+            <a target="_blank" class="sah1" href="https://my.invisalign.com">User Login</a>
+            <a class="sah1" href="https://vip.invisalign.com/v3/login.action">Doctor Login</a>
+            <a class="footer_terms_of_use" href="/terms-of-use">Terms of Use</a>
+            <a class="sah1" href="/sitemap">Sitemap</a>
+            <a class="sah1" href="/operation-smile-terms-and-conditions">Operation Smile Terms and Conditions</a>
+            <a class="hidden tandc" href="/operation-smile-terms-and-conditions">Terms and Conditions</a>
+            <a class="footer_privacy" href="/privacy-policy">Privacy</a>
+            <a class="inlineBlockCss footer_cookies_and_ads" href="/cookies-and-ads">Cookies &amp; Ads</a>
+          </div>
+        </div>
+        <div class='col-sm-4 link-section-2'>
+          <div class='row pull-right'>
+            <div class='col-sm-6 country'>
+              <a href="/choose-your-country"><img class="country-logo" width="30px" src="https://s3.amazonaws.com/storagy-invisalign/images_2_0/assets/invisalign/united-states.png"
+                  alt="United states" /></a>
+              <a class="footer-link-header" href="/choose-your-country">United States</a>
+            </div>
+            <div class='col-sm-6 social-logos'>
+              <div class='footer-social-links news-inv-social-links'>
+                <a class='inv-social-icons inv-facebook' href='https://www.facebook.com/invisalign' target='_blank'></a>
+                <a class='inv-social-icons inv-instagram' href='https://www.instagram.com/invisalign/' target='_blank'></a>
+                <a class='inv-social-icons inv-twitter' href='https://twitter.com/invisalign' target='_blank'></a>
+                <a class='inv-social-icons inv-pinterest' href='https://www.pinterest.com/invisalign/' target='_blank'></a>
+                <a class='inv-social-icons inv-youtube' href='https://www.youtube.com/invisalign' target='_blank'></a>
+              </div>
+            </div>
+          </div>
+          <div class='row pull-right' style='margin-top:20px;'>
+            <div class='col-sm-12' id='captcha_container'>
+              <button class='g-recaptcha' data-badge='inline' data-sitekey='6Lfy6GcUAAAAADBYLXkanIcAEAol5QmSRwopWvXQ'
+                data-theme='dark'></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='row third'>
+        <div class='col-xs-12'>
+          <p>&copy; Invisalign.com 2018</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    window.time_out = "20"
+  </script>
+
+  <!-- -::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::- -->
+  <!-- Check Javascript support -->
+  <noscript>
+    <p style='text-align: center'>
+      The Invisalign Web Site uses Javascript to provide the best user experience.
+    </p>
+  </noscript>
+  <!--[if lt IE 9]>
+<script src="//dv2c9ihs6hqjp.cloudfront.net/assets/respond.min-f992e5d0cef8c5e1208a4bb5a999a02bc18de8ac4849d4b2cfb63bac46940569.js"></script>
+<![endif]-->
+  <script src="//dv2c9ihs6hqjp.cloudfront.net/assets/trackers-29174ce42300f3e86c95808716405f1df758057618ad9957c60109693f6e3e9a.js"
+    defer="defer"></script>
+</body>
+<div class='itero-popover inv-popover'>
+  <a class='inv-popover-close' href='#'></a>
+  <p>The iTero digital scanning system eliminates the need for messy putty in your mouth by creating a 3D digital scan
+    of your teeth. It offers a fast and more comfortable experience and it’s more accurate, resulting in a more precise
+    fit from your Invisalign aligners.</p>
+</div>
+
+<div class='vip-doc-popover inv-popover'>
+  <a class='inv-popover-close' href='#'></a>
+  <div class='inv-popover-content'>
+    <div class='container-fluid'>
+      <div class='row doctors-pin'>
+        <div class='col-sm-2'>
+          <span class='doctor-pin-popup vip-pin'>VIP</span>
+        </div>
+        <div class='col-sm-2'>
+          <span class='doctor-pin-popup Dimond-pin'>Diamond</span>
+        </div>
+        <div class='col-sm-2'>
+          <span class='doctor-pin-popup platinum-pin'>Platinum</span>
+        </div>
+        <div class='col-sm-2'>
+          <span class='doctor-pin-popup gold-pin'>Gold</span>
+        </div>
+        <div class='col-sm-2'>
+          <span class='doctor-pin-popup silver-pin'>Silver</span>
+        </div>
+        <div class='col-sm-2'>
+          <span class='doctor-pin-popup bronze-pin'>Bronze</span>
+        </div>
+      </div>
+      <p>A doctor’s overall experience level reflects the relative number of patients he/she has treated with
+        Invisalign<sup>&reg;</sup> aligners. Doctors who have achieved the “Plus” status have more experience within a
+        given level. Doctors who have achieved the VIP status are Valued Invisalign Providers.</p>
+      <p>
+        <span class='doctor-pin-popup all-pin'></span>
+      </p>
+      <p>In addition to treating adults, doctors with a star in their icon also treat teens with Invisalign clear
+        aligners.</p>
+    </div>
+  </div>
+</div>
+
+</html>

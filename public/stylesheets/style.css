@@ -1,0 +1,6966 @@
+/*!
+  This CSS resource incorporates links to font software which is the valuable copyrighted
+  property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+  redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+  Imaging with any questions regarding Web Fonts:  http://webfonts.fonts.com
+*/
+
+@font-face {
+  font-family: "Neue Haas Grotesk Disp Reg";
+  src: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_reg-5730a7b45ddde9957597b11a9b32fed3d1bfa3bae50ca8bf6d59099cb236d65b.eot?#iefix);
+  src: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_reg-5730a7b45ddde9957597b11a9b32fed3d1bfa3bae50ca8bf6d59099cb236d65b.eot?#iefix) format("eot"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_reg-0be9d6fb0f022c9e92a42e6841cc57263037d12e834403fa073ab780b4585723.woff2) format("woff2"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_reg-c851cdb8108d0f150bdf04fea99a54a06913556529098948e76816be3b897ceb.woff) format("woff"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_reg-28d90a8a7c48986b527a304120ee3a63d458efcbca8db848a322bc941ad212f1.ttf) format("truetype"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_reg-6786607cd615c132289962e9e38fa484891a1ba56e7f4388ea73d00f04d3edd6.svg#5b9068b3-d518-4b0a-a5a2-1aa25714df22) format("svg")
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Disp Med";
+  src: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_med-aa7c33e939c855266138a3dc0762bb310d440c2aac3f7ee57c879b1fe4bac331.eot?#iefix);
+  src: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_med-aa7c33e939c855266138a3dc0762bb310d440c2aac3f7ee57c879b1fe4bac331.eot?#iefix) format("eot"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_med-e0f401d8e42a053bd8111efa05ebc3d6035c2488f7eea273251eb3527e4fba69.woff2) format("woff2"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_med-f4721a5c4617c6df4c600127b150981e66ca690d7528995e09a2766fa9108d55.woff) format("woff"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_med-34bbc3c98294476c9c4f1070b66cf4e50412e945919aff7bceaed22a455b1b5e.ttf) format("truetype"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_lt-cb7b1363c4003b8c014753d9e740cf8a39c84306ad571ca880a106a50f26bda6.svg#1baaf9ba-feec-45ca-a826-7bcf9f8e5b21) format("svg")
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Disp Lt";
+  src: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_lt-b28fabfbb1ae4c899f507006e7981c4000bee99f027fedd2883900e7400993d9.eot?#iefix);
+  src: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_lt-b28fabfbb1ae4c899f507006e7981c4000bee99f027fedd2883900e7400993d9.eot?#iefix) format("eot"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_lt-a5ed288a5af737828c98da2fda102a627d818e351c1b159306b146659c6746b3.woff2) format("woff2"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_lt-b2adba566b32ee1665bf9785b2c09af463c8b25371e5c0a6f59f8399f0dfd4d3.woff) format("woff"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_lt-9aec2274f731be12ff6aeeab6c76423ea2b8ffbd3b75ba83d74488a741c5a480.ttf) format("truetype"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_lt-cb7b1363c4003b8c014753d9e740cf8a39c84306ad571ca880a106a50f26bda6.svg#24bd485c-6511-4e93-91d9-4764d66fc2df) format("svg")
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Disp Ex Lt";
+  src: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_ex_lt-a10d12a93ac7f31e56b589d55582f3ab0e0aaa9ca93690a808cf18e68582e8fc.eot?#iefix);
+  src: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_ex_lt-a10d12a93ac7f31e56b589d55582f3ab0e0aaa9ca93690a808cf18e68582e8fc.eot?#iefix) format("eot"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_ex_lt-8c0cfb0a070581d305d30881135249732db584687eceb3e7f0a6904feebdde5e.woff2) format("woff2"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_ex_lt-538a115da7aed00b13623140af5f877b2eca20fce31d743696c0755da0ccb877.woff) format("woff"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_ex_lt-fceb36d21c1c70e9692f20da3e891093be924d75eba476549dce57d9ec58adab.ttf) format("truetype"), url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign_2/neue_haas_grotesk_disp_ex_lt-da03f7a411cf4d9220644094aeb2e8b1e8712921492be4955448701814a7701b.svg#4ea4edba-9d1d-4b94-9ddd-ca9bc5cf9ebe) format("svg")
+}
+
+body {
+  font-family: 'Neue Haas Grotesk Disp Reg', sans-serif;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased
+}
+
+.row-hero-section {
+  background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
+  background-color: #3D3935
+}
+
+@media only screen and (max-width: 767px) {
+  .row-hero-section {
+    background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+    background-repeat: repeat !important;
+    background-size: 300% !important;
+    background-color: #3D3935 !important
+  }
+}
+
+h1 {
+  font-family: 'Neue Haas Grotesk Disp Ex Lt', sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.25px;
+  font-weight: normal
+}
+
+h2 {
+  font-family: 'Neue Haas Grotesk Disp Lt', sans-serif;
+  line-height: 1.1;
+  letter-spacing: 0.25px;
+  font-weight: normal
+}
+
+h3 {
+  font-family: 'Neue Haas Grotesk Disp Lt', sans-serif;
+  line-height: 1.4;
+  letter-spacing: 0.25px;
+  font-weight: normal
+}
+
+h3 a {
+  color: #333;
+  border-bottom: 1px solid
+}
+
+h3 a:focus,
+h3 a:active,
+h3 a:hover {
+  color: #333;
+  border-bottom: 1px solid;
+  text-decoration: none
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: auto
+}
+
+h1,
+.h1 {
+  margin: 0 auto 15px;
+  text-rendering: optimizeLegibility
+}
+
+h2,
+.h2,
+h3,
+.h3 {
+  margin: 0 auto 10px;
+  text-rendering: optimizeLegibility
+}
+
+p {
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif;
+  line-height: 1.4;
+  color: #949695
+}
+
+p a {
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif;
+  line-height: 1.4;
+  color: #949695;
+  text-decoration: underline
+}
+
+p a:focus,
+p a:active,
+p a:hover {
+  color: #949695;
+  text-decoration: underline
+}
+
+table,
+tr,
+td {
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif
+}
+
+a {
+  font-weight: normal
+}
+
+span.bl {
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+  line-height: 1.3;
+  letter-spacing: 0.25px;
+  color: #3D3935
+}
+
+a.default {
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+  line-height: 1.3;
+  font-size: 20px;
+  font-weight: normal;
+  color: #009ace;
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.25px
+}
+
+a.default:hover,
+a.default:focus,
+a.default:active {
+  text-decoration: none;
+  color: #009ace
+}
+
+.get-start,
+.get-start-2 {
+  text-align: center
+}
+
+.get-start a,
+.get-start-2 a {
+  color: #ffffff;
+  background-color: #009ace;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  padding: 9px 0
+}
+
+.get-start a:hover,
+.get-start-2 a:hover {
+  background-color: #00aee8
+}
+
+.get-start a.disabled,
+.get-start-2 a.disabled {
+  background-color: #949695
+}
+
+.get-start a.disabled:hover,
+.get-start a.disabled:focus,
+.get-start a.disabled:active,
+.get-start-2 a.disabled:hover,
+.get-start-2 a.disabled:focus,
+.get-start-2 a.disabled:active {
+  background-color: #949695
+}
+
+.get-start a .arrow-right,
+.get-start-2 a .arrow-right {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/svg/Invisalign_icon_arrow_right-57c9c9f9753c0c32c338bd1f44fa83f9adff016c1597de0046604a7aecdeec41.svg) no-repeat;
+  padding-left: 13px;
+  background-size: 13px 13px;
+  background-position: center
+}
+
+.get-start a .arrow-right.blue-button-arrow,
+.get-start-2 a .arrow-right.blue-button-arrow {
+  margin-left: 8px
+}
+
+a.btn-submit-form {
+  color: #ffffff;
+  background-color: #009ace;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  padding: 9px 0
+}
+
+a.btn-submit-form:hover {
+  background-color: #00aee8
+}
+
+label {
+  font-size: 16px;
+  line-height: 24px;
+  color: #949695
+}
+
+label.inv-cus {
+  display: block !important;
+  padding-top: 5px;
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif !important
+}
+
+label.inv-cus:before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: -22px;
+  vertical-align: middle;
+  margin-top: -2px;
+  background: #ddd;
+  position: relative
+}
+
+label.inv-cus.inv-cus-radio {
+  font-family: 'Neue Haas Grotesk Reg', sans-serif !important;
+  margin-left: 0 !important
+}
+
+label.inv-cus.inv-cus-radio:before {
+  background-position: -22px -22px;
+  border-radius: 100%;
+  border: 4px Solid #dddddd;
+  top: 0 !important
+}
+
+label.inv-cus.inv-cus-radio.radio-checked:before {
+  background-position: 0px -22px;
+  content: "";
+  font-size: 15px;
+  color: #f3f3f3;
+  text-align: center;
+  line-height: 20px;
+  background: #ddd;
+  position: relative;
+  background-color: #2196F3
+}
+
+label.inv-cus.checked:before {
+  background-position: -22px 0px;
+  content: "\2713";
+  font-size: 15px;
+  color: #2196F3;
+  text-align: center;
+  line-height: 20px
+}
+
+.pageLeadButton3_4 {
+  visibility: hidden
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 12px;
+  line-height: 1.3;
+  color: #949695 !important;
+  font-weight: normal !important;
+  letter-spacing: .30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif !important
+}
+
+.container input {
+  position: absolute;
+  opacity: 0
+}
+
+.checkmark {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  height: 20px;
+  width: 20px;
+  background-color: #eee
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none
+}
+
+.container input:checked~.checkmark:after {
+  display: block
+}
+
+.container .checkmark:after {
+  left: 7px;
+  top: 2px;
+  width: 7px;
+  height: 13px;
+  border: solid #2196F3;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg)
+}
+
+.gold-color {
+  color: #BE933C
+}
+
+.number-circle {
+  text-align: center
+}
+
+.number-circle span {
+  background: #be933c;
+  color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+p.bottom-text {
+  font-size: 12px;
+  opacity: 0.5;
+  max-width: none !important;
+  margin-bottom: 0 !important
+}
+
+@media only screen and (max-width: 321px) {
+  a.default {
+    font-size: 14px !important
+  }
+  a.default:after {
+    width: 14px !important;
+    height: 14px !important;
+    background-size: 14px 14px !important;
+    margin-top: -1px !important
+  }
+  p.bottom-text {
+    font-size: 10px !important
+  }
+  p {
+    font-size: 14px !important
+  }
+  .row-last-section p {
+    font-size: 12px !important
+  }
+  .row-last-section .col-sm-12 ol {
+    font-size: 12px !important
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 32px
+  }
+  h1 sup {
+    font-size: 60%;
+    top: -.5em !important
+  }
+  h3 sup {
+    font-size: 60%
+  }
+  ul.invis-list li p {
+    line-height: 1.4 !important
+  }
+  .pull-right {
+    float: none !important
+  }
+  a.default {
+    font-size: 16px
+  }
+  a.default:after {
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px
+  }
+  .arrow-right {
+    background-size: 15px 15px
+  }
+  .row-last-section .col-sm-12 {
+    padding: 30px 40px 10px;
+    min-height: 80px
+  }
+  h2,
+  h3 {
+    margin-bottom: 10px !important
+  }
+  h3 {
+    font-size: 20px
+  }
+  h2 {
+    font-size: 25px
+  }
+  p,
+  span.bl {
+    font-size: 16px
+  }
+  .number-circle span {
+    padding: 10px;
+    font-size: 14px;
+    width: 39px;
+    margin-bottom: 10px
+  }
+  .get-start a {
+    font-size: 16px
+  }
+  ul.invis-list {
+    padding-left: 24px;
+    margin-bottom: 0
+  }
+  ul.invis-list li {
+    margin-bottom: 20px
+  }
+  ul.invis-list li:before {
+    background-size: 15px 15px;
+    width: 15px;
+    height: 15px;
+    padding-left: 18px;
+    margin-left: -24px;
+    margin-top: 3px
+  }
+  .row-hero-section {
+    margin-top: 109px
+  }
+  .find-a-doctor-request-appointment-form .row .thanksText {
+    font-size: 32px !important
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 64px
+  }
+  h1 sup {
+    font-size: 60%;
+    top: -.5em !important
+  }
+  h3 sup {
+    font-size: 60%
+  }
+  h3 {
+    font-size: 32px
+  }
+  h2 {
+    font-size: 40px
+  }
+  .row-last-section .col-sm-12 {
+    padding: 50px 90px;
+    font-family: 'Neue Haas Grotesk Text Reg', sans-serif;
+    color: #949695;
+    font-size: 12px;
+    line-height: 1.3
+  }
+  a.default {
+    font-size: 20px
+  }
+  a.default:after {
+    width: 18px;
+    height: 18px
+  }
+  p,
+  span.bl {
+    font-size: 20px
+  }
+  .number-circle span {
+    padding: 9px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    width: 45px;
+    height: 45px
+  }
+  .get-start a {
+    font-size: 18px
+  }
+  ul.invis-list {
+    padding-left: 34px;
+    margin-bottom: 0
+  }
+  ul.invis-list li {
+    margin-bottom: 20px
+  }
+  ul.invis-list li:before {
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+    margin-left: -34px;
+    margin-top: 6px
+  }
+}
+
+.row-last-section p {
+  font-size: 12px;
+  color: #949695;
+  max-width: 750px;
+  margin-bottom: 0 !important;
+  letter-spacing: .30px;
+  line-height: 1.3
+}
+
+.row-last-section .col-sm-12 ol {
+  list-style-type: decimal;
+  color: #949695;
+  padding-left: 6px;
+  margin-bottom: 10px !important
+}
+
+.row-last-section .col-sm-12 ol li {
+  margin-bottom: 10px;
+  padding-left: 2px
+}
+
+.row-last-section .col-sm-12 ol li p {
+  font-size: 12px;
+  color: #949695;
+  max-width: 750px;
+  letter-spacing: .30px;
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif;
+  color: #949695;
+  font-size: 12px;
+  line-height: 1.3 !important
+}
+
+.row-last-section .col-sm-12 ol li p.secondLine {
+  margin-top: 10px
+}
+
+ul.invis-list li {
+  list-style-type: none
+}
+
+ul.invis-list li:last-child {
+  margin-bottom: 0
+}
+
+ul.invis-list li:before {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/svg/bullet-705a8851e1cc73935f4c039647a4ee3ea410c5c25bdd463a0796bd1a5478407c.svg) no-repeat;
+  position: absolute;
+  content: '';
+  display: inline-block
+}
+
+ul.invis-list li p {
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  margin-bottom: 0px !important
+}
+
+.form-group.has-error input {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_input_X-57b12ad8a829e5e4a95304c323a6fa595ac99b3d0da103aa6916f4a7c2b3fc77.svg) no-repeat;
+  background-size: 16px
+}
+
+.form-group.has-success input {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_input_check-e4c23d8d5aa52a3d789b1fe0aaefa15a950401bc6d3aa2e63ae97dd5004551af.svg) no-repeat;
+  background-size: 20px
+}
+
+.form-group.has-error input,
+.form-group.has-success input {
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  padding-right: 55px !important
+}
+
+.checkbox,
+.radio {
+  background: transparent url(//dv2c9ihs6hqjp.cloudfront.net/assets/cbr-d4182c76613fe0e239841d432e9641199b858f864dbcc04d9ab253d08de503e0.png) no-repeat;
+  margin-top: 8px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  float: left
+}
+
+.radio {
+  background-position: -22px -20px
+}
+
+.radio-checked {
+  background-position: 0px -20px
+}
+
+.checkbox-checked {
+  background-position: -22px 0px
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px
+}
+
+.play-btn {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  width: 39px;
+  height: 39px;
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/svg/play-10df8c579f226bdc35542cfd295058ffff96c207f34ac61845358b81eea20f4b.svg) no-repeat;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer
+}
+
+.play-btn:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(169, 169, 169, 0.1);
+  border-radius: 25px
+}
+
+.w-bg {
+  background-color: #FFFFFF
+}
+
+.underLine {
+  border-bottom: 1px solid;
+  text-decoration: none !important;
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif;
+  font-weight: normal
+}
+
+.supCustom {
+  font-size: 60% !important;
+  top: -.7em !important
+}
+
+#omni {
+  background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines-bg-dbd7f8b3a2b5c88839a9ca2aa35929c2f45d3da9edda9793333c9499402ecd61.jpg);
+  background-repeat: repeat
+}
+
+.link--next-arrow {
+  animation: appear 0.5s 1 cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
+  color: #11A5CA;
+  font-weight: normal;
+  text-decoration: none;
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+  line-height: 1.3;
+  position: relative;
+  letter-spacing: 0.25px
+}
+
+.link--next-arrow svg {
+  height: 1.25em;
+  margin-left: .1em;
+  overflow: hidden;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate(0px, 5px);
+  width: 1.25em
+}
+
+.link--next-arrow svg circle {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.link--next-arrow:hover {
+  text-decoration: none;
+  color: #009ace
+}
+
+.link--next-arrow:hover svg circle {
+  transform: translate3d(-10%, -10%, 0) scale(1.15)
+}
+
+.link--next-arrow:hover svg path {
+  animation: next-arrow--hover 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.125s 1
+}
+
+.link--back-arrow {
+  animation: appear 0.5s 1 cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
+  color: #11A5CA;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+  line-height: 1.3;
+  position: relative;
+  letter-spacing: 0.25px
+}
+
+.link--back-arrow svg {
+  height: 1.25em;
+  margin-left: .1em;
+  overflow: hidden;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate(0px, 5px) rotate(180deg) !important;
+  width: 1.25em
+}
+
+.link--back-arrow svg circle {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.link--back-arrow:hover {
+  text-decoration: none;
+  color: #009ace
+}
+
+.link--back-arrow:hover svg circle {
+  transform: translate3d(-10%, -10%, 0) scale(1.15)
+}
+
+.link--back-arrow:hover svg path {
+  animation: next-arrow--hover 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.125s 1
+}
+
+.appear-scale {
+  animation: appear-scale 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.125s 1 forwards;
+  transform: translate3d(0, 50%, 0) scale(0)
+}
+
+.appear-slide {
+  animation: appear-slide 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.125s 1 forwards;
+  transform: translate3d(-256px, 0, 0)
+}
+
+@keyframes appear-slide {
+  0% {
+    transform: translate3d(-256px, 0, 0)
+  }
+  100% {
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+@keyframes appear-scale {
+  0% {
+    transform: translate3d(0, 50%, 0) scale(0)
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1)
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translate3d(-32px, 0, 0)
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+@keyframes next-arrow--hover {
+  0% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
+  25% {
+    opacity: 1;
+    transform: translate3d(120%, 0, 0)
+  }
+  26% {
+    opacity: 0;
+    transform: translate3d(120%, 0, 0)
+  }
+  49% {
+    opacity: 0;
+    transform: translate3d(-120%, 0, 0)
+  }
+  50% {
+    opacity: 1;
+    transform: translate3d(-120%, 0, 0)
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+@keyframes back-arrow--hover {
+  0% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) rotate(180deg)
+  }
+  25% {
+    opacity: 1;
+    transform: translate3d(200%, 0, 0) rotate(180deg)
+  }
+  26% {
+    opacity: 0;
+    transform: translate3d(200%, 0, 0) rotate(180deg)
+  }
+  49% {
+    opacity: 0;
+    transform: translate3d(-200%, 0, 0) rotate(180deg)
+  }
+  50% {
+    opacity: 1;
+    transform: translate3d(-200%, 0, 0) rotate(180deg)
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) rotate(180deg)
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 100%
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 100%
+  }
+}
+
+.blue-button-arrow {
+  padding-left: 20px;
+  margin-left: 10px
+}
+
+.blue-button-arrow.plus-icon {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/icon-plus-fe762fc15c1a651777b48b87bca2e9069f5809ff288e1a9a4806a228c7f71794.png) no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  margin-left: 5px;
+  padding-left: 15px
+}
+
+.blue-button-arrow.arrow-down {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/arrow-down-e38ab92b1fa36113df6cbd5a7508a2bbacdd5fc251ff261ef168ba6728694a38.svg) no-repeat;
+  background-size: 19px 12px;
+  background-position: center
+}
+
+.blue-button-arrow.arrow-up {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/arrow-up-eebe0b33aacccdc1954c24ec1d24a78a86dfddf4b05222de3aa64ce452c4a65f.png) no-repeat;
+  background-size: 19px 12px;
+  background-position: center
+}
+
+.blue-button-arrow.arrow-up-gray {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/gray-arrow-up-241472b74ee388128300c6e1649056226365fe27b6d0cf218d374c22bb108c10.png) no-repeat !important;
+  background-size: 19px 12px;
+  background-position: center;
+  top: 6px !important
+}
+
+.blue-button-arrow.arrow-up-gray-Clone {
+  background: none !important
+}
+
+.blue-button-arrow.arrow-down-gray {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/gray-arrowdown-8e7cb3ee655b256b8bb78f4b66e8b94abc2bf42666478f85be7265f681fd65e6.svg) no-repeat;
+  background-size: 19px 12px;
+  background-position: center;
+  position: relative;
+  top: 0px
+}
+
+.noBackground {
+  background: none !important;
+  margin-left: 5px
+}
+
+.arrow-gray {
+  transform: rotate(180deg)
+}
+
+#omni {
+  display: none !important
+}
+
+.popup-close {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/close_icon-315025d387ece565b8be468f5d2ca516ebbbd491ffd306d52ba5e394b18c3564.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  float: right;
+  position: relative;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer
+}
+
+.topShift {
+  background-size: 100% !important
+}
+
+.ld-grey {
+  background-color: #fafafa !important;
+  box-shadow: inset 2px -1px 12px 0px #e2dede !important
+}
+
+.popover-title .close {
+  position: relative;
+  bottom: 3px
+}
+
+.popover-title {
+  padding: 0px 6px;
+  margin-bottom: 0px !important;
+  border-bottom: 0px solid #ebebeb
+}
+
+.popover-title .close {
+  font-size: 23px;
+  bottom: 0px !important;
+  background: #009ace;
+  color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  font-family: 'Neue Haas Grotesk Disp Reg', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  width: 22px;
+  height: 22px;
+  font-weight: normal;
+  margin-top: 12px;
+  padding: 0px;
+  text-shadow: 0 0px 0 #fff;
+  position: relative;
+  top: -15px;
+  right: -21px;
+  text-decoration: none !important
+}
+
+.popover-title .close.iTerodigital {
+  position: relative;
+  top: -6px !important;
+  right: 0px !important
+}
+
+.popover-title a {
+  border-bottom: 0px solid
+}
+
+.popover-title a:hover {
+  border-bottom: 0px solid
+}
+
+.popover-content p {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important
+}
+
+.popover.top>.arrow {
+  bottom: 0px !important;
+  left: 0%;
+  margin-left: 0px !important;
+  border-top-color: transparent;
+  border-top-color: transparent;
+  border-bottom-width: 0
+}
+
+.popover.top {
+  border-radius: inherit !important
+}
+
+.popover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important
+}
+
+.infolink {
+  text-decoration: none
+}
+
+.infolink {
+  background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Invisalign_icon__-ec0a92ff2cdc1db581b47563cad055d7b1be0a5aa9e956c7d6d177eff74e9857.svg);
+  background-size: 100% 100%;
+  width: 15px !important;
+  height: 15px !important;
+  display: inline-block;
+  top: 2px;
+  position: relative
+}
+
+.clickable {
+  cursor: pointer
+}
+
+.popover {
+  min-width: 300px;
+  max-width: 620px;
+  width: 100%;
+  height: auto
+}
+
+.popover p {
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif;
+  line-height: 1.4;
+  color: #949695 !important
+}
+
+.doctor-pin-popup {
+  margin-left: -3px;
+  padding-bottom: 24px;
+  display: block;
+  height: 65px;
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif;
+  line-height: 1.4;
+  color: #949695
+}
+
+.doctor-pin-popup.vip-pin {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_pin_VIP-8830cc85d4b6135595540fca8e5a5da7dd207a823131ee778444a58c42d15c10.svg) no-repeat;
+  background-size: 25px 39px;
+  bottom: 1px;
+  position: relative;
+  background-position: top
+}
+
+.doctor-pin-popup.vip-pin2 {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/images/invisalign/pin-svgs/pin_platinum.png) no-repeat;
+  background-size: 25px 39px;
+  bottom: 1px;
+  position: relative;
+  background-position: top
+}
+
+.doctor-pin-popup.bronze-pin {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_pin_bronze-a0dc13cfa0cbfc2b771a73def1578a918de036bae62697b906b144e4dac9e678.svg) no-repeat;
+  background-size: 25px 39px;
+  bottom: 1px;
+  position: relative;
+  background-position: top
+}
+
+.doctor-pin-popup.Dimond-pin {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_pin_diamond-79a6e903811cd22a2e69e84c7adbe12c27f83375ac5072c732fb99fbff8a3c54.svg) no-repeat;
+  background-size: 25px 39px;
+  bottom: 1px;
+  position: relative;
+  background-position: top
+}
+
+.doctor-pin-popup.gold-pin {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_pin_gold-a86aeb6709462c0ddf637589efd1b336e13316c19137fb8a1843fb1ec4b5a104.svg) no-repeat;
+  background-size: 25px 39px;
+  bottom: 1px;
+  position: relative;
+  background-position: top
+}
+
+.doctor-pin-popup.platinum-pin {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_pin_platinum-b39a927b58068f955ecd83aa34e2a58ed16f16806da9dd9e3a146606436f3af1.svg) no-repeat;
+  background-size: 25px 39px;
+  bottom: 1px;
+  position: relative;
+  background-position: top
+}
+
+.doctor-pin-popup.silver-pin {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_pin_silver-2c0f3f794536335ff6d451e0aeb85e433db78bc2439d5b541a7d000b0098891d.svg) no-repeat;
+  background-size: 25px 39px;
+  bottom: 1px;
+  position: relative;
+  background-position: top
+}
+
+.all-pin {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_pin_cluster-67cd790780db87b9c3f4f1e2a67061d0d75ae86321b0ab256b5bb88dae46d677.svg) no-repeat;
+  background-size: 85px 39px;
+  bottom: 1px;
+  position: relative;
+  padding-left: 85px;
+  margin-left: -3px;
+  padding-bottom: 10px;
+  display: block;
+  height: 50px;
+  margin-top: 10px
+}
+
+.footer-container.container {
+  margin-bottom: 0px !important
+}
+
+.topShift {
+  background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+  background-repeat: repeat !important;
+  background-size: 100% !important;
+  background-color: #3D3935 !important
+}
+
+@media only screen and (max-width: 767px) {
+  .topShift {
+    background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+    background-repeat: repeat !important;
+    background-size: 300% !important;
+    background-color: #3D3935 !important
+  }
+}
+
+.ajax-loader {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/loading-238623268811da462c366f7ade10fb64110b5b54ec52f0ff3a62b2f8fdad15d1.gif) no-repeat;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0
+}
+
+.DocPin-vip {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_pin_VIP_teen-94148692a2951ef2dd07c890ce83d6dc4f76e55825335b00110a68410e8a391f.svg) no-repeat;
+  position: relative;
+  display: inline-block;
+  background-size: cover;
+  width: 14px;
+  height: 22px;
+  right: 2px;
+  top: 2px
+}
+
+.DocPin-Bronze {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_pin_bronze_teen-4d25d98aa571c60f64490fede37f06d7f6d017c760c4312f23526d021b01e755.svg) no-repeat;
+  position: relative;
+  display: inline-block;
+  background-size: cover;
+  width: 14px;
+  height: 22px;
+  right: 2px;
+  top: 2px
+}
+
+.DocPin-Diamond {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_pin_diamond_teen-ea2630732d98790981828b4b5fc88782d3ea1bd94ef69c46014f4eb50943068d.svg) no-repeat;
+  position: relative;
+  display: inline-block;
+  background-size: cover;
+  width: 14px;
+  height: 22px;
+  right: 2px;
+  top: 2px
+}
+
+.DocPin-Gold {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_pin_gold_teen-48dc8cf7ae27556f83cd779e30323b6b340547a03ae6027c0051bfec9904197b.svg) no-repeat;
+  position: relative;
+  display: inline-block;
+  background-size: cover;
+  width: 14px;
+  height: 22px;
+  right: 2px;
+  top: 2px
+}
+
+.DocPin-Platinum {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_pin_platinum_teen-e98b164d32b5f4be1245d5ccfdfe83292f79e0216a988e842a202a8d62d86f8c.svg) no-repeat;
+  position: relative;
+  display: inline-block;
+  background-size: cover;
+  width: 14px;
+  height: 22px;
+  right: 2px;
+  top: 2px
+}
+
+.DocPin-Silver {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_pin_silver_teen-b33b2e7da40568eb3e559ad53fd2934a2ea18588c585d82f32a06ce93a9b0df8.svg) no-repeat;
+  position: relative;
+  display: inline-block;
+  background-size: cover;
+  width: 14px;
+  height: 22px;
+  right: 2px;
+  top: 2px
+}
+
+@media screen and (min-width: 0\0) {
+  .form-group.has-error input {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_input_X-57b12ad8a829e5e4a95304c323a6fa595ac99b3d0da103aa6916f4a7c2b3fc77.svg) no-repeat;
+    background-size: 55px
+  }
+  .form-group.has-success input {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_input_check-e4c23d8d5aa52a3d789b1fe0aaefa15a950401bc6d3aa2e63ae97dd5004551af.svg) no-repeat;
+    background-size: 75px
+  }
+  .form-group.has-error input,
+  .form-group.has-success input {
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 20px !important
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .beforeL {
+    left: 50px;
+    top: 35px !important;
+    float: left;
+    display: inline-block
+  }
+  .afterL {
+    right: 30px;
+    top: 16px !important;
+    float: right;
+    display: inline-block
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 549px) {
+  .beforeL {
+    left: 50px;
+    top: 35px !important;
+    float: left;
+    display: inline-block
+  }
+  .afterL {
+    right: 30px;
+    top: 35px !important;
+    float: right;
+    display: inline-block
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+  .beforeL {
+    left: 50px;
+    top: 35px !important;
+    float: left;
+    display: inline-block
+  }
+  .afterL {
+    right: 45px;
+    top: 35px !important;
+    float: right;
+    display: inline-block
+  }
+}
+
+@media only screen and (min-width: 331px) and (max-width: 375px) {
+  .afterL {
+    right: 8px !important
+  }
+  .treatableCasesVidCtrl {
+    bottom: 15px !important;
+    margin-left: -25px !important
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 549px) {
+  #video-mob-controls .sliderContainer {
+    width: 312px !important
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  #video-mob-controls .sliderContainer {
+    width: 310px !important;
+    margin-left: 26px !important;
+    margin-right: auto
+  }
+  .treatableCasesVidCtrl {
+    bottom: 15px !important
+  }
+}
+
+.fixedPosition {
+  position: fixed !important
+}
+
+.find-a-doctor-request-appointment-form .row .thanksText {
+  font-family: 'Neue Haas Grotesk Disp Ex Lt', sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.25px;
+  font-weight: normal
+}
+
+@media (min-width: 992px) {
+  .find-a-doctor-request-appointment-form .row .thanksText {
+    font-size: 64px
+  }
+  .find-a-doctor-request-appointment-form .row .endText {
+    margin: 50px 90px;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .h264 {
+    font-size: 64px !important;
+    font-family: 'Neue Haas Grotesk Disp Ex Lt', sans-serif;
+    line-height: 1.2;
+    letter-spacing: 0.25px;
+    font-weight: normal
+  }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .h264 {
+    font-size: 54px !important;
+    font-family: 'Neue Haas Grotesk Disp Ex Lt', sans-serif;
+    line-height: 1.2;
+    letter-spacing: 0.25px;
+    font-weight: normal
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .h264 {
+    font-size: 44px !important;
+    font-family: 'Neue Haas Grotesk Disp Ex Lt', sans-serif;
+    line-height: 1.2;
+    letter-spacing: 0.25px;
+    font-weight: normal
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .h264 {
+    font-size: 32px !important;
+    font-family: 'Neue Haas Grotesk Disp Ex Lt', sans-serif;
+    line-height: 1.2;
+    letter-spacing: 0.25px;
+    font-weight: normal
+  }
+}
+
+.text_right1 {
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 12px;
+  line-height: 1.3;
+  color: #949695 !important;
+  font-weight: normal !important;
+  letter-spacing: .30px;
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif !important
+}
+
+.checkk_box1 {
+  top: 13px
+}
+
+form .form-group input[type="text"],
+form .form-group input[type="email"],
+form .form-group input[type="tel"],
+form .form-group input[type="password"] {
+  border: none;
+  border-radius: 0;
+  padding: 14px 5px 14px 14px;
+  background-color: #EBEBEB;
+  font-size: 16px;
+  height: auto !important;
+  box-shadow: none;
+  color: #3D3935 !important;
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif !important;
+  font-weight: normal
+}
+
+form .form-group label {
+  color: #707372
+}
+
+form .form-group label.text {
+  display: block
+}
+
+form .form-group p {
+  font-size: 12px
+}
+
+form .form-group select {
+  width: 100%
+}
+
+form textarea {
+  background-color: #EBEBEB !important;
+  box-shadow: none !important;
+  font-weight: 200;
+  font-size: 16px !important;
+  border: none !important;
+  border-radius: 0 !important
+}
+
+@media (min-width: 768px) {
+  form .form-group input[type="text"],
+  form .form-group input[type="email"],
+  form .form-group input[type="tel"],
+  form .form-group input[type="password"] {
+    font-family: 'Neue Haas Grotesk Disp Med', sans-serif !important;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    color: #3D3935 !important
+  }
+}
+
+.btn-toggle.btn-switch .btn {
+  box-shadow: none;
+  border: 4px solid #EBEBEB;
+  border-radius: 0;
+  color: #949695;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #EBEBEB;
+  padding: 10px 20px
+}
+
+.btn-toggle.btn-switch .btn.active {
+  background-color: #FFFFFF;
+  color: #009ACE;
+  z-index: 0
+}
+
+.get-start a.disabled {
+  background-color: #949695
+}
+
+.nmb {
+  margin-bottom: 0px !important
+}
+
+select.cus-select {
+  -webkit-appearance: menulist-button;
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  height: 50px;
+  display: block;
+  margin-left: 10px;
+  margin-top: 10px
+}
+
+.select-box {
+  width: 100%;
+  background-color: #EBEBEB;
+  height: 50px
+}
+
+.select-box .select-box-text {
+  padding: 14px 5px 14px 14px;
+  font-weight: 200;
+  font-size: 16px;
+  float: left
+}
+
+.select-box .select-box-down-arrow {
+  float: left;
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/down_arraow-122d9c9a565ab1dfece4cc4630cbbab3e81ffe03129faa4124cddf0c162fbf35.png) no-repeat center;
+  background-size: 23px 14px;
+  height: 50px;
+  width: 48px
+}
+
+.chosen-container-single .chosen-single div,
+.chosen-container-active.chosen-with-drop .chosen-single div {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/down_arraow-122d9c9a565ab1dfece4cc4630cbbab3e81ffe03129faa4124cddf0c162fbf35.png) no-repeat center;
+  background-size: 20px 12px;
+  height: 50px;
+  width: 48px
+}
+
+#logo,
+#logo1 {
+  position: absolute;
+  top: 5px;
+  width: 215px;
+  height: 50px;
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/svg/invisalign_logo_white-5efbed8ec2d726166690c1c9283db89c10753bb613aa9abe47120cb2d2b50d7f.svg) no-repeat;
+  background-size: 215px 50px;
+  z-index: 1
+}
+
+#logo1 {
+  top: 59px !important
+}
+
+#closebtn {
+  font-size: 17px !important;
+  cursor: pointer !important;
+  color: #FFFFFF;
+  text-decoration: none !important;
+  line-height: 14px !important;
+  background-position: 55px 0px !important;
+  position: relative !important;
+  bottom: 70px;
+  right: 0px
+}
+
+#header {
+  background: transparent !important;
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  left: 0;
+  z-index: 10000100;
+  top: 0;
+  -webkit-overflow-scrolling: touch
+}
+
+#header #header_block {
+  position: absolute;
+  top: 0;
+  margin: 40px auto 0px auto
+}
+
+#header #headerlinks {
+  position: absolute;
+  top: 3px;
+  right: 0px;
+  height: 18px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: 11px;
+  color: #cac8c8;
+  width: 490px
+}
+
+#header #headerlinks a {
+  color: #cac8c8;
+  text-decoration: none;
+  cursor: pointer
+}
+
+#header #headerlinks a:hover {
+  color: #cac8c8;
+  text-decoration: none
+}
+
+.toplinks {
+  position: absolute;
+  top: 9px;
+  right: 281px
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.nav-icon {
+  width: 82px;
+  height: 22px;
+  cursor: pointer;
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/hamburger_white-4c095d29f173b7241d7ba7662a2133acc7e75a5de63c97cfd03c96628a36ab8b.png) no-repeat;
+  background-position: 60px 10px;
+  background-size: 19px 9px
+}
+
+#nav {
+  position: relative;
+  top: 18px;
+  z-index: 999
+}
+
+#nav a {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px
+}
+
+.nav_but {
+  display: inline-block;
+  padding: 0;
+  margin: 3px 27px 7px 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-decoration: none;
+  -webkit-text-size-adjust: none;
+  cursor: pointer;
+  letter-spacing: 0.2px;
+  font-weight: 300
+}
+
+@media (min-width: 768px) and (max-width: 799px) {
+  .nav_but {
+    margin: 3px 0px 7px 10px
+  }
+}
+
+@media (min-width: 800px) and (max-width: 991px) {
+  .nav_but {
+    margin: 3px 10px 7px 10px
+  }
+}
+
+@media (min-width: 992px) {
+  .nav_but {
+    margin: 0px 60px 7px 0px
+  }
+  #nav3 {
+    margin: 3px 10px 7px 0px
+  }
+}
+
+a.nav_but:hover,
+a.nav_but:visited,
+a.nav_but:active,
+a.nav_but:focus {
+  color: #ffffff !important;
+  text-decoration: none
+}
+
+.inv-header {
+  height: 92px;
+  padding: 10px 0 0 0
+}
+
+.inv-headerlogo {
+  float: left;
+  height: 50px;
+  width: 191px;
+  background-color: #ffffff;
+  overflow: visible
+}
+
+.inv-logo {
+  position: relative;
+  left: -6px;
+  text-indent: -9999px;
+  height: 50px;
+  width: 191px;
+  overflow: visible
+}
+
+.inv-logo a {
+  background-color: #ffffff
+}
+
+#inv-headerlinks {
+  float: right;
+  height: 18px;
+  line-height: 18px;
+  width: 764px;
+  text-transform: uppercase;
+  font-size: 9px;
+  color: #999999;
+  margin-right: 5px;
+  text-align: left
+}
+
+#inv-headerlinks a {
+  color: #999999;
+  text-decoration: none
+}
+
+#inv-headerlinks a:hover {
+  text-decoration: none;
+  color: #cac8c8 !important
+}
+
+.header-container {
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+#header {
+  background-color: #3D3935;
+  background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines-bg-dbd7f8b3a2b5c88839a9ca2aa35929c2f45d3da9edda9793333c9499402ecd61.jpg)
+}
+
+.submenu-mobile {
+  display: none
+}
+
+.mobile-header {
+  display: none
+}
+
+.mobile-header .mobilelogo {
+  float: left;
+  margin: 11px 5px 5px 10px
+}
+
+.mobile-header .mobile-menu {
+  position: absolute;
+  right: 15px;
+  top: 2px;
+  z-index: 10000;
+  margin: 19px 5px 30px 50px
+}
+
+.mobile-header #submenu-mobile {
+  text-align: left;
+  position: relative
+}
+
+.mobile-header #submenu-mobile a {
+  color: #FFFFFF;
+  font-size: 12px
+}
+
+.mobile-header #submenu-mobile .menu-cta {
+  background-color: #00aeef;
+  height: 30px;
+  display: table;
+  width: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-bottom: 1px #006c94 solid
+}
+
+.mobile-header #submenu-mobile .menu-cta-text {
+  display: table-cell;
+  vertical-align: middle
+}
+
+.mobile-header #submenu-mobile .blue-box {
+  width: 47px;
+  height: 53px;
+  position: absolute;
+  top: -53px;
+  right: 0px;
+  background-color: #00aeef
+}
+
+@media only screen and (max-width: 767px) {
+  .submenu-mobile,
+  .mobile-header,
+  #dlShowMore {
+    display: block
+  }
+  .nav-icon {
+    background: none !important
+  }
+  .iv-hidden {
+    display: none
+  }
+  .results-bar,
+  #advanced-header,
+  #dlMapContainer,
+  .doctor-desktop,
+  #desktop-header,
+  #container,
+  .check-boxes,
+  .more-options-box,
+  .hide-text,
+  #dlPagerBottom {
+    display: none !important
+  }
+  #mobile-top {
+    background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+    background-repeat: repeat !important;
+    background-size: 300% !important;
+    background-color: #3D3935;
+    position: absolute;
+    width: 100%;
+    height: 105px
+  }
+  .gray-box {
+    position: fixed;
+    z-index: 1000
+  }
+  .iv-hidden .nav-icon {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/hamburger_white-4c095d29f173b7241d7ba7662a2133acc7e75a5de63c97cfd03c96628a36ab8b.png) no-repeat !important
+  }
+  #gray-box .mobile-header1 .fix .mobilelogo {
+    float: left !important;
+    margin: 11px 5px 5px 10px
+  }
+  #gray-box .mobile-header1 .fix .closeM {
+    float: right;
+    position: absolute;
+    right: 15px;
+    top: 2px;
+    margin: 26px 5px 30px 50px;
+    font-size: 20px !important
+  }
+  #gray-box .mobile-header1 .fix .closeM a {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    color: #FFFFFF !important;
+    text-decoration: none !important
+  }
+  #gray-box .mobile-header1 .fix .closeM a:hover,
+  #gray-box .mobile-header1 .fix .closeM a:active,
+  #gray-box .mobile-header1 .fix .closeM a:focus {
+    text-decoration: none;
+    color: white !important
+  }
+  #gray-box .mobile-header1 .fix .closeM a a:hover.close-icon {
+    color: #FFFFFF !important
+  }
+  #gray-box .mobile-header-links a:first-child {
+    clear: left
+  }
+  .gray-box {
+    position: absolute
+  }
+}
+
+#sub_nav {
+  position: absolute;
+  padding: 10px 0 10px 10px;
+  background-color: #009ace;
+  width: 160px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-size: 14px;
+  top: -100px;
+  left: 50px;
+  z-index: 100000003;
+  text-align: left
+}
+
+#sub_nav a,
+.nav-title {
+  float: left;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0px 0px 0px 0px;
+  clear: left;
+  cursor: pointer
+}
+
+#sub_nav a:hover {
+  color: #171C8F
+}
+
+.nav-title {
+  padding-bottom: 10px;
+  cursor: inherit
+}
+
+.close-icon {
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #FFFFFF;
+  text-decoration: none;
+  line-height: 14px
+}
+
+.nav-icon.close-icon {
+  width: 82px;
+  height: 22px;
+  cursor: pointer;
+  background-position: 60px 0px;
+  background-size: 16px 16px
+}
+
+.mobile-menu.closeM {
+  margin: 26px 5px 30px 50px
+}
+
+.gray-box {
+  background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+  background-repeat: repeat !important;
+  background-size: 100% !important;
+  background-color: #3D3935 !important;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  z-index: 1
+}
+
+@media only screen and (max-width: 767px) {
+  .gray-box {
+    background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+    background-repeat: repeat !important;
+    background-size: 300% !important;
+    background-color: #3D3935 !important
+  }
+}
+
+#nav1 {
+  margin-left: 0px
+}
+
+#table-mobile {
+  height: 50px;
+  width: 100%;
+  background-color: #009ACE;
+  z-index: 1010
+}
+
+#table-mobile a {
+  color: #ffffff;
+  background-color: #009ace;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+  letter-spacing: 0.25px;
+  font-size: 16px;
+  cursor: pointer
+}
+
+#table-mobile td {
+  padding: 0px 10px 0px 10px
+}
+
+#table-mobile .sticky-link3,
+#table-mobile .sticky-link4 {
+  display: none
+}
+
+@media (max-width: 968px) and (min-width: 768px) {
+  #findadoctor a {
+    font-size: 12px
+  }
+  .find-a-doctor {
+    width: 190px
+  }
+  #findadoctor2 {
+    width: 205px
+  }
+  #header {
+    min-width: 100%;
+    padding: 0px 10px 0px 10px
+  }
+}
+
+.seperator {
+  padding: 0px 8px
+}
+
+.dl-label {
+  padding: 10px 0px 0px 25px;
+  cursor: pointer
+}
+
+.button-group {
+  float: left
+}
+
+@media only screen and (max-width: 767px) {
+  #logo {
+    width: 167px;
+    background-size: 167px;
+    top: 8px
+  }
+  .headerMenuFix {
+    top: 3px;
+    position: relative
+  }
+}
+
+#inv-wrapper.main-wrapper #container #header {
+  background: transparent !important
+}
+
+#inv-wrapper.main-wrapper #container #header #header_block #nav {
+  float: right !important
+}
+
+@media only screen and (min-width: 768px) {
+  #mySidenav {
+    overflow: hidden !important
+  }
+  #header {
+    background: transparent !important;
+    display: block;
+    width: 100%
+  }
+  .nav-icon,
+  .expand_cross_black {
+    background: none !important
+  }
+  #nav a {
+    font-size: 18px
+  }
+  .right-block {
+    position: relative;
+    z-index: -1;
+    -webkit-transition: all 1500ms cubic-bezier(0.22, 0.9, 0.22, 1);
+    transition: all 1500ms cubic-bezier(0.22, 0.9, 0.22, 1)
+  }
+  .right-block-add {
+    transform: translateX(0px)
+  }
+  #sub_treatablecases a:first-child,
+  #sub_treatablecases a:nth-child(2),
+  #sub_treatablecases a:nth-child(3),
+  #sub_treatablecases a:nth-child(4),
+  #sub_treatablecases a:nth-child(5),
+  #sub_treatablecases a:nth-child(6),
+  #sub_treatablecases a:nth-child(7),
+  #sub_treatablecases a:nth-child(8),
+  #sub_How_Invisalign_Works a:first-child,
+  #sub_How_Invisalign_Works a:nth-child(2),
+  #sub_How_Invisalign_Works a:nth-child(3),
+  #sub_How_Invisalign_Works a:nth-child(4),
+  #sub_How_Invisalign_Works a:nth-child(5),
+  #sub_How_Invisalign_Works a:nth-child(6),
+  #sub_How_Invisalign_Works a:nth-child(7),
+  #sub_How_Invisalign_Works a:nth-child(8),
+  #sub_Cost a:first-child,
+  #sub_Cost a:nth-child(2),
+  #sub_Cost a:nth-child(3),
+  #sub_Cost a:nth-child(4),
+  #sub_Cost a:nth-child(5),
+  #sub_Cost a:nth-child(6),
+  #sub_Cost a:nth-child(7),
+  #sub_Cost a:nth-child(8),
+  #sub_Get_Started a:first-child,
+  #sub_Get_Started a:nth-child(2),
+  #sub_Get_Started a:nth-child(3),
+  #sub_Get_Started a:nth-child(4),
+  #sub_Get_Started a:nth-child(5),
+  #sub_Get_Started a:nth-child(6),
+  #sub_Get_Started a:nth-child(7),
+  #sub_Get_Started a:nth-child(8),
+  #sub_The_Invisalign_Difference a:first-child,
+  #sub_The_Invisalign_Difference a:nth-child(2),
+  #sub_The_Invisalign_Difference a:nth-child(3),
+  #sub_The_Invisalign_Difference a:nth-child(4),
+  #sub_The_Invisalign_Difference a:nth-child(5),
+  #sub_The_Invisalign_Difference a:nth-child(6),
+  #sub_The_Invisalign_Difference a:nth-child(7),
+  #sub_The_Invisalign_Difference a:nth-child(8) {
+    opacity: 0;
+    transition: all 1500ms cubic-bezier(0.22, 0.9, 0.22, 1)
+  }
+  .internalLinkAnimation {
+    opacity: 1 !important;
+    transform: translateY(0px) !important
+  }
+  .desHide {
+    display: none
+  }
+}
+
+.sidenav {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.75s
+}
+
+.sidenav a:hover {
+  color: #f1f1f1
+}
+
+.menu_button {
+  margin-right: 0px !important;
+  font-size: 17px !important;
+  font-weight: 600;
+  cursor: pointer;
+  float: right;
+  z-index: 50000000;
+  display: block !important
+}
+
+.hamburger {
+  height: 10px;
+  position: relative;
+  left: 74px
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav a {
+    font-size: 18px
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #header_block {
+    width: 660px
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #header_block {
+    width: 854px
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+  #header_block {
+    width: 1030px
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  #header_block {
+    width: 1240px
+  }
+  .slidder {
+    max-width: 1240px;
+    margin-top: 135px
+  }
+  .dropMenu {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px
+  }
+  .dropMenu .main_items {
+    width: 446px;
+    float: left
+  }
+  .dropMenu .submenu {
+    width: 340px;
+    display: block;
+    float: left
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #inv-wrapper-mobile {
+    display: none !important
+  }
+  .header-container-popup {
+    border-bottom: 14px solid #be933c;
+    position: absolute;
+    top: -14px
+  }
+  .header-container-popup {
+    background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+    background-repeat: repeat !important;
+    background-size: 100% !important;
+    background-color: #3D3935 !important;
+    height: 0px;
+    width: 100%;
+    display: block;
+    clear: both
+  }
+  .header-container-popup .left-block {
+    height: 100%;
+    width: 37.5%;
+    float: left;
+    padding-top: 146px;
+    background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+    background-repeat: repeat !important;
+    background-size: 267% !important;
+    background-color: #3D3935 !important
+  }
+  .header-container-popup .left-block a {
+    font-family: 'Neue Haas Grotesk Disp Lt', sans-serif;
+    line-height: 1.1;
+    font-weight: normal !important;
+    font-size: 32px !important;
+    letter-spacing: normal !important;
+    padding: 5px 8px 8px 4px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: transparent;
+    display: table
+  }
+  .header-container-popup .left-block a:focus,
+  .header-container-popup .left-block a:active,
+  .header-container-popup .left-block a:hover {
+    opacity: 0.4
+  }
+  .header-container-popup .right-block {
+    padding-left: 80px;
+    height: 100%;
+    width: 62.5%;
+    float: left
+  }
+  .header-container-popup .right-block .submenu a {
+    color: #be933c;
+    font-family: 'Neue Haas Grotesk Disp Lt', sans-serif;
+    line-height: 1.1;
+    letter-spacing: 0.25px;
+    font-weight: normal;
+    font-size: 22px;
+    display: block;
+    padding: 4px 8px 0px 0px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    display: table
+  }
+  .header-container-popup .right-block .submenu a:focus,
+  .header-container-popup .right-block .submenu a:active,
+  .header-container-popup .right-block .submenu a:hover {
+    opacity: 0.6 !important
+  }
+  .header-container-popup .right-block .submenu.sub_treatablecases,
+  .header-container-popup .right-block .submenu.sub_How_Invisalign_Works,
+  .header-container-popup .right-block .submenu.sub_Cost,
+  .header-container-popup .right-block .submenu.sub_Get_Started,
+  .header-container-popup .right-block .submenu.sub_The_Invisalign_Difference {
+    display: none
+  }
+  .header-container-popup .right-block .sublink_block_1 {
+    width: 50%;
+    float: left;
+    display: block;
+    padding-top: 146px
+  }
+  .header-container-popup .right-block .sublink_block_2 {
+    padding-top: 132px;
+    width: 50%;
+    float: left;
+    display: block
+  }
+  .header-container-popup .right-block .sublink_block_2 img {
+    display: none;
+    max-width: 300px;
+    width: 100%;
+    margin-top: 50px
+  }
+  .header-container-popup .right-block .sublink_block_2 img#Croweded_Teeth,
+  .header-container-popup .right-block .sublink_block_2 img#Overbite,
+  .header-container-popup .right-block .sublink_block_2 img#Crossbite,
+  .header-container-popup .right-block .sublink_block_2 img#Gap_Teeth,
+  .header-container-popup .right-block .sublink_block_2 img#Open_Bite,
+  .header-container-popup .right-block .sublink_block_2 img#Straighter,
+  .header-container-popup .right-block .sublink_block_2 img#Overview_img {
+    display: none
+  }
+  .header-container-popup .right-block .close_button {
+    float: right
+  }
+  .header-container-popup .right-block .close_button a {
+    font-family: 'Neue Haas Grotesk Disp Lt', sans-serif;
+    line-height: 1.1;
+    letter-spacing: normal !important;
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-size: 17px !important;
+    font-weight: 600
+  }
+  .nav-icon {
+    background-position: 55px 8px !important
+  }
+  .close_button {
+    position: absolute;
+    top: -9px
+  }
+  .close_button a {
+    top: 86px !important
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header-container-popup .left-block {
+    padding-left: calc(100vw * .5 - 330px)
+  }
+  .header-container-popup .right-block {
+    padding-right: calc(100vw * .5 - 330px)
+  }
+  .close_button {
+    right: calc(100vw * .5 - 330px)
+  }
+  .header-container-popup .left-block a {
+    font-size: 20px !important
+  }
+  .header-container-popup .right-block {
+    padding-left: 50px !important
+  }
+  .header-container-popup .right-block a {
+    font-size: 15px !important
+  }
+  .right-block .sublink_block_1 {
+    width: 60% !important
+  }
+  .right-block .sublink_block_2 {
+    width: 40% !important
+  }
+  #logo1 {
+    left: calc(100vw * .5 - 330px) !important
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 968px) {
+  #inv-wrapper {
+    padding-left: calc(100vw * .5 - 340px) !important
+  }
+}
+
+@media only screen and (min-width: 969px) and (max-width: 991px) {
+  #inv-wrapper {
+    padding-left: calc(100vw * .5 - 330px) !important
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-container-popup .left-block {
+    padding-left: calc(100vw * .5 - 427px)
+  }
+  .header-container-popup .right-block {
+    padding-right: calc(100vw * .5 - 427px)
+  }
+  .close_button {
+    right: calc(100vw * .5 - 427px)
+  }
+  .header-container-popup .left-block a {
+    font-size: 27px !important
+  }
+  .header-container-popup .right-block {
+    padding-left: 50px !important
+  }
+  .right-block .sublink_block_1 {
+    width: 65% !important
+  }
+  .right-block .sublink_block_2 {
+    width: 35% !important
+  }
+  #logo1 {
+    left: calc(100vw * .5 - 427px) !important
+  }
+  #inv-wrapper {
+    padding-left: calc(100vw * .5 - 427px) !important
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+  .header-container-popup .left-block {
+    padding-left: calc(100vw * .5 - 515px)
+  }
+  .header-container-popup .right-block {
+    padding-right: calc(100vw * .5 - 515px)
+  }
+  .close_button {
+    right: calc(100vw * .5 - 515px)
+  }
+  .right-block .sublink_block_1 {
+    width: 56% !important
+  }
+  .right-block .sublink_block_2 {
+    width: 44% !important
+  }
+  #logo1 {
+    left: calc(100vw * .5 - 515px) !important
+  }
+  #inv-wrapper {
+    padding-left: calc(100vw * .5 - 515px) !important
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .header-container-popup .left-block {
+    padding-left: calc(100vw* .5 - 620px)
+  }
+  .header-container-popup .right-block {
+    padding-right: calc(100vw* .5 - 620px)
+  }
+  .close_button {
+    right: calc(100vw * .5 - 620px)
+  }
+  #logo1 {
+    left: calc(100vw* .5 - 620px) !important
+  }
+  #inv-wrapper {
+    padding-left: calc(100vw * .5 - 620px) !important
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main-wrapper,
+  .header-container-popup {
+    display: none !important
+  }
+  .collapse a {
+    display: table !important
+  }
+  .close-icon {
+    font-size: 16px !important;
+    font-family: 'Neue Haas Grotesk Disp Med', sans-serif !important;
+    font-weight: normal !important
+  }
+  .nav-icon {
+    width: 65px !important
+  }
+  .nav-icon.close-icon {
+    width: 65px !important
+  }
+  .mobile-header .mobile-menu a {
+    font-size: 16px;
+    font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none
+  }
+  .mobile-header .mobile-menu a:hover {
+    color: #fff !important;
+    -webkit-text-fill-color: white
+  }
+  .gray-box .mobile-header-links {
+    margin-top: 50px;
+    margin-left: 25px
+  }
+}
+
+.mobile-header-links {
+  background-repeat: repeat !important;
+  background-size: inherit !important
+}
+
+.mobile-header-links a {
+  cursor: pointer;
+  color: #be933c;
+  font-family: 'Neue Haas Grotesk Disp Lt', sans-serif;
+  line-height: 1.1;
+  letter-spacing: 0.25px;
+  font-weight: normal;
+  font-size: 22px;
+  display: block !important;
+  padding: 8px 8px 8px 0px;
+  text-decoration: none
+}
+
+.mobile-header-links a:hover {
+  color: #fff
+}
+
+.mobile-header-links .back-button {
+  background-color: #FFFFFF;
+  margin-top: 0px;
+  padding: 20px 30px;
+  color: #A9A9A9;
+  font-weight: 200
+}
+
+.mobile-header-links .back-button:hover {
+  color: #A9A9A9 !important
+}
+
+.mobile-header-links h3 {
+  font-size: 23px;
+  color: #171C8F;
+  padding: 20px 30px 10px 30px;
+  font-weight: 300
+}
+
+.mobile-header-links .btn-info {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent
+}
+
+.mobile-header-links .btn-info:hover {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent
+}
+
+.mobile-header-links .btn:active,
+.mobile-header-links .btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none
+}
+
+.mobile-header-links a.btn.btn-info {
+  font-family: 'Neue Haas Grotesk Disp Lt', sans-serif;
+  line-height: 1.1;
+  font-weight: normal !important;
+  font-size: 32px !important;
+  letter-spacing: normal !important;
+  padding: 26px 0px 8px 0px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  background-color: transparent;
+  display: table
+}
+
+.mobile-header-links a.btn.btn-info:first-child {
+  padding: 10px 0px 8px 0px
+}
+
+.mobile-header-links .expand {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-position: right !important;
+  background-size: 26px 26px !important
+}
+
+.mobile-header-links .expand-plus {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/cross_plus-5711fdf597b1456e744ad758fb20e19de5e49b565976745d58bee6b437aa792f.png) no-repeat
+}
+
+.mobile-header-links .imagePlus {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Invisalign_icon_open-fbbfd7045884fba4e0fa986ef6bfd437140b10c5deb7268d2b70f494aec59f29.svg) no-repeat;
+  background-size: 20px 20px !important;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  float: right;
+  position: absolute;
+  right: 25px;
+  margin-top: 8px
+}
+
+.mobile-header-links .expand-cross {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Invisalign_icon_close-e2c9b270a80c1f781521bd92c02cc6ccddf415444eab4844886e9050e33ca8cc.svg) no-repeat
+}
+
+.mobile-header-links .expand-cross-black {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/cross_black-70b19af3aef71d16b2946515df929deb1334d3d706fb340f270358685152ef2e.png) no-repeat !important
+}
+
+.mobile-header-links a.btn {
+  text-align: -webkit-left !important
+}
+
+.mobile-header-links .collapse a {
+  color: #be933c;
+  font-family: 'Neue Haas Grotesk Disp Lt', sans-serif;
+  line-height: 1.1;
+  letter-spacing: 0.25px;
+  font-weight: normal;
+  font-size: 22px;
+  display: block;
+  padding: 8px 8px 8px 0px;
+  text-decoration: none
+}
+
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+  .mobile-header-links a.btn.btn-info {
+    font-size: 27px !important
+  }
+  .mobile-header-links .expand {
+    background-size: 24px 24px !important
+  }
+}
+
+@media only screen and (max-width: 349px) {
+  .mobile-header-links a.btn.btn-info {
+    font-size: 24px !important
+  }
+  .mobile-header-links .expand {
+    background-size: 20px 20px !important
+  }
+}
+
+.navFontMed {
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif !important;
+  font-weight: normal !important
+}
+
+.expand_cross_black {
+  background-size: 16px 16px !important
+}
+
+#Crowded_Teeth_img {
+  opacity: 0;
+  -webkit-transition: transform 0.4s, opacity 0.5s;
+  display: block;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out
+}
+
+.bodyBackground {
+  background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+  background-repeat: repeat !important;
+  background-size: 100% !important
+}
+
+.hamburgerCustomized {
+  font-size: 34px;
+  font-family: initial;
+  position: absolute;
+  bottom: -4px;
+  right: 10px
+}
+
+@media only screen and (min-width: 768px) {
+  .menu_button {
+    font-size: 18px !important
+  }
+  #closebtn {
+    font-size: 18px !important
+  }
+  #docloc-overlay {
+    top: 120px
+  }
+  #docloc-overlay .modal-dialog {
+    width: 350px
+  }
+  #docloc-overlay .modal-dialog .modal-content {
+    padding: 30px;
+    min-height: 305px
+  }
+  #docloc-overlay .modal-dialog .modal-content .form-inline.nmb label {
+    display: block
+  }
+}
+
+.crossCustomized {
+  font-size: 28px;
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  right: 16px
+}
+
+.hamburgerMobCustomized {
+  font-size: 35px;
+  bottom: -16px;
+  right: 8px;
+  font-family: 'Neue Haas Grotesk Disp Reg', sans-serif;
+  position: absolute
+}
+
+.crossMobCustomized {
+  font-size: 26px;
+  bottom: 11px;
+  right: 9px;
+  font-family: inherit;
+  position: absolute
+}
+
+.hamburgerMobCustomizedTop {
+  top: -11px;
+  left: 46px;
+  background-color: #FFFFFF;
+  height: 3px;
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 2px
+}
+
+.hamburgerMobCustomizedBottom {
+  top: -7px;
+  left: 46px;
+  background-color: #FFFFFF;
+  height: 3px;
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 2px
+}
+
+.hamburgerCustomizedTopMain {
+  top: -16px;
+  left: 52px;
+  background-color: #FFFFFF;
+  height: 3px;
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 2px
+}
+
+.hamburgerCustomizedBottomMain {
+  top: -11px;
+  left: 52px;
+  background-color: #FFFFFF;
+  height: 3px;
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 2px
+}
+
+.hamburgerCustomizedTop {
+  top: -16px;
+  left: 52px;
+  background-color: #FFFFFF;
+  height: 3px;
+  position: relative;
+  transition: all 500ms ease-in-out;
+  display: block;
+  width: 20px;
+  height: 2px
+}
+
+.hamburgerCustomizedBottom {
+  top: -11px;
+  left: 52px;
+  background-color: #FFFFFF;
+  height: 3px;
+  position: relative;
+  transition: all 500ms ease-in-out;
+  display: block;
+  width: 20px;
+  height: 2px
+}
+
+.crossCustomizedLeft {
+  top: -8px;
+  left: 52px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #FFFFFF;
+  height: 3px;
+  position: relative;
+  transition: all 500ms ease-in-out;
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px
+}
+
+.crossCustomizedRight {
+  top: -10px;
+  left: 52px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(-45deg);
+  background-color: #FFFFFF;
+  height: 3px;
+  position: relative;
+  transition: all 500ms ease-in-out;
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px
+}
+
+.crossMobCustomizedLeft {
+  top: -8px;
+  left: 46px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #FFFFFF;
+  height: 3px;
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 1px
+}
+
+.crossMobCustomizedRight {
+  top: -10px;
+  left: 46px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(-45deg);
+  background-color: #FFFFFF;
+  height: 3px;
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 1px
+}
+
+#table-mobile tbody tr td {
+  text-align: center
+}
+
+#table-mobile tbody tr td a {
+  font-weight: normal !important
+}
+
+@media only screen and (max-width: 767px) {
+  .bodyBackground {
+    background-size: 300% !important
+  }
+  a.toggleTrack {
+    display: table !important
+  }
+  .panel {
+    background-color: transparent !important
+  }
+  .panel-heading {
+    padding: 0px !important
+  }
+  .panel-group .panel-heading+.panel-collapse>.panel-body,
+  .panel-group .panel-heading+.panel-collapse>.list-group {
+    border-top: 1px solid transparent
+  }
+  .panel-body {
+    padding: 0px
+  }
+  .teenplus {
+    margin-top: -20px !important
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+  .navDesk {
+    position: relative;
+    top: -3px
+  }
+}
+
+#header_block #nav #nav2 {
+  margin: 0px 10px 7px 0px !important
+}
+
+#header_block #nav #findadoctor2 {
+  margin-right: 20px
+}
+
+#header_block #nav #findadoctor2 #zipInput2,
+#header_block #nav #findadoctor2 #headzip {
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif !important;
+  border: none !important;
+  outline: none;
+  display: inline-block !important;
+  box-sizing: border-box;
+  font-weight: 200;
+  width: 100px !important;
+  color: #3D3935 !important;
+  padding: 14px 5px 14px 14px !important;
+  font-size: 16px;
+  height: 29px !important;
+  box-shadow: none;
+  background-color: #ECECEC !important;
+  border-radius: 0 !important
+}
+
+#header_block #nav #findadoctor2 .form-group.has-error input,
+#header_block #nav #findadoctor2 .form-group.has-success input {
+  background-repeat: no-repeat;
+  background-position: right 10px center !important
+}
+
+#header_block #nav #findadoctor2 .get-start {
+  float: right !important
+}
+
+#header_block #nav #findadoctor2 .get-start a {
+  margin-top: 0px !important;
+  width: auto !important;
+  padding: 6px 10px !important;
+  font-size: 12px !important;
+  height: 29px !important
+}
+
+#for-links {
+  position: absolute;
+  right: 8px;
+  top: -17px
+}
+
+#for-links a {
+  font-weight: normal !important;
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif !important;
+  color: #949695
+}
+
+#for-links a:hover,
+#for-links a:focus {
+  text-decoration: none
+}
+
+#for-links .seperator {
+  color: #949695
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #nav1 {
+    margin: 0px 15px 7px 0px !important
+  }
+}
+
+#tableipad {
+  display: none
+}
+
+#tableipad {
+  position: absolute;
+  top: 85px;
+  height: 50px;
+  width: 100%;
+  background-color: #009ACE;
+  z-index: 99;
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif
+}
+
+#tableipad tr,
+#tableipad td {
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif;
+  text-align: center
+}
+
+#tableipad td {
+  padding: 0px 10px 0px 10px
+}
+
+#tableipad a {
+  font-weight: normal !important;
+  color: #ffffff;
+  background-color: #009ace;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+  letter-spacing: 0.25px;
+  font-size: 16px;
+  cursor: pointer
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #nav1 {
+    display: none
+  }
+  #tableipad {
+    display: table
+  }
+  #for-links {
+    display: none
+  }
+  #header_block {
+    margin: 15px auto 0px auto !important
+  }
+  #logo1 {
+    top: 34px !important
+  }
+  .home-hero {
+    margin-top: 135px !important
+  }
+  .close_button {
+    position: absolute;
+    top: -34px
+  }
+}
+
+#docloc-overlay,
+#select-patient-type {
+  display: none
+}
+
+#docloc-overlay .modal-content {
+  box-shadow: none;
+  border: none;
+  border-radius: 0
+}
+
+#docloc-overlay .popup-close {
+  top: -30px;
+  right: -30px
+}
+
+#docloc-overlay .docloc-buttons {
+  padding-left: 30px
+}
+
+#docloc-overlay .get-start {
+  margin-top: 20px;
+  text-align: left
+}
+
+#docloc-overlay .get-start a {
+  width: 140px
+}
+
+#select-patient-type {
+  color: #FF0000
+}
+
+@media screen and (min-width: 0 \0) {
+  #header_block #nav #findadoctor2 #headzip {
+    padding: 5px 5px 14px 14px !important
+  }
+}
+
+.footer {
+  width: 100%;
+  background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+  background-repeat: repeat !important;
+  background-size: 100% !important;
+  background-color: #3D3935 !important
+}
+
+@media only screen and (max-width: 767px) {
+  .footer {
+    background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+    background-repeat: repeat !important;
+    background-size: 300% !important;
+    background-color: #3D3935 !important
+  }
+}
+
+@media only screen and (min-width: 545px) {
+  .footer-container.container .row .col-footer-1,
+  .footer-container.container .row .col-footer-2,
+  .footer-container.container .row .col-footer-3,
+  .footer-container.container .row .col-footer-4,
+  .footer-container.container .row .col-footer-5 {
+    float: left
+  }
+  .footer-container.container .row .col-footer-1 {
+    width: 20%
+  }
+  .footer-container.container .row .col-footer-1 ul {
+    padding-right: 25px
+  }
+  .footer-container.container .row .col-footer-2 {
+    width: 20%
+  }
+  .footer-container.container .row .col-footer-2 ul {
+    padding-right: 25px
+  }
+  .footer-container.container .row .col-footer-3 {
+    width: 20%
+  }
+  .footer-container.container .row .col-footer-3 ul {
+    padding-right: 25px
+  }
+  .footer-container.container .row .col-footer-4 {
+    width: 20%
+  }
+  .footer-container.container .row .col-footer-4 ul {
+    padding-right: 25px
+  }
+  .footer-container.container .row .col-footer-5 {
+    width: 20%
+  }
+  .footer-container.container .row .col-footer-5 ul {
+    padding-right: 25px
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .footer-container.container {
+    width: 854px
+  }
+  .footer-container.container .row .col-footer-1 {
+    width: 20%;
+    padding-right: 18px
+  }
+  .footer-container.container .row .col-footer-1 ul {
+    padding-right: 18px
+  }
+  .footer-container.container .row .col-footer-2 {
+    width: 20%;
+    padding-right: 18px
+  }
+  .footer-container.container .row .col-footer-2 ul {
+    padding-right: 18px
+  }
+  .footer-container.container .row .col-footer-3 {
+    width: 20%;
+    padding-right: 18px
+  }
+  .footer-container.container .row .col-footer-3 ul {
+    padding-right: 18px
+  }
+  .footer-container.container .row .col-footer-4 {
+    width: 20%;
+    padding-right: 18px
+  }
+  .footer-container.container .row .col-footer-4 ul {
+    padding-right: 18px
+  }
+  .footer-container.container .row .col-footer-5 {
+    width: 20%;
+    padding-right: 18px
+  }
+  .footer-container.container .row .col-footer-5 ul {
+    padding-right: 18px
+  }
+  .row.second .col-sm-4 .row .col-sm-6.country {
+    padding-right: 0px;
+    padding-left: 0px
+  }
+  .row.second .col-sm-4 .row .col-sm-6.country img {
+    width: 20px !important;
+    margin-right: 6px !important
+  }
+  .row.row-last-section .col-sm-12 {
+    width: 815px
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+  .footer-container.container {
+    width: 1030px
+  }
+  .footer-container.container .row .col-footer-1 {
+    width: 20%
+  }
+  .footer-container.container .row .col-footer-1 ul {
+    padding-right: 25px
+  }
+  .footer-container.container .row .col-footer-2 {
+    width: 20%
+  }
+  .footer-container.container .row .col-footer-2 ul {
+    padding-right: 25px
+  }
+  .footer-container.container .row .col-footer-3 {
+    width: 20%
+  }
+  .footer-container.container .row .col-footer-3 ul {
+    padding-right: 25px
+  }
+  .footer-container.container .row .col-footer-4 {
+    width: 20%
+  }
+  .footer-container.container .row .col-footer-4 ul {
+    padding-right: 25px
+  }
+  .footer-container.container .row .col-footer-5 {
+    width: 20%
+  }
+  .footer-container.container .row .col-footer-5 ul {
+    padding-right: 25px
+  }
+  .row.row-last-section .col-sm-12 {
+    width: 991px
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .footer-container.container {
+    width: 1240px
+  }
+  .row.row-last-section .col-sm-12 {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0px 40px 8px !important;
+    float: none
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  ul.footer-ul li {
+    list-style-type: none;
+    line-height: 1.2;
+    padding-bottom: 8px;
+    padding-top: 4px
+  }
+  .deskhide {
+    display: none
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-container.container {
+    width: 660px
+  }
+  .footer-container.container .row .col-footer-1 {
+    width: 20%;
+    padding-right: 15px
+  }
+  .footer-container.container .row .col-footer-1 ul {
+    padding-right: 0px
+  }
+  .footer-container.container .row .col-footer-2 {
+    width: 20%;
+    padding-right: 15px
+  }
+  .footer-container.container .row .col-footer-2 ul {
+    padding-right: 0px
+  }
+  .footer-container.container .row .col-footer-3 {
+    width: 20%;
+    padding-right: 15px
+  }
+  .footer-container.container .row .col-footer-3 ul {
+    padding-right: 0px
+  }
+  .footer-container.container .row .col-footer-4 {
+    width: 20%;
+    padding-right: 15px
+  }
+  .footer-container.container .row .col-footer-4 ul {
+    padding-right: 0px
+  }
+  .footer-container.container .row .col-footer-5 {
+    width: 20%;
+    padding-right: 15px
+  }
+  .footer-container.container .row .col-footer-5 ul {
+    padding-right: 0px
+  }
+  .footer-container a.footer-link-header {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px !important;
+    font-family: 'Neue Haas Grotesk text', sans-serif;
+    color: #FFFFFF
+  }
+  .footer-container a.footer-link-header:hover,
+  .footer-container a.footer-link-header:visited,
+  .footer-container a.footer-link-header:active {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px !important;
+    color: #FFFFFF
+  }
+  .footer-container ul.footer-ul {
+    padding-left: 0px;
+    margin-top: 5px
+  }
+  .footer-container ul.footer-ul li {
+    list-style-type: none;
+    line-height: 1.2;
+    padding-bottom: 4px;
+    padding-top: 4px
+  }
+  .footer-container ul.footer-ul li a {
+    text-decoration: none;
+    font-family: 'Neue Haas Grotesk text', sans-serif;
+    font-size: 12px !important;
+    font-weight: 400;
+    color: #949695
+  }
+  .footer-container ul.footer-ul li a:hover,
+  .footer-container ul.footer-ul li a:visited,
+  .footer-container ul.footer-ul li a:active {
+    text-decoration: none;
+    font-size: 12px !important;
+    color: #949695
+  }
+  .row.second .col-sm-8 {
+    width: 100%
+  }
+  .row.second .col-sm-8 .link-section a {
+    font-size: 12px !important
+  }
+  .row.second .col-sm-8 .link-section a:hover,
+  .row.second .col-sm-8 .link-section a:visited,
+  .row.second .col-sm-8 .link-section a:active {
+    font-size: 12px !important
+  }
+  .row.row-last-section .col-sm-12 {
+    width: 623px
+  }
+}
+
+@media only screen and (min-width: 1299px) {
+  .footer-container.container .row .col-footer-1,
+  .footer-container.container .row .col-footer-2,
+  .footer-container.container .row .col-footer-3,
+  .footer-container.container .row .col-footer-4,
+  .footer-container.container .row .col-footer-5 {
+    float: left
+  }
+  .footer-container.container .row .col-footer-1 {
+    width: 15%
+  }
+  .footer-container.container .row .col-footer-1 ul {
+    padding-right: 60px
+  }
+  .footer-container.container .row .col-footer-2 {
+    width: 25%
+  }
+  .footer-container.container .row .col-footer-2 ul {
+    padding-right: 60px
+  }
+  .footer-container.container .row .col-footer-3 {
+    width: 20%
+  }
+  .footer-container.container .row .col-footer-3 ul {
+    padding-right: 60px
+  }
+  .footer-container.container .row .col-footer-4 {
+    width: 20%
+  }
+  .footer-container.container .row .col-footer-4 ul {
+    padding-right: 60px
+  }
+  .footer-container.container .row .col-footer-5 {
+    width: 20%
+  }
+  .footer-container.container .row .col-footer-5 ul {
+    padding-right: 60px
+  }
+}
+
+.row.row-last-section .col-sm-12 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0px 0px 8px !important;
+  float: none
+}
+
+.footer-container {
+  padding-top: 40px
+}
+
+.footer-container .row.first {
+  padding-bottom: 40px;
+  border-bottom: 2px solid #949695
+}
+
+.footer-container a.footer-link-header {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+  color: #FFFFFF
+}
+
+.footer-container a.footer-link-header:hover,
+.footer-container a.footer-link-header:visited,
+.footer-container a.footer-link-header:active {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  color: #FFFFFF
+}
+
+.footer-container ul.footer-ul {
+  padding-left: 0px;
+  margin-top: 5px
+}
+
+.footer-container ul.footer-ul li {
+  list-style-type: none
+}
+
+.footer-container ul.footer-ul li a {
+  text-decoration: none;
+  font-family: 'Neue Haas Grotesk text', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #949695
+}
+
+.footer-container ul.footer-ul li a:hover,
+.footer-container ul.footer-ul li a:visited,
+.footer-container ul.footer-ul li a:active {
+  text-decoration: none;
+  font-size: 15px;
+  color: #949695
+}
+
+.footer-container .row.first .col-footer-1 ul li.two-line {
+  line-height: 1.2
+}
+
+.footer-container .row.second {
+  padding-top: 40px
+}
+
+.footer-container .row.second .col-sm-8 {
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 30px
+}
+
+.footer-container .row.second .col-sm-8 .link-section {
+  max-width: 660px
+}
+
+.footer-container .row.second .col-sm-8 .link-section a {
+  text-decoration: none;
+  font-family: 'Neue Haas Grotesk text', sans-serif;
+  font-size: 15px;
+  color: #949695;
+  font-weight: 400;
+  padding-right: 15px;
+  padding-top: 8px;
+  display: inline-block
+}
+
+.footer-container .row.second .col-sm-8 .link-section a:hover,
+.footer-container .row.second .col-sm-8 .link-section a:visited,
+.footer-container .row.second .col-sm-8 .link-section a:active {
+  text-decoration: none;
+  font-size: 15px;
+  color: #949695
+}
+
+.footer-container .row.second .col-sm-4 .row .col-sm-6.country {
+  width: 200px
+}
+
+.footer-container .row.second .col-sm-4 .row .col-sm-6.country .country-logo {
+  margin-right: 10px;
+  border: 2px solid white;
+  border-radius: 30px
+}
+
+.footer-container .row.second .col-sm-4 .row .col-sm-6.social-logos {
+  padding-left: 0px !important;
+  width: 185px
+}
+
+.footer-container .row.second .col-sm-4 .row .col-sm-6.social-logos a.social-logos-facebook {
+  background: transparent url(//dv2c9ihs6hqjp.cloudfront.net/images/footer-social-icons.png) no-repeat;
+  background-position: -69px 0px;
+  width: 62px;
+  height: 51px
+}
+
+.footer-container .row.third .col-xs-12 {
+  padding-left: 0px !important;
+  margin-bottom: 47px
+}
+
+.footer-container .row.third .col-xs-12 p {
+  letter-spacing: .30px;
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif;
+  color: #949695;
+  font-size: 12px;
+  line-height: 1.3 !important
+}
+
+@media only screen and (max-width: 1199px) {
+  .link-section br {
+    display: none
+  }
+}
+
+@media only screen and (max-width: 1299px) {
+  .row.second .col-sm-4 .row .col-sm-6.country {
+    width: 100% !important;
+    padding-left: 0px;
+    margin-bottom: 22px
+  }
+  .row.second .col-sm-4 .row .col-sm-6.country img {
+    width: 20px !important;
+    margin-right: 6px !important
+  }
+  .row.second .col-sm-4 .row .col-sm-6.social-logos {
+    padding-left: 0px !important;
+    margin-bottom: 20px;
+    width: 210px
+  }
+  .country-logo {
+    border: 1px solid white !important;
+    border-radius: 30px
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hide_mobi {
+    display: none
+  }
+  .footer {
+    padding-left: 25px;
+    padding-right: 25px
+  }
+  .footer .footer-container.container .row .col-footer-1,
+  .footer .footer-container.container .row .col-footer-2,
+  .footer .footer-container.container .row .col-footer-3,
+  .footer .footer-container.container .row .col-footer-5 {
+    margin-bottom: 5px
+  }
+  .footer .footer-container.container .row .col-footer-1 ul li,
+  .footer .footer-container.container .row .col-footer-2 ul li,
+  .footer .footer-container.container .row .col-footer-3 ul li,
+  .footer .footer-container.container .row .col-footer-5 ul li {
+    display: none
+  }
+  .footer .footer-container.container .row .col-footer-4 {
+    margin-bottom: 5px
+  }
+  .footer .footer-container.container .row .col-footer-1 {
+    width: 35% !important;
+    float: left
+  }
+  .footer .footer-container.container .row .col-footer-2 {
+    width: 45% !important;
+    float: left
+  }
+  .footer .footer-container.container .row .col-footer-3 {
+    width: 20% !important;
+    float: left
+  }
+  .footer .footer-container.container .row .col-footer-4 {
+    width: 100%;
+    float: left;
+    max-width: 400px
+  }
+  .footer .footer-container.container .row .col-footer-4 .mob-1,
+  .footer .footer-container.container .row .col-footer-4 .mob-2,
+  .footer .footer-container.container .row .col-footer-4 .mob-3,
+  .footer .footer-container.container .row .col-footer-4 .mob-4,
+  .footer .footer-container.container .row .col-footer-4 .mob-5 {
+    width: 50%;
+    float: left
+  }
+  .footer .footer-container.container .row .col-footer-5 {
+    width: 100%;
+    float: left
+  }
+  .footer-container {
+    padding-top: 25px !important
+  }
+  .footer-container .row.first {
+    padding-bottom: 16px !important
+  }
+  .footer-container a.footer-link-header {
+    font-size: 12px !important
+  }
+  .footer-container a.footer-link-header:hover,
+  .footer-container a.footer-link-header:visited,
+  .footer-container a.footer-link-header:active {
+    font-size: 12px !important
+  }
+  .footer-container ul.footer-ul li a {
+    font-size: 12px !important
+  }
+  .footer-container ul.footer-ul li a:hover,
+  .footer-container ul.footer-ul li a:visited,
+  .footer-container ul.footer-ul li a:active {
+    font-size: 12px !important
+  }
+  .row.second .col-sm-8 {
+    padding-right: 0px !important;
+    padding-left: 0px !important
+  }
+  .row.second .col-sm-8 .link-section a {
+    font-size: 12px !important;
+    padding-right: 15px !important
+  }
+  .row.second .col-sm-8 .link-section a:hover,
+  .row.second .col-sm-8 .link-section a:visited,
+  .row.second .col-sm-8 .link-section a:active {
+    font-size: 12px !important
+  }
+  .row.second .col-sm-4 {
+    padding-left: 0px !important
+  }
+  .row.second .col-sm-4 .row {
+    margin-left: 0px !important;
+    margin-right: 0px !important
+  }
+  .row.second .col-sm-4 .row .col-sm-6 {
+    padding-left: 0px !important;
+    padding-right: 0px !important
+  }
+  .row.third .col-xs-12 p {
+    font-size: 12px !important;
+    margin-top: 20px;
+    margin-bottom: 30px
+  }
+  .row.row-last-section .col-sm-12 {
+    padding: 25px 15px 0px 25px !important
+  }
+  .hide-mobile {
+    display: none
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .footer-container .row .col-footer-1,
+  .footer-container .row .col-footer-2,
+  .footer-container .row .col-footer-3 {
+    padding-right: 19px !important;
+    margin-bottom: 25px
+  }
+  .footer-container .row .col-footer-4 .mob-1,
+  .footer-container .row .col-footer-4 .mob-2,
+  .footer-container .row .col-footer-4 .mob-3,
+  .footer-container .row .col-footer-4 .mob-4,
+  .footer-container .row .col-footer-4 .mob-5 {
+    width: 100% !important;
+    float: left
+  }
+}
+
+.inlineBlockCss {
+  display: inline-block;
+  white-space: nowrap
+}
+
+.inv-social-icons {
+  margin-right: 15px;
+  height: 23px;
+  float: left
+}
+
+.inv-social-icons:last-child {
+  margin-right: 0px
+}
+
+.inv-social-icons.inv-facebook {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Invisalign_icon_facebook-cc737ebd8a730c52ac81f09c12bc47e5c797f4836a079f7cfe3382a017a30227.svg) no-repeat;
+  width: 12px
+}
+
+.inv-social-icons.inv-instagram {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Invisalign_icon_instagram-5113586d9edf28a948d53326dcf5da1c6b0c2ab47eb125c3e2c7fa5fb948e499.svg) no-repeat;
+  width: 24px
+}
+
+.inv-social-icons.inv-twitter {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Invisalign_icon_twitter-e186dd670f881505f07b996e1be3c25026a49948c67c09851d3ae738df6fc846.svg) no-repeat;
+  width: 29px
+}
+
+.inv-social-icons.inv-pinterest {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Invisalign_icon_pinterest-0847d50619a5ff7531e84162f4b69b763cf0286c263d45ef669ec7742c61a095.svg) no-repeat;
+  width: 18px
+}
+
+.inv-social-icons.inv-youtube {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Invisalign_icon_youtube-5f36cb3b9a9badbb410a7d4da4fd08f099d019202385a78abaa605664a463009.svg) no-repeat;
+  width: 24px
+}
+
+.social-icons {
+  display: inline-block;
+  float: left
+}
+
+.link-section-2 {
+  padding-right: 0px !important
+}
+
+@media only screen and (max-width: 767px) {
+  .footer .footer-ul li {
+    margin-bottom: 10px !important
+  }
+}
+
+button.g-recaptcha {
+  opacity: 0
+}
+
+.swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1
+}
+
+.swiper-container-no-flexbox .swiper-slide {
+  float: left
+}
+
+.swiper-container-vertical>.swiper-wrapper {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -ms-transition-property: -ms-transform;
+  transition-property: transform;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box
+}
+
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate(0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0)
+}
+
+.swiper-container-multirow>.swiper-wrapper {
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap
+}
+
+.swiper-container-free-mode>.swiper-wrapper {
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  margin: 0 auto
+}
+
+.swiper-slide {
+  -webkit-flex-shrink: 0;
+  -ms-flex: 0 0 auto;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative
+}
+
+.swiper-container-autoheight,
+.swiper-container-autoheight .swiper-slide {
+  height: auto
+}
+
+.swiper-container-autoheight .swiper-wrapper {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-transition-property: -webkit-transform, height;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -ms-transition-property: -ms-transform;
+  transition-property: transform, height
+}
+
+.swiper-container .swiper-notification {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1000
+}
+
+.swiper-wp8-horizontal {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y
+}
+
+.swiper-wp8-vertical {
+  -ms-touch-action: pan-x;
+  touch-action: pan-x
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: 27px;
+  height: 44px;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  -moz-background-size: 27px 44px;
+  -webkit-background-size: 27px 44px;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: .35;
+  cursor: auto;
+  pointer-events: none
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+  left: 10px;
+  right: auto
+}
+
+.swiper-button-prev.swiper-button-black,
+.swiper-container-rtl .swiper-button-next.swiper-button-black {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E")
+}
+
+.swiper-button-prev.swiper-button-white,
+.swiper-container-rtl .swiper-button-next.swiper-button-white {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+  right: 10px;
+  left: auto
+}
+
+.swiper-button-next.swiper-button-black,
+.swiper-container-rtl .swiper-button-prev.swiper-button-black {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E")
+}
+
+.swiper-button-next.swiper-button-white,
+.swiper-container-rtl .swiper-button-prev.swiper-button-white {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")
+}
+
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 10
+}
+
+.swiper-pagination.swiper-pagination-hidden {
+  opacity: 0
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 10px;
+  left: 0;
+  width: 100%
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #000;
+  opacity: .2
+}
+
+button.swiper-pagination-bullet {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -webkit-appearance: none;
+  appearance: none
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer
+}
+
+.swiper-pagination-white .swiper-pagination-bullet {
+  background: #fff
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #007aff
+}
+
+.swiper-pagination-white .swiper-pagination-bullet-active {
+  background: #fff
+}
+
+.swiper-pagination-black .swiper-pagination-bullet-active {
+  background: #000
+}
+
+.swiper-container-vertical>.swiper-pagination-bullets {
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+  -o-transform: translate(0, -50%);
+  -ms-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0)
+}
+
+.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 5px 0;
+  display: block
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 5px
+}
+
+.swiper-pagination-progress {
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute
+}
+
+.swiper-pagination-progress .swiper-pagination-progressbar {
+  background: #007aff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: left top;
+  -moz-transform-origin: left top;
+  -ms-transform-origin: left top;
+  -o-transform-origin: left top;
+  transform-origin: left top
+}
+
+.swiper-container-rtl .swiper-pagination-progress .swiper-pagination-progressbar {
+  -webkit-transform-origin: right top;
+  -moz-transform-origin: right top;
+  -ms-transform-origin: right top;
+  -o-transform-origin: right top;
+  transform-origin: right top
+}
+
+.swiper-container-horizontal>.swiper-pagination-progress {
+  width: 100%;
+  height: 4px;
+  left: 0;
+  top: 0
+}
+
+.swiper-container-vertical>.swiper-pagination-progress {
+  width: 4px;
+  height: 100%;
+  left: 0;
+  top: 0
+}
+
+.swiper-pagination-progress.swiper-pagination-white {
+  background: rgba(255, 255, 255, 0.5)
+}
+
+.swiper-pagination-progress.swiper-pagination-white .swiper-pagination-progressbar {
+  background: #fff
+}
+
+.swiper-pagination-progress.swiper-pagination-black .swiper-pagination-progressbar {
+  background: #000
+}
+
+.swiper-container-3d {
+  -webkit-perspective: 1200px;
+  -moz-perspective: 1200px;
+  -o-perspective: 1200px;
+  perspective: 1200px
+}
+
+.swiper-container-3d .swiper-cube-shadow,
+.swiper-container-3d .swiper-slide,
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top,
+.swiper-container-3d .swiper-wrapper {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d
+}
+
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10
+}
+
+.swiper-container-3d .swiper-slide-shadow-left {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(transparent));
+  background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -moz-linear-gradient(right, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -o-linear-gradient(right, rgba(0, 0, 0, 0.5), transparent);
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), transparent)
+}
+
+.swiper-container-3d .swiper-slide-shadow-right {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.5)), to(transparent));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), transparent);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent)
+}
+
+.swiper-container-3d .swiper-slide-shadow-top {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent));
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5), transparent);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent)
+}
+
+.swiper-container-3d .swiper-slide-shadow-bottom {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(transparent));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), transparent);
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.5), transparent);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent)
+}
+
+.swiper-container-coverflow .swiper-wrapper,
+.swiper-container-flip .swiper-wrapper {
+  -ms-perspective: 1200px
+}
+
+.swiper-container-cube,
+.swiper-container-flip {
+  overflow: visible
+}
+
+.swiper-container-cube .swiper-slide,
+.swiper-container-flip .swiper-slide {
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 1
+}
+
+.swiper-container-cube .swiper-slide .swiper-slide,
+.swiper-container-flip .swiper-slide .swiper-slide {
+  pointer-events: none
+}
+
+.swiper-container-cube .swiper-slide-active,
+.swiper-container-cube .swiper-slide-active .swiper-slide-active,
+.swiper-container-flip .swiper-slide-active,
+.swiper-container-flip .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto
+}
+
+.swiper-container-cube .swiper-slide-shadow-bottom,
+.swiper-container-cube .swiper-slide-shadow-left,
+.swiper-container-cube .swiper-slide-shadow-right,
+.swiper-container-cube .swiper-slide-shadow-top,
+.swiper-container-flip .swiper-slide-shadow-bottom,
+.swiper-container-flip .swiper-slide-shadow-left,
+.swiper-container-flip .swiper-slide-shadow-right,
+.swiper-container-flip .swiper-slide-shadow-top {
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden
+}
+
+.swiper-container-cube .swiper-slide {
+  visibility: hidden;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  width: 100%;
+  height: 100%
+}
+
+.swiper-container-cube.swiper-container-rtl .swiper-slide {
+  -webkit-transform-origin: 100% 0;
+  -moz-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0
+}
+
+.swiper-container-cube .swiper-slide-active,
+.swiper-container-cube .swiper-slide-next,
+.swiper-container-cube .swiper-slide-next+.swiper-slide,
+.swiper-container-cube .swiper-slide-prev {
+  pointer-events: auto;
+  visibility: visible
+}
+
+.swiper-container-cube .swiper-cube-shadow {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .6;
+  -webkit-filter: blur(50px);
+  filter: blur(50px);
+  z-index: 0
+}
+
+.swiper-container-fade.swiper-container-free-mode .swiper-slide {
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out
+}
+
+.swiper-container-fade .swiper-slide {
+  pointer-events: none;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity
+}
+
+.swiper-container-fade .swiper-slide .swiper-slide {
+  pointer-events: none
+}
+
+.swiper-container-fade .swiper-slide-active,
+.swiper-container-fade .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto
+}
+
+.swiper-zoom-container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center
+}
+
+.swiper-zoom-container>canvas,
+.swiper-zoom-container>img,
+.swiper-zoom-container>svg {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain
+}
+
+.swiper-scrollbar {
+  border-radius: 10px;
+  position: relative;
+  -ms-touch-action: none;
+  background: rgba(0, 0, 0, 0.1)
+}
+
+.swiper-container-horizontal>.swiper-scrollbar {
+  position: absolute;
+  left: 1%;
+  bottom: 3px;
+  z-index: 50;
+  height: 5px;
+  width: 98%
+}
+
+.swiper-container-vertical>.swiper-scrollbar {
+  position: absolute;
+  right: 3px;
+  top: 1%;
+  z-index: 50;
+  width: 5px;
+  height: 98%
+}
+
+.swiper-scrollbar-drag {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  left: 0;
+  top: 0
+}
+
+.swiper-scrollbar-cursor-drag {
+  cursor: move
+}
+
+.swiper-lazy-preloader {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -21px;
+  margin-top: -21px;
+  z-index: 10;
+  -webkit-transform-origin: 50%;
+  -moz-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-animation: swiper-preloader-spin 1s steps(12, end) infinite;
+  -moz-animation: swiper-preloader-spin 1s steps(12, end) infinite;
+  animation: swiper-preloader-spin 1s steps(12, end) infinite
+}
+
+.swiper-lazy-preloader:after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%20120%20120'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'%3E%3Cdefs%3E%3Cline%20id%3D'l'%20x1%3D'60'%20x2%3D'60'%20y1%3D'7'%20y2%3D'27'%20stroke%3D'%236c6c6c'%20stroke-width%3D'11'%20stroke-linecap%3D'round'%2F%3E%3C%2Fdefs%3E%3Cg%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(30%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(60%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(90%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(120%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(150%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.37'%20transform%3D'rotate(180%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.46'%20transform%3D'rotate(210%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.56'%20transform%3D'rotate(240%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.66'%20transform%3D'rotate(270%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.75'%20transform%3D'rotate(300%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.85'%20transform%3D'rotate(330%2060%2C60)'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-position: 50%;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat
+}
+
+.swiper-lazy-preloader-white:after {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%20120%20120'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'%3E%3Cdefs%3E%3Cline%20id%3D'l'%20x1%3D'60'%20x2%3D'60'%20y1%3D'7'%20y2%3D'27'%20stroke%3D'%23fff'%20stroke-width%3D'11'%20stroke-linecap%3D'round'%2F%3E%3C%2Fdefs%3E%3Cg%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(30%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(60%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(90%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(120%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(150%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.37'%20transform%3D'rotate(180%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.46'%20transform%3D'rotate(210%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.56'%20transform%3D'rotate(240%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.66'%20transform%3D'rotate(270%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.75'%20transform%3D'rotate(300%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.85'%20transform%3D'rotate(330%2060%2C60)'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")
+}
+
+@-webkit-keyframes swiper-preloader-spin {
+  100% {
+    -webkit-transform: rotate(360deg)
+  }
+}
+
+@keyframes swiper-preloader-spin {
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+#modalAgeError {
+  position: relative;
+  top: -130px
+}
+
+#modalAgeError .modal-dialog {
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0
+}
+
+#modalAgeError .modal-dialog .modal-content {
+  box-shadow: none;
+  border: 0;
+  border-radius: 0
+}
+
+#modalAgeError .modal-dialog .modal-content p {
+  padding: 20px
+}
+
+@media only screen and (max-width: 767px) {
+  #modalAgeError {
+    position: relative
+  }
+  #modalAgeError .modal-dialog .modal-content p {
+    font-size: 16px
+  }
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-sm-6 {
+    padding-right: 25px !important;
+    padding-left: 25px !important
+  }
+  .desk,
+  .desk_two,
+  .desk_three {
+    display: none !important
+  }
+  .home-section-4 .col-sm-12 {
+    padding-top: 30px;
+    padding-bottom: 30px
+  }
+  .home-section-4 .col-sm-12 .links a:first-child {
+    margin-bottom: 20px !important
+  }
+  .row-hero-section .col-sm-12 {
+    padding: 40px 25px 40px
+  }
+  .row-hero-section .col-sm-12 h1 {
+    font-size: 32px
+  }
+  .row-hero-section .col-sm-12 p {
+    font-size: 18px !important
+  }
+  .row-hero-section .col-sm-12 h3 {
+    margin-bottom: 0px !important
+  }
+  .home-section-3 .col-sm-6 {
+    background-size: cover !important;
+    height: 380px;
+    height: calc(100vw * 1.2) !important;
+    padding: 30px 25px !important
+  }
+  .home-section-2 .col-sm-12 {
+    text-align: center;
+    padding: 40px 30px 20px
+  }
+  .home-section-2 .col-sm-12 .get-start {
+    max-width: 300px;
+    margin: 0 auto
+  }
+  .home-section-2 .col-sm-12 .get-start a {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 0 !important;
+    margin-right: 0 !important
+  }
+  .health-insurance-logos {
+    width: 100%;
+    overflow-x: hidden;
+    display: inline-flex
+  }
+  .col-sm-section-5 .col-sm-12 {
+    border-top: solid 2px #EBEBEB;
+    padding: 50px 0 45px;
+    margin-left: 20px;
+    margin-right: 20px
+  }
+  .common-section-1 .col-sm-12 {
+    padding: 43px 25px
+  }
+  .col-sm-section-4 .col-sm-12 {
+    height: calc(100vw * 0.775)
+  }
+  .col-sm-section-3 .col-sm-4,
+  .col-sm-section-3 .col-sm-8 {
+    padding-left: 20px;
+    padding-right: 20px
+  }
+  .common-section-4 .col-sm-6.bg-section {
+    height: calc(100vw * 0.8);
+    padding: 20px 20px
+  }
+  .common-section-4 .col-sm-6.desc-section {
+    padding: 50px 20px 45px
+  }
+  .margin-auto {
+    margin-left: auto;
+    margin-right: auto
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #modalAgeError {
+    position: relative;
+    left: -90px;
+    width: 480px
+  }
+  #modalAgeError .modal-dialog {
+    width: 480px
+  }
+  #modalAgeError .modal-dialog .modal-content p {
+    font-size: 20px
+  }
+  .mob {
+    display: none !important
+  }
+  .home-section-3 .col-sm-6 {
+    background-size: cover !important;
+    height: 750px;
+    height: calc(100vw * 0.5) !important;
+    background-size: cover
+  }
+  .home-section-2 .col-sm-12 {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 25px !important;
+    padding-left: 25px !important
+  }
+  .home-section-2 .col-sm-12 h3 {
+    margin-bottom: 20px
+  }
+  .home-section-2 .col-sm-12 h2 {
+    color: black;
+    margin-bottom: 25px
+  }
+  .how-section-2 .col-sm-12 {
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 90px;
+    padding-left: 25px !important;
+    padding-right: 25px !important
+  }
+  .col-sm-section-3 .col-sm-8 p {
+    margin-bottom: 0 !important
+  }
+  .common-section-1 .col-sm-12 h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+  }
+  .col-sm-section-4 .col-sm-12 {
+    height: calc(100vw * 0.30345)
+  }
+  .common-section-4 .col-sm-6.bg-section {
+    height: calc(100vw * 0.5)
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .row-hero-section .col-sm-12 {
+    margin: 185px 0 40px
+  }
+  .row-hero-section .col-sm-12 h1 {
+    font-size: 44px
+  }
+  .home-section-3 .col-sm-6 {
+    width: 100% !important;
+    height: calc(100vw) !important;
+    padding: 80px 15px 0 !important
+  }
+  .home-section-4 .col-sm-12 {
+    padding: 40px 15px 40px
+  }
+  .col-sm-section-3 {
+    margin-bottom: 0px
+  }
+  .col-sm-section-3.mt {
+    margin-top: 50px
+  }
+  .col-sm-section-3.mt:first-child {
+    margin-top: 70px !important
+  }
+  .col-sm-section-3.mt:last-child {
+    margin-bottom: 76px !important
+  }
+  .col-sm-section-3 .col-sm-4 {
+    padding-left: 50px
+  }
+  .col-sm-section-3 .col-sm-8 {
+    padding-left: 45px;
+    padding-right: 50px
+  }
+  .col-sm-section-5 {
+    margin-right: 35px;
+    margin-left: 35px
+  }
+  .col-sm-section-5 .col-sm-12 {
+    border-top: solid 2px #EBEBEB;
+    padding: 50px 0
+  }
+  .common-section-1 .col-sm-12 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 25px !important;
+    padding-right: 25px !important
+  }
+  .common-section-4 .col-sm-6 {
+    width: 100%
+  }
+  .common-section-4 .col-sm-6.bg-section {
+    padding-top: 30px;
+    height: calc(100vw * 0.8) !important
+  }
+  .common-section-4 .col-sm-6.desc-section {
+    padding: 50px
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .row-hero-section .col-sm-12 {
+    margin: 155px 0 80px
+  }
+  .row-hero-section .col-sm-12 h1 {
+    font-size: 54px
+  }
+  .row-hero-section .col-sm-12 h3 {
+    margin-bottom: 0px !important
+  }
+  .home-section-3 .col-sm-6 {
+    padding: 30px 15px 0 !important
+  }
+  .home-section-3 .col-sm-6 h2 {
+    font-size: 36px !important
+  }
+  .home-section-4 .col-sm-12 {
+    padding: 40px 30px 40px
+  }
+  .col-sm-section-3 {
+    margin-bottom: 62px !important
+  }
+  .col-sm-section-3.mt {
+    margin-top: 70px !important
+  }
+  .col-sm-section-3.mt:first-child {
+    margin-top: 70px !important
+  }
+  .col-sm-section-3.mt:last-child {
+    margin-bottom: 76px !important
+  }
+  .col-sm-section-3 .col-sm-4 {
+    padding-left: 70px
+  }
+  .col-sm-section-3 .col-sm-8 {
+    padding-left: 55px;
+    padding-right: 70px
+  }
+  .col-sm-section-5 {
+    margin-right: 55px;
+    margin-left: 55px
+  }
+  .col-sm-section-5 .col-sm-12 {
+    border-top: solid 2px #EBEBEB;
+    padding: 60px 0
+  }
+  .common-section-1 .col-sm-12 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 25px !important;
+    padding-right: 25px !important
+  }
+  .common-section-4 .col-sm-6.bg-section {
+    padding-top: 40px
+  }
+  .common-section-4 .col-sm-6.desc-section {
+    padding-left: 70px;
+    padding-right: 70px
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .row-hero-section .col-sm-12 {
+    margin: 175px 0 50px
+  }
+  .row-hero-section .col-sm-12 h3 {
+    margin-bottom: 0px !important
+  }
+  .home-section-3 .col-sm-6 {
+    height: 720px
+  }
+  .home-section-4 .col-sm-12 {
+    padding: 70px 25px 70px
+  }
+  .col-sm-section-3 {
+    margin-bottom: 40px
+  }
+  .col-sm-section-3.mt {
+    margin-top: 80px
+  }
+  .col-sm-section-3.mt:first-child {
+    margin-top: 87px !important
+  }
+  .col-sm-section-3.mt:last-child {
+    margin-bottom: 93px !important
+  }
+  .col-sm-section-3 .col-sm-4 {
+    padding-left: 100px
+  }
+  .col-sm-section-3 .col-sm-8 {
+    padding-left: 75px;
+    padding-right: 100px
+  }
+  .col-sm-section-5 {
+    margin-right: 85px;
+    margin-left: 85px
+  }
+  .col-sm-section-5 .col-sm-12 {
+    border-top: solid 2px #EBEBEB;
+    padding: 40px 0
+  }
+  .common-section-1 .col-sm-12 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 25px !important;
+    padding-right: 25px !important
+  }
+  .common-section-4 .col-sm-6.bg-section {
+    padding-top: 60px
+  }
+  .common-section-4 .col-sm-6.desc-section {
+    padding-left: 90px;
+    padding-right: 100px
+  }
+}
+
+.row-hero-section .col-sm-12 {
+  text-align: center
+}
+
+.row-hero-section .col-sm-12 h3 {
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Neue Haas Grotesk Disp Lt', sans-serif
+}
+
+.row-hero-section .col-sm-12 h3.last {
+  margin-top: 80px
+}
+
+.home-section-4 {
+  background-color: #171c91
+}
+
+.home-section-4 .col-sm-12 {
+  text-align: center
+}
+
+.home-section-4 .col-sm-12 a {
+  display: block
+}
+
+.home-section-4 .col-sm-12 .health-insurance-logos {
+  opacity: 0.5;
+  margin-bottom: 25px
+}
+
+.home-section-4 .col-sm-12 .health-insurance-logos img {
+  height: 36px !important;
+  padding: 0 30px
+}
+
+.home-section-3 .col-sm-6 {
+  padding: 80px 25px 0;
+  text-align: center
+}
+
+.home-section-3 .col-sm-6.home-child-section-2 h2 {
+  max-width: 540px
+}
+
+.home-section-2 {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/background-white-7b88a7eee57eed0a2df100d58a5e728d16d3b0562e30cdfa24da7263a742577f.jpg) no-repeat;
+  background-repeat: repeat;
+  background-size: 100%
+}
+
+@media only screen and (max-width: 767px) {
+  .home-section-2 {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/background-white-7b88a7eee57eed0a2df100d58a5e728d16d3b0562e30cdfa24da7263a742577f.jpg) no-repeat;
+    background-repeat: repeat;
+    background-size: 300% !important
+  }
+}
+
+.bbanner-video-container {
+  overflow: hidden;
+  position: relative;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+  height: 100%
+}
+
+.max-100 {
+  max-width: 100% !important
+}
+
+.pr-0 {
+  padding-right: 0
+}
+
+.col-sm-section-5 {
+  text-align: center
+}
+
+.col-sm-section-5 a.default {
+  position: relative;
+  bottom: 10px
+}
+
+.common-section-1 .col-sm-12 h3 {
+  margin-bottom: 0 !important
+}
+
+.col-sm-section-4 .col-sm-12 {
+  background-size: cover !important
+}
+
+.vector_smart_obj {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px
+}
+
+.common-section-4 .col-sm-6.bg-section {
+  text-align: center;
+  background-size: cover !important
+}
+
+.col-sm-section-5 .col-sm-12.hr {
+  padding: 0 !important
+}
+
+.col-sm-section-5 a.default {
+  position: relative;
+  bottom: 6px !important
+}
+
+.col-sm-section-5 p {
+  margin-bottom: 10px !important;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.inv-popover {
+  display: none;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #ECECEC
+}
+
+.inv-popover a.inv-popover-close {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Invisalign_icon_close-e2c9b270a80c1f781521bd92c02cc6ccddf415444eab4844886e9050e33ca8cc.svg) no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 0
+}
+
+.inv-popover.absolute {
+  position: absolute;
+  z-index: 99
+}
+
+@media only screen and (max-width: 767px) {
+  .itero-popover.z-ind-999 {
+    left: 25px;
+    right: 25px
+  }
+  .sa-vip-doc-popover {
+    max-width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0
+  }
+  .vip-doc-popover {
+    left: 25px;
+    right: 25px;
+    padding-bottom: 5px
+  }
+  .vip-doc-popover .inv-popover-content {
+    padding-top: 30px
+  }
+  .vip-doc-popover .inv-popover-content .container-fluid {
+    padding-right: 0;
+    padding-left: 0
+  }
+  .vip-doc-popover .inv-popover-content .row.doctors-pin .col-sm-2 {
+    float: left !important
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .itero-popover {
+    width: 430px
+  }
+  .vip-doc-popover.inv-popover {
+    padding: 25px;
+    max-width: 600px
+  }
+  .sa-vip-doc-popover {
+    max-width: 300px
+  }
+  .contact-info-popover.inv-popover {
+    padding: 25px;
+    max-width: 600px
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .vip-doc-popover .inv-popover-content .row.doctors-pin .col-sm-2 {
+    width: 16.666% !important
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .vip-doc-popover .inv-popover-content .row.doctors-pin .col-sm-2 {
+    width: 16.6667% !important
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .vip-doc-popover .inv-popover-content .row.doctors-pin .col-sm-2 {
+    width: 33.333% !important
+  }
+}
+
+#3D_digital,
+.vip-info-link,
+.sa-vip-info-link {
+  cursor: pointer
+}
+
+.z-ind-999 {
+  z-index: 999
+}
+
+@media only screen and (max-width: 544px) {
+  .home-hero .col-sm-12 h1 {
+    max-width: 240px;
+    margin-right: auto;
+    margin-left: auto
+  }
+  .home-hero .col-sm-12 a {
+    margin-bottom: 20px;
+    display: block
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+  .home-hero .col-sm-12 {
+    margin-top: 175px !important
+  }
+  .home-hero h1 {
+    max-width: 300px
+  }
+}
+
+@media only screen and (min-width: 545px) and (max-width: 767px) {
+  .home-hero .col-sm-12 h1 {
+    font-size: 48px;
+    padding: 0 30px;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .home-hero .col-sm-12 p {
+    font-weight: 200;
+    max-width: 400px;
+    margin: 0 auto 15px;
+    font-size: 22px
+  }
+  .home-hero .col-sm-12 a {
+    margin-bottom: 30px;
+    display: block
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .home-hero-adult,
+  .home-hero-teen,
+  .home-store {
+    margin-top: 109px !important
+  }
+  .home-hero {
+    height: 100% !important
+  }
+  .home-hero.home-hero-teen {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/mobile/makingmovie-ea9d529cb55321a1b8edc406dfcb69dac5f7af8849a5c5820ca7b410f9d824f0.jpg) no-repeat
+  }
+  .home-hero.home-hero-adult {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/mobile/a_outontown-0bfde3b00c774e86f0306fe4bc550881cf5b2d27f4e401e5449d84318dfcebcf.jpg) no-repeat
+  }
+  .home-hero.home-hero-CAhome {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/mobile/home-hero-mobile-CAhome-b65f188001053fd150ce7310dd356dafc6dbda85e22f653d8f5144c7edcfcb40.png) no-repeat;
+    background-position: center center
+  }
+  .home-hero.home-hero-var1 {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/INVIS_Hero_Homepage_Mobile_750x1334-min-fec33a7c328fefbdc3fb0af0a2941b5cceca055c0b6d4b88ab3590224f61a301.png) no-repeat;
+    background-size: cover
+  }
+  .home-hero.home-hero-bay-area {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/mobile/bayMobile-e67f8a727b3f65a85920d348d6a02739a9b37be24c5af59897de61fc906440fd.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 108px
+  }
+  .home-hero.bay-area-align {
+    margin-top: 0px !important
+  }
+  .home-hero.home-hero-kop {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/king-prussia-homepage-hero-mob-439c32ba6d2250e8af4096b88684f1289e14bdcf1e30cda242b8f95b9e2b4b0e.png) no-repeat;
+    background-size: cover;
+    background-position: center
+  }
+  .home-hero.home-hero-bet {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/bethesda-homepage-hero-mobile-0334276bb7a8950836b045b5598723f4c015418f6f6db00cf617e5e26061c2cb.png) no-repeat;
+    background-size: cover;
+    background-position: center
+  }
+  .home-hero.home-hero-summer {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/summer-hero-mobile-9aa7e14fd587c10501bf69f6c335aec02a64286e72c378458d24f6b065cc4c17.jpg) no-repeat;
+    background-size: cover
+  }
+  .home-hero.home-hero-school {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/hero-home-backtoschool-0a1da3b5c9ec9dbfefe22aca6a1760ece41c40fac0f951a94a7dc4146a1d4000.png) no-repeat;
+    background-size: cover
+  }
+  .home-hero .col-sm-12 {
+    margin-top: 280px;
+    margin-top: calc(100vw * .875) !important
+  }
+  .home-hero .col-sm-12 h1 {
+    font-size: 40px
+  }
+  .home-hero .col-sm-12 p {
+    font-size: 18px !important;
+    max-width: 75%;
+    margin: 0 auto 25px
+  }
+  .home-store .col-sm-12 .col-xs-6 .linkText {
+    float: right
+  }
+  .home-store .col-sm-12 .col-xs-6 .linkTextPlace {
+    float: left
+  }
+  .home-store {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/mobile/bayMobile-e67f8a727b3f65a85920d348d6a02739a9b37be24c5af59897de61fc906440fd.png) no-repeat;
+    height: calc(100vw * 1.5) !important
+  }
+  .home-store .col-sm-12 {
+    margin-top: calc(100vw * .546) !important
+  }
+  .home-store .col-sm-12 .textPlace {
+    padding-left: 40px
+  }
+  .home-store .col-sm-12 h1 {
+    padding: 0px !important;
+    max-width: 250px
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .home-hero {
+    height: calc(100vw * .5) !important
+  }
+  .home-hero.home-hero-teen {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/desktop_home_hero-a98f5b620aaec7456824f578b89122ed303ec97523c82e43b53f8b7eb2872c29.jpg) no-repeat
+  }
+  .home-hero.home-hero-adult {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/a_outontown-4897bf7e06fa0137c81cc347ed54ef4c9815a4bdabe1b332f5bfff609dff4e6c.jpg) no-repeat
+  }
+  .home-hero.home-store {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/home_store-c9b9efba560d90a57c9667f3da8d1db6d06d1df7f7fed577df2a556e9a76cb8d.jpg) no-repeat
+  }
+  .home-hero.home-hero-CAhome {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/home-1-dc57a830f47687f2907264cc932f1b8daf7aac22a01b934f3a6e0b9c71e02153.jpg) no-repeat
+  }
+  .home-hero.home-hero-var1 {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/home-var1-des-256f28feac1c97827f8b397555710f5742e30ede63c6663c9bfe07e4c088ae45.png) no-repeat;
+    height: calc(100vw * .53) !important;
+    background-size: cover
+  }
+  .home-hero.home-hero-bay-area {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/home_store-c9b9efba560d90a57c9667f3da8d1db6d06d1df7f7fed577df2a556e9a76cb8d.jpg) no-repeat;
+    height: calc(100vw * .53) !important;
+    background-size: cover
+  }
+  .home-hero.home-hero-kop {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/king-prussia-homepage-hero-desk-02e0a91b8c1622398b2b13e4d61d0814db19e3bc0d68d73cb9b5392a0a90416d.png) no-repeat;
+    height: calc(100vw * .53) !important;
+    background-size: cover
+  }
+  .home-hero.home-hero-bet {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/bethesda-homepage-hero-desk-d770787cb5a749dbd2fb7c3ca6846ff02ae252d3bc67f57d03ec13939eedb6ab.png) no-repeat;
+    height: calc(100vw * .53) !important;
+    background-size: cover
+  }
+  .home-hero.home-hero-summer {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/hero_summer-3a8d3a35d6ca280a789bf81129eb7592a6160cffabb1a1e443b821fc1cdeaed6.jpg) no-repeat;
+    height: calc(100vw * .555) !important;
+    background-size: cover
+  }
+  .home-hero.home-hero-school {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/hero-bts-home-1c81f0abe89abca4e12878d8de1620f5bb5c4d6f90cf7dcb651b84356f6ff78d.png) no-repeat;
+    height: calc(100vw * .555) !important;
+    background-size: cover
+  }
+  .home-hero .col-sm-12 {
+    margin-top: calc(100vw * .277) !important
+  }
+  .home-hero h1 {
+    font-size: 70px
+  }
+  #reqPara {
+    font-size: 12px;
+    margin-top: -15px;
+    margin-bottom: 15px !important
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .bay-area-align {
+    margin-top: 0px !important
+  }
+  .home-hero {
+    height: calc(100vw * .55) !important
+  }
+  .home-hero .col-sm-12 {
+    margin-top: 260px
+  }
+  .home-hero .col-sm-12 h1 {
+    margin-bottom: -5px
+  }
+  .home-hero .col-sm-12 p {
+    max-width: 380px;
+    margin: 0 auto 15px
+  }
+  .home-hero .col-sm-12 a {
+    margin-bottom: 20px
+  }
+  .home-hero.home-store .col-sm-12 {
+    margin-top: calc(100vw * .55 - 275px) !important
+  }
+  .home-hero.home-hero-var1 {
+    height: calc(100vw * .59) !important
+  }
+  .home-store {
+    height: calc(100vw * .55) !important
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .home-hero .col-sm-12 {
+    margin-top: 324px
+  }
+  .home-hero .col-sm-12 p {
+    max-width: 380px;
+    margin: 0 auto 20px
+  }
+  .home-hero.home-store .col-sm-12 {
+    margin-top: calc(100vw * .5 - 305px) !important
+  }
+  .home-store h3 {
+    max-width: 420px !important
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .home-hero .col-sm-12 {
+    margin-top: 390px
+  }
+  .home-hero .col-sm-12 h3 {
+    max-width: 450px;
+    margin: 0 auto 30px
+  }
+  .home-hero.home-store .col-sm-12 {
+    margin-top: calc(100vw * .5 - 315px) !important
+  }
+  .home-store .col-sm-12 h3 {
+    max-width: 420px
+  }
+}
+
+.home-hero .col-sm-12 {
+  text-align: center
+}
+
+.home-hero .col-sm-12 h3 {
+  color: #FFFFFF;
+  font-family: 'Neue Haas Grotesk Disp Lt', sans-serif !important
+}
+
+@media screen and (min-width: 1440px) {
+  #bayHero {
+    margin-top: calc(100vw * .47 - 315px) !important
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  #bayHero {
+    margin-top: calc(100vw * .6 - 275px) !important
+  }
+  #bayH1 {
+    font-size: 55px
+  }
+  #bayH3 {
+    font-size: 22px !important
+  }
+  #bayLinks a {
+    font-size: 18px !important
+  }
+}
+
+@media screen and (min-width: 666px) and (max-width: 767px) {
+  #bayHero {
+    margin-top: calc(100vw * .6) !important
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #bayHero {
+    margin-top: calc(100vw * .62) !important
+  }
+  #bayH3 {
+    font-size: 17px !important
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  #bayHero {
+    margin-top: calc(100vw * .45 - 315px) !important
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #bayHero {
+    margin-top: calc(100vw * .64) !important
+  }
+  #reqPara {
+    font-size: 12px;
+    margin-top: -25px;
+    margin-bottom: 15px !important
+  }
+}
+
+.reqAstrisk {
+  font-size: 120%;
+  top: -0.1em !important
+}
+
+.btn-style {
+  margin-left: 54% !important;
+  margin-right: 0% !important;
+  width: 39%
+}
+
+.btn-style-1 {
+  margin-left: 1%;
+  margin-right: 66%;
+  width: 37%
+}
+
+.btn-style-1 .btn-style {
+  margin-left: 54% !important;
+  margin-right: 0% !important;
+  width: 39%
+}
+
+.btn-style-1 .btn-style-1 {
+  margin-left: 1%;
+  margin-right: 66%;
+  width: 37%
+}
+
+@media only screen and (max-width: 380px) {
+  .btn-style-1 .home-hero .regularHero {
+    margin-top: calc(80vw * .700) !important
+  }
+}
+
+.get-start-size {
+  width: 100%;
+  color: white !important
+}
+
+.get-start-size-1 {
+  width: 100%;
+  color: white !important
+}
+
+@media only screen and (max-width: 767px) {
+  .get-start-size {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: auto !important;
+    margin-right: auto !important
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .get-start-size-1 {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: auto !important;
+    margin-right: auto !important
+  }
+}
+
+.error_map {
+  border: 1px solid red !important
+}
+
+.profilesOthers .ajax-loader {
+  margin-bottom: 30px
+}
+
+@media only screen and (max-width: 767px) {
+  .find-a-doctor-result-page .container-fluid.row-revise-form {
+    margin-top: 20px
+  }
+  .find-a-doctor-result-page .container-vip-doctors {
+    margin-top: 40px
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .find-a-doctor-result-page .container-fluid.w-bg .row.locator {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important
+  }
+}
+
+.vip-info-link {
+  z-index: 9;
+  cursor: pointer
+}
+
+@media only screen and (min-width: 768px) {
+  .find-a-doctor-landing-page .row.col-sm-section-4 .col-sm-12,
+  .find-a-doctor-result-page .row.col-sm-section-4 .col-sm-12 {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/a_fitting_onboarding-02cc6a23c040b6b8e34fc9db2b436c911ba9b7bc2198bd4f6e6651416850450f.jpg) no-repeat
+  }
+  .find-a-doctor-landing-page .container-fluid.w-bg .row.locator,
+  .find-a-doctor-result-page .container-fluid.w-bg .row.locator {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 1072px;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .find-a-doctor-landing-page .col-sm-4 .get-start,
+  .find-a-doctor-result-page .col-sm-4 .get-start {
+    margin-top: 12px
+  }
+  .find-a-doctor-landing-page .col-sm-4 .get-start a,
+  .find-a-doctor-result-page .col-sm-4 .get-start a {
+    width: 100%;
+    max-width: 280px;
+    font-size: 20px;
+    padding: 12px 0
+  }
+  .find-a-doctor-landing-page .row.col-sm-section-4 .col-sm-12.col-sm-onboarding-1,
+  .find-a-doctor-result-page .row.col-sm-section-4 .col-sm-12.col-sm-onboarding-1 {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Doctor_locator_desktop-ce0a6fd665d2081d99feadba90c48b22170cbf92d57728b67e1bc9cf9de420ef.png) no-repeat
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .find-a-doctor-landing-page .row.col-sm-section-4 .col-sm-12,
+  .find-a-doctor-result-page .row.col-sm-section-4 .col-sm-12 {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/mobile/a_fitting_onboarding-c69ea3f88ef08b9e3583d127af9584dd660482b62aa4c0fc77d6dc8aa4fbb5c3.jpg) no-repeat
+  }
+  .find-a-doctor-landing-page .row.locator,
+  .find-a-doctor-result-page .row.locator {
+    text-align: initial !important;
+    margin-top: 40px
+  }
+  .find-a-doctor-landing-page .row.locator .col-sm-4,
+  .find-a-doctor-result-page .row.locator .col-sm-4 {
+    margin-bottom: 40px
+  }
+  .find-a-doctor-landing-page .row.locator .col-sm-4 .get-start,
+  .find-a-doctor-result-page .row.locator .col-sm-4 .get-start {
+    text-align: left
+  }
+  .find-a-doctor-landing-page .row.locator .col-sm-4 .get-start a,
+  .find-a-doctor-result-page .row.locator .col-sm-4 .get-start a {
+    height: auto !important
+  }
+  .find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group,
+  .find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group {
+    margin-bottom: 0px !important
+  }
+  .find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.zip,
+  .find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.age,
+  .find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.zip,
+  .find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.age {
+    display: inline-block
+  }
+  .find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.zip .agegroup,
+  .find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.age .agegroup,
+  .find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.zip .agegroup,
+  .find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.age .agegroup {
+    margin-top: 0px !important
+  }
+  .find-a-doctor-landing-page .col-sm-4 .get-start,
+  .find-a-doctor-result-page .col-sm-4 .get-start {
+    text-align: center
+  }
+  .find-a-doctor-landing-page .col-sm-4 .get-start.left,
+  .find-a-doctor-result-page .col-sm-4 .get-start.left {
+    text-align: left !important
+  }
+  .find-a-doctor-landing-page .col-sm-4 .get-start.left a,
+  .find-a-doctor-result-page .col-sm-4 .get-start.left a {
+    padding: 16px 0 !important
+  }
+  .find-a-doctor-landing-page .col-sm-4 .get-start a,
+  .find-a-doctor-result-page .col-sm-4 .get-start a {
+    width: 100%;
+    max-width: 215px;
+    height: 53px !important;
+    font-size: 16px;
+    padding: 12px 0
+  }
+  .find-a-doctor-landing-page .form-group.zip input,
+  .find-a-doctor-result-page .form-group.zip input {
+    width: 120px !important;
+    height: 53px !important;
+    float: left;
+    margin-right: 20px
+  }
+  .find-a-doctor-landing-page .row.col-sm-section-4 .col-sm-12.col-sm-onboarding-1,
+  .find-a-doctor-result-page .row.col-sm-section-4 .col-sm-12.col-sm-onboarding-1 {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Doctor_locator_mobile-9f37a0e935462946321caa7f528cdca3749a8a18d4767944982b8e334c5e9dbd.png) no-repeat
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.zip input,
+  .find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.zip input {
+    margin-right: 17px !important
+  }
+}
+
+.find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline label.head,
+.find-a-doctor-result-page .row.locator .col-sm-4 .form-inline label.head {
+  font-size: 40px;
+  color: #be933c;
+  margin: 0 auto 20px;
+  text-rendering: optimizeLegibility;
+  font-family: 'Neue Haas Grotesk Disp Lt', sans-serif;
+  line-height: 1.1;
+  letter-spacing: 0.25px;
+  font-weight: normal
+}
+
+.find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.zip label.head,
+.find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.zip label.head {
+  display: block;
+  width: 100%;
+  float: left
+}
+
+.find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.zip input,
+.find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.zip input {
+  width: 140px;
+  height: 53px !important;
+  float: left;
+  margin-right: 20px;
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif !important;
+  font-weight: normal
+}
+
+.find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.zip .location,
+.find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.zip .location {
+  display: block;
+  float: left
+}
+
+.find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.zip a,
+.find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.zip a {
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif !important;
+  float: left;
+  font-size: 16px;
+  color: #949695;
+  text-decoration: none;
+  border-bottom: 1px solid #949695;
+  line-height: 1;
+  margin-top: 20px;
+  font-weight: normal
+}
+
+.find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.zip img,
+.find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.zip img {
+  float: left;
+  display: block;
+  margin-top: 17px;
+  margin-right: 7px
+}
+
+.find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.age .agegroup,
+.find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.age .agegroup {
+  margin-top: 12px
+}
+
+.find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.age .agegroup label,
+.find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.age .agegroup label {
+  float: left
+}
+
+.find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.age .agegroup label.und20,
+.find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.age .agegroup label.und20 {
+  margin-right: 30px;
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif !important
+}
+
+.find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.age .agegroup label.over20,
+.find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.age .agegroup label.over20 {
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif !important
+}
+
+.find-a-doctor-landing-page .row.locator .col-sm-4 .form-inline .form-group.age .agegroup .radio-inline,
+.find-a-doctor-result-page .row.locator .col-sm-4 .form-inline .form-group.age .agegroup .radio-inline {
+  font-size: 16px;
+  color: #949695;
+  text-decoration: none
+}
+
+@media only screen and (min-width: 768px) {
+  .find-a-doctor-result-page .container-revise-form-filter form .get-start a {
+    margin-top: 30px;
+    width: 250px
+  }
+  .find-a-doctor-result-page .container-revise-form-filter form .row.locator {
+    max-width: 1010px !important
+  }
+  .find-a-doctor-result-page .container-revise-form-filter form .form-inline .form-group {
+    vertical-align: top;
+    margin-right: 40px
+  }
+  .find-a-doctor-result-page .container-revise-form-filter form .form-inline .form-group:last-child {
+    margin-right: 0 !important
+  }
+  .find-a-doctor-result-page .container-revise-form-filter form .form-inline .form-group.fn {
+    max-width: 330px;
+    width: 100%
+  }
+  .find-a-doctor-result-page .container-revise-form-filter form .form-inline .form-group.form-p-age label {
+    display: block !important
+  }
+  .find-a-doctor-result-page .container-revise-form-filter form .form-inline .form-group.form-p-age label.radio-inline.inv-cus.inv-cus-radio {
+    display: block !important
+  }
+  .find-a-doctor-result-page .container-revise-form-filter form .form-inline .form-group.form-p-miles {
+    max-width: 305px;
+    margin-right: 20px
+  }
+  .find-a-doctor-result-page .container-revise-form-filter form .form-inline .form-group-miles label {
+    display: inline-block;
+    width: 100px
+  }
+  .find-a-doctor-result-page .heading .col-sm-12 h2 {
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 80px
+  }
+  .find-a-doctor-result-page .ReviseSearch {
+    margin-left: 5%;
+    margin-top: 35px
+  }
+  .find-a-doctor-result-page .Schedule .col-sm-12 {
+    background-image: imageurl("lines_bg_new.jpg") !important;
+    background-repeat: repeat !important;
+    background-color: #3D3935 !important;
+    background-size: 100% !important;
+    color: white;
+    text-align: center;
+    padding: 30px 0px 30px 0px
+  }
+  .find-a-doctor-result-page .Schedule .col-sm-12 h3 {
+    margin-bottom: 0px
+  }
+  .find-a-doctor-result-page .heading_moreDoctor .col-sm-12 {
+    text-align: center;
+    margin-top: 80px
+  }
+  .find-a-doctor-result-page .heading_moreDoctor .col-sm-12 a {
+    padding-left: 12px;
+    padding-right: 12px
+  }
+  .find-a-doctor-result-page .header-text {
+    font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+    color: #707372;
+    font-size: 19px;
+    display: block
+  }
+  .find-a-doctor-result-page .otherDoctors {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px
+  }
+  .find-a-doctor-result-page .otherDoctors .row.profilesOthers .col-sm-6 {
+    margin-bottom: 100px
+  }
+  .find-a-doctor-result-page .otherDoctors .header-text {
+    font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+    color: #707372;
+    font-size: 19px;
+    display: block;
+    margin-bottom: 10px
+  }
+  .find-a-doctor-result-page .otherDoctors .doctor_detail p {
+    margin: 0 0 0px !important
+  }
+  .find-a-doctor-result-page .otherDoctors .doctor_detail a.default {
+    margin-top: 10px;
+    display: block
+  }
+  .find-a-doctor-result-page .row.load_More {
+    text-align: center;
+    margin-bottom: 100px
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .find-a-doctor-result-page .container-revise-form-filter form .form-inline .form-group.fn {
+    max-width: calc(100vw - 590px) !important
+  }
+  .find-a-doctor-result-page .container-revise-form-filter form .form-inline .form-group.form-p-miles {
+    max-width: 205px !important;
+    margin-right: 0px !important
+  }
+  .find-a-doctor-result-page .otherDoctors {
+    max-width: 740px
+  }
+  .find-a-doctor-result-page .otherDoctors .doctor_detail h3 {
+    font-size: 24px !important
+  }
+  .find-a-doctor-result-page .otherDoctors .doctor_detail img {
+    width: 110px;
+    height: 110px
+  }
+  .find-a-doctor-result-page .near-by-doctors .col-sm-4 img {
+    width: 150px !important;
+    height: 150px !important
+  }
+  .find-a-doctor-result-page .profilesOthers .doctor_detail h3 {
+    font-size: 24px !important
+  }
+  .find-a-doctor-result-page .otherDoctors .header-text {
+    font-size: 17px
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .find-a-doctor-result-page .container-revise-form-filter form .row.locator {
+    max-width: 950px !important
+  }
+  .find-a-doctor-result-page .container-revise-form-filter form .form-inline .form-group.fn {
+    max-width: 280px !important
+  }
+  .find-a-doctor-result-page .otherDoctors {
+    max-width: 920px
+  }
+  .find-a-doctor-result-page .otherDoctors .doctor_detail img {
+    width: 130px
+  }
+  .find-a-doctor-result-page .profilesOthers .doctor_detail h3 {
+    font-size: 30px !important
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+  .find-a-doctor-result-page .otherDoctors {
+    max-width: 1100px
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .find-a-doctor-result-page .otherDoctors {
+    max-width: 1240px
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .find-a-doctor-result-page .otherDoctors .col-sm-6 .col-sm-4,
+  .find-a-doctor-result-page .otherDoctors .col-sm-6 .col-sm-8 {
+    height: auto;
+    margin-bottom: 45px
+  }
+  .find-a-doctor-result-page .otherDoctors .doctor_detail {
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .find-a-doctor-result-page .otherDoctors .doctor_detail .col-sm-4 {
+    float: left;
+    width: 30%
+  }
+  .find-a-doctor-result-page .otherDoctors .doctor_detail .col-sm-4 img {
+    width: 100px;
+    height: 100px
+  }
+  .find-a-doctor-result-page .otherDoctors .doctor_detail .col-sm-8 {
+    float: left;
+    width: 70%;
+    text-align: left
+  }
+  .find-a-doctor-result-page .otherDoctors .header-text {
+    font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+    color: #707372;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px
+  }
+  .find-a-doctor-result-page .otherDoctors .doctor_detail p {
+    margin: 0 0 0px !important
+  }
+  .find-a-doctor-result-page .otherDoctors .doctor_detail a.default {
+    margin-top: 10px;
+    display: block
+  }
+  .find-a-doctor-result-page .row.load_More {
+    text-align: center;
+    margin-bottom: 50px
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .find-a-doctor-result-page .otherDoctors .doctor_detail .col-sm-4 img {
+    width: 80px;
+    height: 80px
+  }
+  .find-a-doctor-result-page .otherDoctors .header-text {
+    font-size: 12px !important
+  }
+}
+
+.find-a-doctor-result-page .row .col-sm-12 .col-sm-4.first {
+  border-right: 4px solid #EBEBEB
+}
+
+.find-a-doctor-result-page .row .col-sm-12 .col-sm-4.third {
+  border-left: 4px solid #EBEBEB
+}
+
+.find-a-doctor-result-page .row .col-sm-12 .col-sm-4 .get-start {
+  margin-bottom: 15px;
+  padding-top: 10px !important
+}
+
+.find-a-doctor-result-page .row .col-sm-12 .col-sm-4 .get-start a {
+  width: 280px !important;
+  font-size: 20px !important
+}
+
+.find-a-doctor-result-page .row .col-sm-12 .col-sm-4 a.default:after {
+  background: none
+}
+
+.find-a-doctor-result-page .row .col-sm-12 .col-sm-4 img {
+  margin-bottom: 25px
+}
+
+.find-a-doctor-result-page .allDoc .col-sm-12 {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 90px
+}
+
+.find-a-doctor-result-page .col-sm-12 .video-section {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Video_lead_capture_results_VIP-60bb9462bb6a5202d63210b45ca6982f815de70a943cd2b1c19ad6167b353a4c.png) no-repeat;
+  background-size: cover;
+  height: calc(100vw * 0.31945);
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px
+}
+
+.find-a-doctor-result-page .col-sm-12 .video-section .playbtn {
+  margin: auto;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .find-a-doctor-result-page .row .col-sm-12 .col-sm-4 .get-start a {
+    width: 210px !important
+  }
+  .find-a-doctor-result-page .col-sm-4 h3 {
+    max-width: 200px !important
+  }
+  .find-a-doctor-result-page .col-sm-12 .video-section {
+    height: calc(100vw * 0.46)
+  }
+  .find-a-doctor-result-page .Schedule .col-sm-12 h3 {
+    font-size: 22px !important
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .find-a-doctor-result-page .container-fluid {
+    text-align: center !important
+  }
+  .find-a-doctor-result-page .row .col-sm-12 .col-sm-4 {
+    padding-bottom: 50px;
+    padding-top: 50px
+  }
+  .find-a-doctor-result-page .row .col-sm-12 .col-sm-4 .header-text {
+    font-family: 'Neue Haas Grotesk Disp Med', sans-serif;
+    color: #707372;
+    font-size: 16px
+  }
+  .find-a-doctor-result-page .row .col-sm-12 .col-sm-4.first {
+    border-bottom: 2px solid #EBEBEB;
+    border-right: none
+  }
+  .find-a-doctor-result-page .row .col-sm-12 .col-sm-4.third {
+    border-top: 2px solid #EBEBEB;
+    border-left: none
+  }
+  .find-a-doctor-result-page .row .col-sm-12 .col-sm-4 .get-start {
+    margin-bottom: 15px;
+    padding-top: 10px !important
+  }
+  .find-a-doctor-result-page .row .col-sm-12 .col-sm-4 .get-start a {
+    max-width: 220px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%
+  }
+  .find-a-doctor-result-page .row .col-sm-12 .col-sm-4 a.default:after {
+    background: none
+  }
+  .find-a-doctor-result-page .row .col-sm-12 .col-sm-4 img {
+    width: 150px !important;
+    height: 150px !important;
+    margin-bottom: 20px
+  }
+  .find-a-doctor-result-page .row .col-sm-12 .col-sm-4 p {
+    margin-top: 10px
+  }
+  .find-a-doctor-result-page .allDoc .col-sm-12 {
+    margin-bottom: 50px
+  }
+  .find-a-doctor-result-page .col-sm-12 .video-section {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Video_lead_capture_results_VIP-60bb9462bb6a5202d63210b45ca6982f815de70a943cd2b1c19ad6167b353a4c.png) no-repeat;
+    background-size: cover;
+    height: calc(100vw * 0.46);
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px
+  }
+  .find-a-doctor-result-page .col-sm-12 .video-section .playbtn {
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0
+  }
+  .find-a-doctor-result-page .Schedule .col-sm-12 {
+    background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+    background-repeat: repeat !important;
+    background-size: 300% !important;
+    background-color: #3D3935 !important;
+    color: white;
+    text-align: center;
+    padding: 30px 0px 30px 0px
+  }
+  .find-a-doctor-result-page .Schedule .col-sm-12 h3 {
+    margin-bottom: 0px
+  }
+  .find-a-doctor-result-page .near-by-doctors {
+    text-align: center;
+    margin-bottom: 0px !important
+  }
+  .find-a-doctor-result-page .ReviseSearch {
+    margin-top: 30px
+  }
+  .find-a-doctor-result-page .ReviseSearch p {
+    float: left !important
+  }
+  .find-a-doctor-result-page .heading_moreDoctor .col-sm-12 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px
+  }
+  .find-a-doctor-result-page .heading_moreDoctor .col-sm-12 a {
+    padding-left: 12px;
+    padding-right: 12px
+  }
+  .find-a-doctor-result-page .popover-content .col-sm-2 {
+    width: 16.6666666% !important;
+    float: left
+  }
+  .find-a-doctor-result-page .popover-content p {
+    font-size: 16px !important
+  }
+}
+
+.find-a-doctor-result-page .near-by-doctors {
+  text-align: center;
+  margin-bottom: 80px
+}
+
+.find-a-doctor-result-page sup {
+  font-size: 60%
+}
+
+.find-a-doctor-result-page .bs-example {
+  margin: 200px 150px 0
+}
+
+.find-a-doctor-result-page .popover-title .close {
+  position: relative;
+  bottom: 3px
+}
+
+.find-a-doctor-result-page .popover-content .close {
+  font-size: 23px;
+  bottom: 0px !important;
+  background: #009ace;
+  color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  font-family: 'Neue Haas Grotesk Disp Reg', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  width: 22px;
+  height: 22px;
+  font-weight: normal;
+  margin-top: 12px;
+  padding: 0px;
+  text-shadow: 0 0px 0 #fff;
+  position: relative;
+  top: -15px;
+  right: -21px;
+  text-decoration: none !important
+}
+
+.find-a-doctor-result-page .popover-content p {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important
+}
+
+.find-a-doctor-result-page #txtDOB,
+.find-a-doctor-result-page #txtZip,
+.find-a-doctor-result-page #txtPhoneNumber,
+.find-a-doctor-result-page #txtEmail {
+  margin-bottom: 10px
+}
+
+@media only screen and (min-width: 357px) and (max-width: 389px) {
+  .find-a-doctor-result-page .txt-notify .btn-toggle.btn-switch {
+    width: 100%
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .find-a-doctor-result-page .row.col-sm-section-5 .col-sm-12 .video-section {
+    width: 100% !important
+  }
+  .find-a-doctor-result-page .col-sm-section-5 .col-sm-12 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 25px;
+    margin-right: 25px
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1299px) {
+  .find-a-doctor-result-page .row.doctors-pin .col-sm-2 {
+    width: 33.33333% !important;
+    float: left !important
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .find-a-doctor-result-page .row.doctors-pin .col-sm-2 {
+    width: 33.33333% !important;
+    float: left !important
+  }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 767px) {
+  .find-a-doctor-result-page .row.doctors-pin .col-sm-2 {
+    padding-right: 2px !important;
+    padding-left: 2px !important
+  }
+  .find-a-doctor-result-page .row.doctors-pin .col-sm-2 .doctor-pin-popup {
+    margin-left: -3px;
+    padding-bottom: 24px;
+    display: block;
+    height: 58px;
+    padding-top: 30px !important;
+    background-size: 20px 29px !important;
+    bottom: 1px !important
+  }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 450px) {
+  .find-a-doctor-result-page .row.doctors-pin .col-sm-2 .doctor-pin-popup {
+    font-size: 11px !important
+  }
+}
+
+.find-a-doctor-result-page .popover-content p {
+  font-size: 20px
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .find-a-doctor-result-page .near-by-doctors .col-sm-4 img {
+    width: 150px !important;
+    height: 150px !important
+  }
+  .find-a-doctor-result-page .near-by-doctors .col-sm-4 h3 {
+    font-size: 25px !important
+  }
+  .find-a-doctor-result-page .near-by-doctors .col-sm-4 span.header-text {
+    font-size: 16px !important
+  }
+  .find-a-doctor-result-page .near-by-doctors .col-sm-4 .infolink {
+    width: 12px !important;
+    height: 12px !important
+  }
+  .find-a-doctor-result-page .near-by-doctors .col-sm-4 p {
+    font-size: 16px !important
+  }
+  .find-a-doctor-result-page .near-by-doctors .col-sm-4 .get-start a {
+    font-size: 16px !important
+  }
+  .find-a-doctor-result-page .near-by-doctors .col-sm-4 a.default {
+    font-size: 16px !important
+  }
+}
+
+.body-wrapper {
+  overflow-x: hidden !important
+}
+
+.ReviseSearchbtn {
+  font-weight: 600
+}
+
+.find-a-doctor-result-page,
+.find-a-doctor-dr-profile,
+.find-a-doctor-landing-page,
+.row-revise-form,
+.container-revise-form-sort,
+.container-revise-form-filter {
+  display: none
+}
+
+.find-a-doctor-request-appointment-form {
+  display:block;
+}
+
+.find-a-doctor-landing-page.find-a-doctor-landing-page-type {
+  display: block
+}
+
+.find-a-doctor-dr-profile {
+  background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+  background-repeat: repeat !important;
+  background-color: #3d3935 !important;
+  background-size: 100% !important;
+  display: none;
+  padding-top: 130px
+}
+
+.find-a-doctor-dr-profile .col-doc-details a.show-offices {
+  cursor: pointer;
+  color: #949695
+}
+
+.find-a-doctor-dr-profile .col-doc-details a.show-offices span.plus-icon.blue-button-arrow {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/cg-plus-7b009ec331375cb7523fb643c0917ca13a1273c8fd6f3fedde55a75a4e21df43.png) no-repeat;
+  background-size: 15px 15px;
+  background-position: center
+}
+
+.find-a-doctor-dr-profile .col-doc-details a.show-offices .minus {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/minus-ec62664e6cb55496b89e724c0d5a946ffeba264d92aea5b8c211d23509911ef3.png) no-repeat !important;
+  background-size: 15px 15px;
+  background-position: center;
+  position: relative;
+  top: 5px
+}
+
+.find-a-doctor-dr-profile .col-doc-details .row.row-doc-details .col-sm-4 p.p-header {
+  color: #3d3935;
+  font-family: "Neue Haas Grotesk Disp Med", sans-serif
+}
+
+.find-a-doctor-dr-profile .col-doc-details .row.row-doc-details .col-sm-4 a {
+  overflow-wrap: break-word
+}
+
+.find-a-doctor-dr-profile .col-doc-details .row-other-offices {
+  margin-top: 40px
+}
+
+.find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile {
+  text-align: center
+}
+
+.find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile a {
+  cursor: pointer
+}
+
+.find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile a.default {
+  color: #949695;
+  display: block
+}
+
+.find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile p {
+  color: #fff
+}
+
+.find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile p.p-speciality {
+  font-family: "Neue Haas Grotesk Disp Med", sans-serif
+}
+
+@media only screen and (max-width: 767px) {
+  .find-a-doctor-dr-profile {
+    padding-top: 190px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile {
+    padding-bottom: 35px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile img {
+    margin-bottom: 20px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile h3 {
+    margin-bottom: 15px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile p {
+    margin-bottom: 15px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile p.p-speciality {
+    margin-bottom: 10px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile .get-start a {
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-bottom: 25px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.w-bg.col-doc-details {
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    padding-top: 45px;
+    padding-bottom: 45px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.w-bg.col-doc-details h3 {
+    margin-bottom: 20px !important
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.w-bg.col-doc-details .row.row-hr {
+    margin: 35px 0;
+    border-bottom: 2px solid #ebebeb
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.w-bg.col-doc-details .row.row-doc-details {
+    margin-right: -25px;
+    margin-left: -25px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.w-bg.col-doc-details .row.row-doc-details .col-sm-4 {
+    padding-bottom: 40px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.w-bg.col-doc-details .row.row-doc-details .col-sm-4 p {
+    margin-bottom: 10px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.w-bg.col-doc-details .row.row-doc-details .col-sm-4 p:last-child {
+    margin-bottom: 0
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.w-bg.col-doc-details .get-start a {
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 45px
+  }
+}
+
+.info-icon {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/info_icon-44858a2785d3c9f48f00e39c24c1b97765d63dde571d0473287107e2bed54e7d.png) no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  margin-left: 5px;
+  padding-left: 15px;
+  cursor: pointer
+}
+
+.info-icon2 {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/info_icon_white-5d9c79d68513f23a98fdb603f6757f0cbebbcefe7d5f886a1ee2321c41661302.png) no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  margin-left: 5px;
+  padding-left: 15px
+}
+
+@media only screen and (min-width: 768px) {
+  label.radio-inline.inv-cus.inv-cus-radio {
+    display: inline-block !important
+  }
+  .row-revise-form-sort .form-inline {
+    display: flex;
+    justify-content: space-around
+  }
+  .find-a-doctor-dr-profile {
+    padding-top: 130px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile {
+    padding: 25px 25px 25px 40px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile a.default {
+    margin-bottom: 40px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile img {
+    margin-bottom: 25px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile h3 {
+    margin-bottom: 15px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile p {
+    margin-bottom: 20px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile p span.span-vip {
+    padding-right: 20px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile p.p-speciality {
+    margin-bottom: 15px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile p.p-speciality .popover {
+    min-width: 500px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile .get-start a {
+    padding-right: 30px;
+    padding-left: 30px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.col-doc-details h3 {
+    margin-bottom: 30px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.col-doc-details .row.row-hr {
+    margin: 40px 0;
+    border-bottom: 4px solid #ebebeb
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.col-doc-details .row.row-doc-details.first {
+    margin-bottom: 50px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.col-doc-details .row.row-doc-details .col-sm-4 p {
+    margin-bottom: 15px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.col-doc-details .row.row-doc-details .col-sm-4 p:last-child {
+    margin-bottom: 0
+  }
+  .container-fluid.w-bg.ld-grey {
+    margin-top: 20px;
+    margin-bottom: 53px
+  }
+  .container-fluid.w-bg.ld-grey.container-revise-form-sort,
+  .container-fluid.w-bg.ld-grey.container-revise-form-filter {
+    margin-top: 30px
+  }
+  ul.invis-list li:before {
+    width: 18px !important;
+    height: 18px !important;
+    margin-left: -30px !important;
+    margin-top: 2px !important
+  }
+  .inv-chart td,
+  .inv-chart th {
+    font-size: 16px !important
+  }
+  p,
+  span.bl {
+    font-size: 16px !important
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .find-a-doctor-dr-profile {
+    padding-top: 130px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile {
+    padding: 25px 10px 25px 25px !important
+  }
+  .find-a-doctor-dr-profile .row .col-sm-4.col-doc-profile .get-start a {
+    padding-right: 15px !important;
+    padding-left: 15px !important
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.col-doc-details {
+    padding: 40px
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.col-doc-details .row.row-doc-details.first {
+    margin-bottom: 0 !important
+  }
+  .find-a-doctor-dr-profile .row .col-sm-8.col-doc-details .row.row-doc-details .col-sm-4 {
+    width: 50%;
+    margin-bottom: 15px
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .find-a-doctor-dr-profile .row .col-sm-8.col-doc-details {
+    padding: 70px
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .find-a-doctor-dr-profile .row .col-sm-8.col-doc-details {
+    padding: 100px
+  }
+}
+
+.find-a-doctor-request-appointment-form {
+  background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+  background-repeat: repeat !important;
+  background-color: #3d3935 !important;
+  background-size: 100% !important;
+  padding-top: 130px
+}
+
+.find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile {
+  text-align: center
+}
+
+.find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile a {
+  cursor: pointer
+}
+
+.find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile a.default {
+  color: #949695;
+  display: block
+}
+
+.find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile p {
+  color: #fff
+}
+
+.find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile p span.span-vip {
+  padding-right: 20px
+}
+
+.find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile p.p-speciality {
+  font-family: "Neue Haas Grotesk Disp Med", sans-serif
+}
+
+.find-a-doctor-request-appointment-form #modalAgeError {
+  position: relative;
+  top: -130px
+}
+
+.find-a-doctor-request-appointment-form #modalAgeError .modal-dialog {
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0
+}
+
+.find-a-doctor-request-appointment-form #modalAgeError .modal-dialog .modal-content {
+  box-shadow: none;
+  border: 0;
+  border-radius: 0
+}
+
+.find-a-doctor-request-appointment-form #modalAgeError .modal-dialog .modal-content p {
+  padding: 20px
+}
+
+.find-a-doctor-request-appointment-form .get-start {
+  text-align: left
+}
+
+.find-a-doctor-request-appointment-form label {
+  font-family: "Neue Haas Grotesk Disp Med", sans-serif !important;
+  font-weight: normal !important
+}
+
+.find-a-doctor-request-appointment-form .form-group.notifications label.inv-cus {
+  display: block !important;
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif !important;
+  font-weight: normal !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important
+}
+
+.find-a-doctor-request-appointment-form .form-group.notifications label.inv-cus:before {
+  top: 3px
+}
+
+.find-a-doctor-request-appointment-form .notifications label {
+  font-family: 'Neue Haas Grotesk Text Reg', sans-serif !important;
+  line-height: 1.3;
+  letter-spacing: .30px;
+  font-size: 12px;
+  font-weight: normal !important
+}
+
+@media only screen and (max-width: 767px) {
+  .find-a-doctor-request-appointment-form {
+    background-size: 300% !important;
+    padding-top: 190px
+  }
+  .find-a-doctor-request-appointment-form #modalAgeError {
+    position: relative
+  }
+  .find-a-doctor-request-appointment-form #modalAgeError .modal-dialog .modal-content p {
+    font-size: 16px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile {
+    padding-bottom: 35px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile img {
+    margin-bottom: 20px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile h3 {
+    margin-bottom: 15px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile p {
+    margin-bottom: 15px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile p.p-speciality {
+    margin-bottom: 10px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form-thnak-you {
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    height: auto !important
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form {
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    padding-top: 45px;
+    padding-bottom: 45px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form h3 {
+    margin-bottom: 15px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .p-doc-form {
+    margin-bottom: 25px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .form-inline .form-group {
+    margin-bottom: 25px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .form-inline .form-group.dob,
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .form-inline .form-group.fz {
+    display: inline-block;
+    width: calc(100vw * .5 - 35px)
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .form-inline .form-group.fz {
+    float: right;
+    vertical-align: top
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .form-inline .dob input {
+    margin-bottom: 5px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .form-inline label.radio-inline.inv-cus {
+    display: inline-block !important;
+    margin-right: 35px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .get-start a {
+    padding-right: 15px;
+    padding-left: 15px
+  }
+  .lessThanImg {
+    height: 13px;
+    width: 10px;
+    position: relative;
+    left: -4px;
+    top: 9px
+  }
+}
+
+.info-icon {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/info_icon-44858a2785d3c9f48f00e39c24c1b97765d63dde571d0473287107e2bed54e7d.png) no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  margin-left: 5px;
+  padding-left: 15px
+}
+
+.info-icon2 {
+  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/info_icon_white-5d9c79d68513f23a98fdb603f6757f0cbebbcefe7d5f886a1ee2321c41661302.png) no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  margin-left: 5px;
+  padding-left: 15px
+}
+
+.form-group.notifications label.inv-cus {
+  font-size: 12px;
+  line-height: 1.3;
+  color: #949695;
+  margin-left: 35px
+}
+
+.form-group.notifications label.inv-cus:before {
+  margin-left: -35px;
+  margin-right: 12px
+}
+
+@media only screen and (min-width: 768px) {
+  .find-a-doctor-request-appointment-form {
+    padding-top: 130px
+  }
+  .find-a-doctor-request-appointment-form #modalAgeError {
+    position: relative;
+    left: -90px
+  }
+  .find-a-doctor-request-appointment-form #modalAgeError .modal-dialog {
+    width: 480px
+  }
+  .find-a-doctor-request-appointment-form #modalAgeError .modal-dialog .modal-content p {
+    font-size: 20px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile {
+    padding: 25px 25px 25px 40px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile a.default {
+    margin-bottom: 40px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile img {
+    margin-bottom: 25px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile h3 {
+    margin-bottom: 15px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile p {
+    margin-bottom: 20px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile p.p-speciality {
+    margin-bottom: 15px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form h3 {
+    margin-bottom: 20px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .p-doc-form {
+    margin-bottom: 50px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .form-inline {
+    margin-bottom: 35px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .form-inline .dob input {
+    margin-bottom: 5px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .form-inline label.radio-inline.inv-cus {
+    display: inline-block !important;
+    margin-right: 40px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.w-bg.col-dr-request-form .get-start a {
+    padding-right: 20px;
+    padding-left: 20px
+  }
+  .lessThanImg {
+    height: 15px;
+    width: 11px;
+    position: relative;
+    left: -4px;
+    top: 11px
+  }
+  .get-start.finder-btn {
+    position: relative;
+    top: 50px
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .find-a-doctor-request-appointment-form {
+    padding-top: 130px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile {
+    padding: 25px 10px 25px 25px !important
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-4.col-doc-profile .get-start a {
+    padding-right: 15px !important;
+    padding-left: 15px !important
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form-thnak-you {
+    padding: 40px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form {
+    padding: 40px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .fn {
+    margin-right: 30px;
+    width: 200px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .ln {
+    width: 200px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .dob,
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .fz {
+    margin-right: 30px;
+    width: 200px;
+    vertical-align: top
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .fp {
+    width: 200px;
+    vertical-align: top
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .em {
+    width: 300px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form label.radio-inline.inv-cus {
+    margin-right: 20px !important
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form-thnak-you {
+    padding: 70px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form {
+    padding: 70px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .fn {
+    margin-right: 40px;
+    width: 245px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .ln {
+    width: 245px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .dob,
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .fz {
+    margin-right: 40px;
+    width: 135px;
+    vertical-align: top
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .fp {
+    width: 180px;
+    vertical-align: top
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .em {
+    width: 350px
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form-thnak-you {
+    padding: 100px 0px 100px 100px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form {
+    padding: 100px 0px 100px 100px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .fn {
+    margin-right: 50px;
+    width: 310px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .ln {
+    width: 310px
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .dob,
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .fz {
+    margin-right: 50px;
+    width: 175px;
+    vertical-align: top
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .fp {
+    width: 220px;
+    vertical-align: top
+  }
+  .find-a-doctor-request-appointment-form .row .col-sm-8.col-dr-request-form form .em {
+    width: 440px
+  }
+}
+
+.radio-inline+.radio-inline,
+.checkbox-inline+.checkbox-inline {
+  margin-left: 0px
+}
+
+.inv-tbl-alt1 {
+  background-color: #ECECEC;
+  height: 30px;
+  color: #949695
+}
+
+.inv-tbl-alt2 {
+  background-color: #FFFFFF;
+  height: 30px;
+  color: #949695
+}
+
+.theading {
+  background-color: #949695;
+  font-weight: normal;
+  height: 30px;
+  color: white;
+  margin-left: 10px;
+  font-family: 'Neue Haas Grotesk Disp Med', sans-serif !important
+}
+
+.inv-chart td,
+.inv-chart th {
+  border-right: 4px solid white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: normal !important;
+  vertical-align: text-top
+}
+
+.inv-data1 {
+  width: 33.3333333%
+}
+
+.inv-data2 {
+  width: 24.9999999%
+}
+
+.inv-data3 {
+  width: 41.66666%
+}
+
+@media only screen and (max-width: 767px) {
+  .inv-chart td,
+  .inv-chart th {
+    font-size: 16px
+  }
+  .inv-chart {
+    margin-left: 0px;
+    margin-right: 0px
+  }
+  .minus {
+    top: 2px !important
+  }
+}
+
+@media only screen and (max-width: 349px) {
+  .inv-chart td,
+  .inv-chart th {
+    font-size: 14px !important
+  }
+}
+
+#otherLocationTable {
+  margin-top: 40px;
+  display: none
+}
+
+.show {
+  display: block
+}
+
+.graytooltip {
+  color: black
+}
+
+.infolink.gray {
+  background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Invisalign_icon_gray__-052dab7967e6b65bfa511873c4f2bd6978d9f7a02fc6312fa9b39563076cf417.svg)
+}
+
+.infolink.white {
+  background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/Invisalign_icon_white__-bb0be9748764d087c04a20fd4913c4fe4a3b9630dc3b8d94b73ea5f42398fc89.svg)
+}
+
+@media only screen and (max-width: 500px) {
+  .popover.fade.top.in {
+    margin-right: 20px !important;
+    max-width: 300px
+  }
+  #popover906636 {
+    margin-top: 130px
+  }
+}
+
+.close.DescProfile {
+  font-size: 23px;
+  bottom: 0px !important;
+  background: #009ace;
+  color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  font-family: 'Neue Haas Grotesk Disp Reg', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  width: 22px;
+  height: 22px;
+  font-weight: normal;
+  margin-top: 12px;
+  padding: 0px;
+  text-shadow: 0 0px 0 #fff;
+  position: relative;
+  top: -15px;
+  right: -21px;
+  text-decoration: none !important
+}
+
+.popover-title .close {
+  position: relative;
+  bottom: 3px
+}
+
+.popover-content .close {
+  font-size: 23px;
+  bottom: 0px !important;
+  background: #009ace;
+  color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  font-family: 'Neue Haas Grotesk Disp Reg', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  width: 22px;
+  height: 22px;
+  font-weight: normal;
+  margin-top: 12px;
+  padding: 0px;
+  text-shadow: 0 0px 0 #fff;
+  position: relative;
+  top: -15px;
+  right: -21px;
+  text-decoration: none !important
+}
+
+.popover-content p {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1299px) {
+  .row.doctors-pin .col-sm-2 {
+    float: left !important
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .row.doctors-pin .col-sm-2 {
+    width: 33.33333% !important;
+    float: left !important
+  }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 767px) {
+  .row.doctors-pin .col-sm-2 {
+    padding-right: 2px !important;
+    padding-left: 2px !important
+  }
+  .row.doctors-pin .col-sm-2 .doctor-pin-popup {
+    margin-left: -3px;
+    padding-bottom: 24px;
+    display: block;
+    height: 58px;
+    padding-top: 30px !important;
+    background-size: 20px 29px !important;
+    bottom: 1px !important
+  }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 450px) {
+  .row.doctors-pin .col-sm-2 .doctor-pin-popup {
+    font-size: 11px !important
+  }
+}
+
+.popover-content p {
+  font-size: 20px
+}
+
+@media only screen and (max-width: 767px) {
+  .popover-content .col-sm-2 {
+    width: 16.6666666% !important;
+    float: left
+  }
+  .popover-content p {
+    font-size: 16px !important
+  }
+  .row-revise-form-filter .row.locator {
+    margin-top: 25px;
+    margin-bottom: 25px
+  }
+  .row-revise-form-filter .row.locator label.head {
+    display: block;
+    padding-top: 40px
+  }
+  .row-revise-form-filter .row.locator label.head.firstHead {
+    padding-top: 0px
+  }
+  .row-revise-form-filter .row.locator .headDocName {
+    display: inline-block !important;
+    width: 100%;
+    padding-top: 20px
+  }
+  .row-revise-form-filter .row.locator .radio-inline {
+    display: inline-block !important;
+    width: 50%;
+    float: left
+  }
+  .row-revise-form-filter .row.locator .form-group-miles .radio-inline {
+    width: 33.3333%;
+    margin-bottom: 10px
+  }
+  .row-revise-form-filter .row.locator .get-start a {
+    width: 100%
+  }
+  .row-revise-form-sort .row.locator {
+    margin-top: 30px;
+    margin-bottom: 30px
+  }
+  .row-revise-form-sort .row.locator .col-sm-12 {
+    padding-right: 0px
+  }
+  .row-revise-form-sort .row.locator .col-sm-12 .radio-inline {
+    float: left;
+    display: inline-block !important
+  }
+  .row-revise-form-sort .row.locator .col-sm-12 .radio-inline.firstRadio {
+    width: 60%
+  }
+  .row-revise-form-sort .row.locator .col-sm-12 .radio-inline.secondRadio {
+    width: 40%
+  }
+  .row-revise-form-sort .row.locator .col-sm-12 .radio-inline.lastRadio {
+    width: 100%
+  }
+  .otherDoctors {
+    margin-top: 40px
+  }
+  .row.locator .col-sm-4 .form-inline label.head {
+    font-size: 32px !important
+  }
+}
+
+@media only screen and (max-width: 349px) {
+  .row-revise-form-sort .row.locator .col-sm-12 .radio-inline {
+    width: 100% !important
+  }
+}
+
+.find-a-doctor-dr-profile-error {
+  display: none
+}
+
+.find-a-doctor-dr-profile-error .row-hero-section {
+  padding: 50px 50px 100px 50px
+}
+
+.find-a-doctor-dr-profile-error .underLine {
+  color: #ffffff !important;
+  font-family: 'Neue Haas Grotesk Disp Ex Lt', sans-serif
+}
+
+.col-dr-request-form-thnak-you {
+  display: none;
+  text-align: center
+}
+
+@media screen and (min-width: 0\0) {
+  .form-group.has-error input {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_input_X-57b12ad8a829e5e4a95304c323a6fa595ac99b3d0da103aa6916f4a7c2b3fc77.svg) no-repeat;
+    background-size: 55px
+  }
+  .form-group.has-success input {
+    background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/invisalign/pin-svgs/Invisalign_icon_input_check-e4c23d8d5aa52a3d789b1fe0aaefa15a950401bc6d3aa2e63ae97dd5004551af.svg) no-repeat;
+    background-size: 40px
+  }
+  .form-group.has-error input,
+  .form-group.has-success input {
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 20px !important
+  }
+}
+
+.lessThanImgGray {
+  transform: rotate(90deg);
+  width: 15px !important
+}
+
+.ajax-loader {
+  position: relative;
+  margin-top: 200px;
+  margin-bottom: 200px
+}
+
+.footerAbsolute {
+  position: absolute;
+  bottom: 0px
+}
+
+.bodyBackTopo {
+  background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
+  background-repeat: repeat !important;
+  background-color: #3d3935 !important;
+  background-size: 100% !important
+}
+
+@media only screen and (max-width: 380px) {
+  .footerAbsolute {
+    position: absolute;
+    bottom: -25px
+  }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 670px) {
+  .footerAbsolute {
+    position: absolute;
+    bottom: -230px
+  }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1025px) {
+  .footerAbsolute {
+    position: absolute;
+    bottom: -90px
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .view-profile {
+    text-align: center !important
+  }
+  .view-profile a.desk {
+    padding-left: 30px;
+    padding-right: 30px
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .view-profile {
+    text-align: center !important
+  }
+  .view-profile a.mob {
+    padding-left: 30px;
+    padding-right: 30px
+  }
+}
+
+.text_align3 {
+  margin-left: 30px;
+  margin-right: 30px
+}

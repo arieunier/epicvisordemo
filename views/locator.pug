@@ -1,0 +1,102 @@
+doctype html
+html
+  head
+    title='Doctor Locator | Invisalign'
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+
+  body.bodyBackTopo
+    .main-wrapper#inv-wrapper
+      #container
+        #header
+          #header_block
+            #logo
+            #for-links
+              a For Patients
+              span.seperator &#124;
+              a For Doctors
+            #nav
+              a.nav_but.navFontMed.outOfSmile#nav1 Take the Smile Assessment
+              a.nav_but.navFontMed.outOfSmile#nav2 Find a Doctor:
+              span.form-inline.find-a-doctor.culdesac#findadoctor2
+                .form-group.input-wrap-3.wrap3
+                  input.dr-zip-3.form-control#headzip(maxlength='5' placeholder='ZIP' title='ZIP' type='tel')
+                  span.get-start
+                    a.find-dr-3.find-dr#nav-find-dr Go
+              span.nav_but.menu_button#mainMenuButton
+                .nav-icon.navFontMed.navDesk Menu
+                  span.hamburgerCustomizedTopMain
+                  span.hamburgerCustomizedBottomMain
+    .body-wrapper
+      .find-a-doctor-request-appointment-form
+        .row
+          .col-sm-4.col-doc-profile
+            img.img-circle(width=200 height=200 src='https://storagy-doclocator-prod-us.s3.amazonaws.com/uploads/avatar/filename/21892/thumb_65352015-9144-4605-aa1f-1178ce658359.jpg')
+            h3.gold-color Bella Smile
+            p.p-specialty
+              span.span-vip Orthodontist
+              br
+              span.span-vip VIP: Diamond Provider
+              span.info-icon2
+            p 2.4 miles away
+            .view-profile.get-start
+              a.desk View Profile
+          .col-sm-8.w-bg.col-dr-request-form
+            h3 Request an appointment
+            p.p-doc-form We will help you schedule a consultation with Bella Smile.
+            form#iifrm
+              .form-inline
+                .form-group.fpc
+                  label.text I am:
+                  label.radio-inline.inv-cus.inv-cus-radio.radio-checked
+                    input.visuallyhidden(checked='checked' id='ageAdult' name='formAge' type='radio' value='A')
+                    span An adult
+                  label.radio-inline.inv-cus.inv-cus-radio
+                    input.visuallyhidden(checked='unchecked' name='formAge' type='radio' value='P')
+                    span A parent
+                  label.radio-inline.inv-cus.inv-cus-radio
+                    input.visuallyhidden(checked='unchecked' name='formAge' type='radio' value='T')
+                    span A teen
+              .form-inline
+                .form-group.fn
+                  label First Name
+                  input.form-control#txtFirstName(type='text')
+                .form-group.ln
+                  label Last Name
+                  input.form-control#txtLastName(type='text')
+              .form-inline
+                .form-group.dob
+                  label Date of Birth
+                  input.form-control#txtDOB(type='tel')
+                  p Age affects treatment options
+                .form-group.fz
+                  label ZIP Code
+                  input.form-control#txtZipDC(type='tel')
+                .form-group.fp
+                  label Mobile Phone
+                  input.form-control#txtPhoneNumber(type='tel')
+              .form-inline
+                .form-group.em
+                  label Email Address
+                  input.form-control#txtEmail(type='email')
+              .form-inline
+                .form-group.fpc
+                  label.text Preferred Contact Time
+                  label.radio-inline.inv-cus.inv-cus-radio.radio-checked
+                    input.visuallyhidden(checked='checked' id='ageAdult' name='preftime' type='radio' value='Morning')
+                    span Morning
+                  label.radio-inline.inv-cus.inv-cus-radio
+                    input.visuallyhidden(checked='unchecked' name='preftime' type='radio' value='Afternoon')
+                    span Afternoon
+                  label.radio-inline.inv-cus.inv-cus-radio
+                    input.visuallyhidden(checked='unchecked' name='preftime' type='radio' value='Evening')
+                    span Evening
+              .form-inline
+                .form-group.notifications
+                  label.container
+                    input#agree(checked='unchecked' type='checkbox')
+                    span.checkmark.checkk_box1
+                    label.text_align3 I agree to receive information about Invisalign<sup>&reg;</sup> treatment and from partners of Align Technology, Inc. by email, mobile phone, text, or other means to which I consent. This may contain special offers, information on local providers, and requests for feedback about your experience. Align will only contact you via phone to schedule a consultation with a local provider. Your personal data will be processed in accordance with our
+                      a Privacy Policy
+              .get-start
+                a#btnRASubmit Request My Appointment
