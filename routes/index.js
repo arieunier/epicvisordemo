@@ -19,8 +19,8 @@ router.post('/leadform', async function (req, res, next) {
   console.log('routing on post form');
   console.log(req.body);
   await client.connect();
-  const res = await client.query(`insert into salesforce.lead(firstname, lastname, doctor__c, mobilephone, postalcode, date_of_birth__c, email, company) Values ('${req.body.txtFirstName}', '${req.body.txtLastName}', '001Z000001MeF7KIAV', '${req.body.txtPhoneNumber}', '${req.body.txtZipDC}', '${req.body.txtDOB}', '${req.body.txtEmail}', 'Invisalign')`);
-  console.log(res);
+  const result = await client.query(`insert into salesforce.lead(firstname, lastname, doctor__c, mobilephone, postalcode, date_of_birth__c, email, company) Values ('${req.body.txtFirstName}', '${req.body.txtLastName}', '001Z000001MeF7KIAV', '${req.body.txtPhoneNumber}', '${req.body.txtZipDC}', '${req.body.txtDOB}', '${req.body.txtEmail}', 'Invisalign')`);
+  console.log(result);
   res.render('locator', { success: true });
 });
 
