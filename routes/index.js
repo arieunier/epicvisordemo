@@ -5,7 +5,7 @@ const { DATABASE_URL } = process.env;
 var router = express.Router();
 
 const pool = new Pool({
-  connectionString: DATABASE_URL,
+  connectionString: DATABASE_URL
 });
 
 /* GET home page. */
