@@ -1,11 +1,10 @@
 {
   "name": "align-web-demo",
-  "scripts": {
-  },
+  "scripts": {},
   "env": {
-    "DOCTOR_ID" : {
+    "DOCTOR_ID": {
       "description": "the salesforce ID that you want to set leads from your fake web page",
-      "required":true
+      "required": true
     }
   },
   "formation": {
@@ -14,6 +13,7 @@
     }
   },
   "addons": [
+    "papertrail",
     {
       "plan": "heroku-postgresql:hobby-dev"
     },
