@@ -39,7 +39,7 @@ body {
   background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg);
   background-repeat: repeat;
   background-size: 100%;
-  background-color: #3D3935
+  /* background-color: #3D3935 */
 }
 
 @media only screen and (max-width: 767px) {
@@ -47,7 +47,7 @@ body {
     background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
     background-repeat: repeat !important;
     background-size: 300% !important;
-    background-color: #3D3935 !important
+    /* background-color: #3D3935 !important */
   }
 }
 
@@ -1152,7 +1152,7 @@ ul.invis-list li p {
   background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
   background-repeat: repeat !important;
   background-size: 100% !important;
-  background-color: #3D3935 !important
+  /* background-color: #3D3935 !important */
 }
 
 @media only screen and (max-width: 767px) {
@@ -1160,7 +1160,7 @@ ul.invis-list li p {
     background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
     background-repeat: repeat !important;
     background-size: 300% !important;
-    background-color: #3D3935 !important
+    /* background-color: #3D3935 !important */
   }
 }
 
@@ -1532,13 +1532,19 @@ select.cus-select {
 
 #logo,
 #logo1 {
-  position: absolute;
-  top: 5px;
-  width: 215px;
-  height: 50px;
-  background: url(//dv2c9ihs6hqjp.cloudfront.net/assets/svg/invisalign_logo_white-5efbed8ec2d726166690c1c9283db89c10753bb613aa9abe47120cb2d2b50d7f.svg) no-repeat;
-  background-size: 215px 50px;
-  z-index: 1
+  width: 430px;
+  height: 100px;
+  background: url(../logo.svg) no-repeat;
+  z-index: 1;
+  display: inline-block;
+}
+
+#logo span {
+  position: relative;
+  right: 100px;
+  float: right;
+  color: white;
+  font-size: 5rem;
 }
 
 #logo1 {
@@ -1622,7 +1628,8 @@ select.cus-select {
 #nav {
   position: relative;
   top: 18px;
-  z-index: 999
+  z-index: 999;
+  display: inline-block;
 }
 
 #nav a {
@@ -1727,7 +1734,7 @@ a.nav_but:focus {
 }
 
 #header {
-  background-color: #3D3935;
+  /* background-color: #3D3935; */
   background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines-bg-dbd7f8b3a2b5c88839a9ca2aa35929c2f45d3da9edda9793333c9499402ecd61.jpg)
 }
 
@@ -1815,7 +1822,7 @@ a.nav_but:focus {
     background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
     background-repeat: repeat !important;
     background-size: 300% !important;
-    background-color: #3D3935;
+    /* background-color: #3D3935; */
     position: absolute;
     width: 100%;
     height: 105px
@@ -6242,7 +6249,7 @@ button.swiper-pagination-bullet {
 .find-a-doctor-request-appointment-form {
   background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
   background-repeat: repeat !important;
-  background-color: #3d3935 !important;
+  background-color: #07344C !important;
   background-size: 100% !important;
   padding-top: 130px
 }
@@ -6920,7 +6927,7 @@ button.swiper-pagination-bullet {
 .bodyBackTopo {
   background-image: url(//dv2c9ihs6hqjp.cloudfront.net/assets/lines_bg_new-e254b60d20deb35772c31d8c2caeecc098e2d9d032ea23d34925916d227c9c68.jpg) !important;
   background-repeat: repeat !important;
-  background-color: #3d3935 !important;
+  /* background-color: #3d3935 !important; */
   background-size: 100% !important
 }
 
