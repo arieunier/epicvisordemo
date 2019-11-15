@@ -1,6 +1,8 @@
 {
   "name": "Epic Visor Demo",
-  "scripts": {},
+  "scripts": {
+    "postdeploy": "echo This Command will be run ONLY in a REVIEW APP post deploying the container."
+  },
   "env": {
     "DOCTOR_ID": {
       "description": "the salesforce ID that you want to set leads from your fake web page",
@@ -23,5 +25,15 @@
     {
       "url": "heroku/nodejs"
     }
-  ]
+  ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "echo Please add here your test setup scripts to prepare the environments before launching test sequence",
+        "test": "echo Please add here your script to execute tests."
+      }
+    }
+  }
+}
+
 }
