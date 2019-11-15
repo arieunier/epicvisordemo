@@ -1,5 +1,5 @@
 {
-  "name": "align-web-demo",
+  "name": "Epic Visor Demo",
   "scripts": {},
   "env": {
     "DOCTOR_ID": {
@@ -13,12 +13,10 @@
     }
   },
   "addons": [
-    "papertrail",
     {
-      "plan": "heroku-postgresql:hobby-dev"
-    },
+      "plan": "heroku-postgresql:hobby-dev"},
     {
-      "plan": "herokuconnect:demo"
+      "plan": "timber-logging:free"
     }
   ],
   "buildpacks": [
