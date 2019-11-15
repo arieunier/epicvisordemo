@@ -6,6 +6,7 @@
   "env": {
     "DOCTOR_ID": {
       "description": "the salesforce ID that you want to set leads from your fake web page",
+      "value":"defaultvalue",
       "required": true
     }
   },
